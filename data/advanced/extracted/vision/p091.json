@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 2886,
+  "completion_tokens": 524,
+  "total_tokens": 3410,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 7,
+   "engine_ttft_ms": 515,
+   "engine_ttlt_ms": 4422,
+   "pre_inference_ms": 386,
+   "service_tbt_ms": 7,
+   "service_ttft_ms": 1630,
+   "service_ttlt_ms": 5532,
+   "user_visible_ttft_ms": 1244
+  }
+ },
+ "latency_s": 100.3,
+ "items": [
+  {
+   "label": "Bảng 2",
+   "kind": "table",
+   "title": "Khuyến nghị chính sách",
+   "panels": null,
+   "content": "Bảng gồm 3 cột: Gói chính sách | Khuyến nghị chính sách | Khung thời gian (NH, TH)\n\n| Gói chính sách | Khuyến nghị chính sách | Khung thời gian |\n|-----------------|------------------------|------------------|\n| Gói chính sách 1: Từ hạ thuế quan chuyển sang hội nhập thương mại sâu (trong khu vực) | Hạ thấp rào cản chính sách phi thuế quan trong thương mại qua: (i) đẩy mạnh tuân thủ các tiêu chuẩn khu vực và quốc tế; (ii) hài hòa trong quản lý biên giới, (iii) giảm giới hạn về tỷ lệ sở hữu của nước ngoài.\nNâng cao khả năng kết nối nội khu vực qua: (i) giảm rào cản chính sách đối với lưu chuyển thương mại và đầu tư trong khu vực; (ii) tăng cường kết nối số và kết nối cơ sở vật chất nhằm giảm chi phí, trong phạm vi Đông Nam Á cũng với Trung Quốc và Nam Á.\nĐịnh hình nghị trình hội nhập toàn cầu qua: chủ động phối hợp với các đối tác quốc tế trong ASEAN, RCEP, CPTPP và các khuôn khổ khác, nhằm tăng cường chiều sâu các cam kết xoay quanh những nghị trình chính như thương mại số, hài hòa tiêu chuẩn, thương mại điện và khả năng kết nối. | TH |\n| Gói chính sách 2: Từ nền kinh tế kép sang hội nhập các chuỗi giá trị trong nước | Tiếp tục tăng cường môi trường kinh doanh. Cục Kiểm soát Thủ tục Hành chính (APCA) trực thuộc Văn phòng Chính phủ (VPCP) cần phối hợp với các bộ ngành nhằm xây dựng chương trình và kế hoạch hành động chi tiết về số hóa. Trong đó bao gồm loại bỏ yêu cầu hồ sơ giấy và cải thiện chất lượng của cơ chế chia sẻ dữ liệu (liên thông trong chính phủ) thông qua các mẫu đơn trên nền web thống nhất. Hơn nữa, cần cải thiện cơ chế cấp phép và thanh kiểm tra qua áp dụng cách tiếp cận dựa trên rủi ro. | NH/TH |",
+   "source_note": null
+  }
+ ]
+}

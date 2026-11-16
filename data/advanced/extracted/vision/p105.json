@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 2634,
+  "completion_tokens": 390,
+  "total_tokens": 3024,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "service_ttft_ms": 1572,
+   "user_visible_ttft_ms": 1117,
+   "pre_inference_ms": 455,
+   "service_tbt_ms": 10,
+   "service_ttlt_ms": 5566,
+   "engine_ttft_ms": 628,
+   "engine_ttlt_ms": 4626,
+   "engine_tbt_ms": 10
+  }
+ },
+ "latency_s": 9.3,
+ "items": [
+  {
+   "label": "Bảng A2.1",
+   "kind": "table",
+   "title": "Bảng A2.1. Các tham số kịch bản cơ sở",
+   "panels": null,
+   "content": "Bảng gồm 3 cột: Tham số, Giá trị, Căn cứ. Các hàng:\n\n| Tham số                | Giá trị  | Căn cứ                                      |\n|------------------------|----------|---------------------------------------------|\n| Tỷ lệ chiết khấu       | 0,054    | PWT 10 2019                                 |\n| Tỷ lệ lao động         | 0,490    | PW 10 2019 (nhóm thu nhập trung bình)       |\n| Vốn nhân lực           | 0,018    | PWT 10 bình quân 5 năm (2015-2019)          |\n| Tăng trưởng TFP        | 0,009    | TED bình quân 10 năm (2010-2022)            |\n| LFP nam                | 0,818    | WDI và ILO                                  |\n| LFP nữ                 | 0,742    | WDI và ILO                                  |\n| Tăng trưởng dân số     | 0,065    | UN (đến 2100)                               |\n| Hệ số K/Y ban đầu      | 2,43     | PIM 2019                                    |\n| GDP theo đầu người ban đầu | 4.164 | WDI 2022 (USD hiện hành)                    |\n| GNI/GDP                | 0,93     | WDI 2022 (Việt Nam bình quân 2012-2019)     |",
+   "source_note": null
+  }
+ ]
+}

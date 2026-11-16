@@ -1,0 +1,47 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 2692,
+  "completion_tokens": 983,
+  "total_tokens": 3675,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 10,
+   "engine_ttft_ms": 679,
+   "engine_ttlt_ms": 10615,
+   "pre_inference_ms": 311,
+   "service_tbt_ms": 10,
+   "service_ttft_ms": 1485,
+   "service_ttlt_ms": 11415,
+   "user_visible_ttft_ms": 1174
+  }
+ },
+ "latency_s": 14.9,
+ "items": [
+  {
+   "label": "Hình S.5",
+   "kind": "line_chart",
+   "title": "Nền sản xuất xuất khẩu thâm thải các-bon ...",
+   "panels": "A. Lượng khí thải CO2 liên quan đến xuất khẩu (% lượng khí thải trong các lĩnh vực sản xuất)",
+   "content": "Trục tung: % lượng khí thải trong các lĩnh vực sản xuất (từ -60% đến 40%, bước 20%). Trục hoành: Năm (1990, 1992, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2020). Chú giải: Trung Quốc (nét đứt xanh đậm), Hàn Quốc (nét đứt xanh nhạt), Thái Lan (nét đứt xanh lam), Indonesia (nét đứt xanh lơ), Philippines (nét đứt xanh dương), Thổ Nhĩ Kỳ (nét đứt xanh lá), Malaysia (nét đứt tím), Mexico (nét đứt cam), Việt Nam (nét liền đỏ). Các giá trị in số: không có số cụ thể in trên đường, chỉ có các mốc trục. Xu hướng chính: Đường của Việt Nam (đỏ) tăng mạnh từ 1990 đến 2000, sau đó dao động quanh mức 20-30% đến 2020, cao hơn hầu hết các nước khác. Các nước khác chủ yếu dao động quanh mức 0% hoặc âm, riêng Trung Quốc có giai đoạn tăng mạnh rồi giảm. Hàn Quốc, Thái Lan, Indonesia, Philippines, Thổ Nhĩ Kỳ, Malaysia, Mexico đều có xu hướng thấp hơn Việt Nam rõ rệt.",
+   "source_note": "Nguồn: Dự án Các-bon Toàn cầu, Thế giới của chúng ta bằng dữ liệu. Ghi chú: Lượng khí thải liên quan đến khí hậu tương ứng với hàm lượng khí thải CO2 trong hàng xuất khẩu gộp, trừ đi hàm lượng trong hàng nhập khẩu gộp."
+  },
+  {
+   "label": null,
+   "kind": "bar_chart",
+   "title": "...có nhiều nguy cơ với rủi ro khí hậu",
+   "panels": "B. Tỷ lệ các khu công nghiệp tại các tỉnh duyên hải có nguy cơ với ngập lụt (%)",
+   "content": "Trục tung: % (0%, 10%, 15%, 24%, 39%, 42%, 46%, 49%, 51%, 71%, 88%). Trục hoành: Ngập lụt ven biển, Ngập lụt ven sông. Chú giải màu: 1-trong-5 (xanh nhạt), 1-trong-20/25* (xanh vừa), 1-trong-50 (xanh đậm). Các giá trị in số: Ngập lụt ven biển: 1-trong-5: 10%; 1-trong-20/25*: 15%; 1-trong-50: 39%, 46%, 49%, 51%. Ngập lụt ven sông: 1-trong-5: 24%; 1-trong-20/25*: 42%; 1-trong-50: 51%, 71%, 88%. Các giá trị này là tỷ lệ các khu công nghiệp tại các tỉnh duyên hải có nguy cơ ngập lụt theo từng xác suất xảy ra. Xu hướng chính: Tỷ lệ các khu công nghiệp có nguy cơ ngập lụt ven sông cao hơn ven biển, đặc biệt ở mức xác suất 1-trong-50, có tỉnh lên tới 88%.",
+   "source_note": "Nguồn: Rentschler và đồng sự. (2020) dựa trên dữ liệu của Ngân hàng Thế giới năm 2020 (dữ liệu bản của các khu công nghiệp), Braese và đồng sự 2020 (dữ liệu ngập lụt vùng ven biển) và Fathom (dữ liệu ngập lụt ven sông). Ghi chú: Ven biển: ngập lụt 1 trên 20 năm; Ven biển: ngập lụt 1 trên 25 năm."
+  }
+ ]
+}

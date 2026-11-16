@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 2937,
+  "completion_tokens": 622,
+  "total_tokens": 3559,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 10,
+   "engine_ttft_ms": 730,
+   "engine_ttlt_ms": 6941,
+   "pre_inference_ms": 365,
+   "service_tbt_ms": 10,
+   "service_ttft_ms": 1643,
+   "service_ttlt_ms": 7847,
+   "user_visible_ttft_ms": 1278
+  }
+ },
+ "latency_s": 10.8,
+ "items": [
+  {
+   "label": "Hình S.1",
+   "kind": "scatter",
+   "title": "Chiến lược ký kết các hiệp định thương mại tự do (FTA) của Việt Nam đến nay vẫn chú trọng bề rộng hơn chiều sâu",
+   "panels": null,
+   "content": "Biểu đồ scatter thể hiện mối quan hệ giữa 'Chiều sâu FTA' (trục dọc, từ 0 đến 10, đơn vị không ghi rõ) và 'Sử dụng FTA' (trục ngang, đơn vị: GDP và phạm vi lưu chuyển hàng hóa của FTA, từ 0 đến 12). Chú giải màu: Xanh dương nhạt – các nước khác; Đỏ – Việt Nam; Xanh dương đậm – Hồng Kông, Cam-pu-chia, Miến Điện, Phi-líp-pin, Trung Quốc, Thái Lan, Ma-lay-xia, In-đô-nê-xia, CHDCND Lào, Hàn Quốc, Đài Loan. Các điểm dữ liệu có nhãn quốc gia/khu vực, ví dụ: Đài Loan – (Chiều sâu FTA: 10, Sử dụng FTA: 0); Hoa Kỳ – (Chiều sâu FTA: 8, Sử dụng FTA: 0); Việt Nam – (Chiều sâu FTA: 5, Sử dụng FTA: 10); Sing-ga-po – (Chiều sâu FTA: 8, Sử dụng FTA: 10); các nước khác phân bố rải rác trên biểu đồ. Xu hướng chính: Việt Nam có mức sử dụng FTA cao nhưng chiều sâu FTA ở mức trung bình, nhiều nước phát triển có chiều sâu FTA cao nhưng sử dụng FTA thấp hơn.",
+   "source_note": "Nguồn: Ngân hàng Thế giới, sử dụng DESTA, BCG.\nGhi chú: Mức độ vận dụng và chiều sâu của các hiệp định thương mại tự do (FTA) được đo theo điểm số từ 0 đến 10 là mức độ cao nhất về vận dụng và chiều sâu, lần lượt sử dụng phương pháp luận của Dư và đồng sự (2012) và BCG (2024). Tự do hóa và hội nhập hóa được tính điểm qua thuế quan bình quân gia quyền hiệu quả cho hàng hóa nhập khẩu từ các đối tác trong hiệp định thương mại tự do (FTA), tự do hóa về dịch vụ được tính điểm bằng số loại hình dịch vụ trong các hiệp định thương mại tự do (FTA). Bề rộng là chỉ tiêu về các điều khoản phi thương mại được đưa vào (quyền SHTT, dòng vốn đầu tư, v.v.). Khả năng thực thi hiệu lực được đo dựa trên mức độ vững chắc của các cơ chế giải quyết tranh chấp."
+  }
+ ]
+}

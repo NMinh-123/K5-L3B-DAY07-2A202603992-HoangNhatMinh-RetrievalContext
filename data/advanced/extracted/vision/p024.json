@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3350,
+  "completion_tokens": 685,
+  "total_tokens": 4035,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 10,
+   "engine_ttft_ms": 226,
+   "engine_ttlt_ms": 7381,
+   "pre_inference_ms": 580,
+   "service_tbt_ms": 10,
+   "service_ttft_ms": 931,
+   "service_ttlt_ms": 8080,
+   "user_visible_ttft_ms": 351
+  }
+ },
+ "latency_s": 12.1,
+ "items": [
+  {
+   "label": "Hình 2",
+   "kind": "area_chart",
+   "title": "Mô hình tăng trưởng xuất khẩu cần chuyển biến để Việt Nam đạt được nguyện vọng trở thành quốc gia thu nhập cao vào năm 2045",
+   "panels": null,
+   "content": "Biểu đồ vùng thể hiện tỷ trọng xuất khẩu (% GDP) của Việt Nam theo từng nhóm ngành hàng từ năm 1997 đến 2020, với các mốc dự báo đến 2045. \n- Trục tung: Xuất khẩu (% GDP), các mức: 0, 10, 20, ..., 100.\n- Trục hoành: Năm, từ 1997 đến 2020 (các mốc: 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020).\n- Chú giải màu:\n  + Xanh dương nhạt: Dịch vụ\n  + Đỏ: Hàng chế tạo chế biến công nghệ cao (gồm hàng điện tử)\n  + Vàng: Hàng chế tạo chế biến công nghệ thấp (gồm hàng dệt)\n  + Cam: Hàng nông sản và thương phẩm thô khác\n- Các mốc sự kiện lớn được đánh dấu trên biểu đồ:\n  + 1997-2010: Hàng thương phẩm thô và chế tạo chế biến công nghệ thấp (vùng cam và vàng chiếm ưu thế)\n  + 2010-2020: Hàng chế tạo chế biến công nghệ cao (vùng đỏ tăng mạnh)\n  + 2025-2045: Dịch vụ và hàng chế tạo chế biến đem lại giá trị gia tăng cao (dự báo vùng xanh dương nhạt và đỏ tăng)\n  + Các mốc thương mại lớn: Hiệp định thương mại song phương Việt - Mỹ, Gia nhập WTO, Khủng hoảng tài chính toàn cầu, Căng thẳng thương mại Mỹ - Trung, Hiệp định thương mại CPTPP\n- Giá trị cụ thể in số trên hình:\n  + Không có số cụ thể cho từng vùng từng năm, chỉ có các mức trục tung (0, 10, 20, ..., 100) và các mốc năm.\n- Xu hướng chính: Tỷ trọng xuất khẩu/GDP tăng mạnh từ 1997 đến 2010, sau đó tiếp tục tăng nhưng tốc độ chậm hơn. Cơ cấu xuất khẩu chuyển dịch từ hàng nông sản, thương phẩm thô và hàng chế tạo công nghệ thấp sang hàng chế tạo công nghệ cao và dịch vụ. Các sự kiện thương mại lớn gắn với các bước chuyển dịch này.",
+   "source_note": "Nguồn: Tính toán của cán bộ Ngân hàng Thế giới dựa trên số liệu của WDI"
+  }
+ ]
+}

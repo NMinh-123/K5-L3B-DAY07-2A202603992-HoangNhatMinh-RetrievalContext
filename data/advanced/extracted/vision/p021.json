@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3005,
+  "completion_tokens": 661,
+  "total_tokens": 3666,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 8,
+   "engine_ttft_ms": 191,
+   "engine_ttlt_ms": 5504,
+   "pre_inference_ms": 355,
+   "service_tbt_ms": 8,
+   "service_ttft_ms": 734,
+   "service_ttlt_ms": 6038,
+   "user_visible_ttft_ms": 380
+  }
+ },
+ "latency_s": 10.8,
+ "items": [
+  {
+   "label": null,
+   "kind": "table",
+   "title": "Gói chính sách – Khuyến nghị chính sách – Khung thời gian (NH, TH)",
+   "panels": null,
+   "content": "Bảng gồm ba cột:\n\n| Gói chính sách | Khuyến nghị chính sách | Khung thời gian (NH, TH) |\n|----------------|------------------------|--------------------------|\n| Các chính sách tăng trưởng và tạo việc làm bao trùm hơn qua tham gia các chuỗi giá trị toàn cầu (GVC) | Nâng cao khả năng dịch chuyển của lao động họ có thể tận dụng các cơ hội mới qua: (i) Hỗ trợ hướng nghiệp và tìm kiếm việc làm, đặc biệt cho sinh viên và người lao động có hoàn cảnh dễ bị tổn thương; (ii) sử dụng hiệu quả quỹ bảo hiểm thất nghiệp để hỗ trợ người lao động nâng cao kỹ năng qua công việc hoặc chuyển đổi sang các cơ hội việc làm mới; (iii) mở rộng các chính sách thị trường lao động chủ động, về hệ thống đào tạo giáo dục nghề (VET) và tìm kiếm việc làm; và (iv) nâng cao tự chủ và năng lực của các tổ chức đào tạo nghề để chuẩn bị cho người lao động đáp ứng với nhu cầu của doanh nghiệp. Những chính sách chính nhằm thúc đẩy gián tiếp khả năng dịch chuyển của lao động gồm: (v) mở rộng hệ thống chăm sóc trẻ em trong khả năng chi trả, tăng cường hệ thống chăm sóc người cao tuổi và chăm sóc dài hạn; và (vi) tăng cường năng lực và tài chính của địa phương xoay quanh cải cách hộ khẩu. | NH/TH |\n| | Xây dựng mạng lưới an sinh xã hội cho các đối tượng bị mất việc làm trong quá trình phát triển kinh tế qua: (i) mở rộng các Chương trình thị trường lao động, không chỉ chú trọng đến bảo hiểm thất nghiệp, mà còn cả các dịch vụ tìm kiếm và kết nối việc làm, đào tạo cho người tìm việc; (ii) xây dựng hệ thống thông tin thị trường lao động nhằm cung cấp thông tin cho các hoạt động đào tạo và khớp nối việc làm của các cơ quan dịch vụ việc làm của nhà nước, hệ thống giáo dục và dạy nghề (VET); và (iii) nâng cao khả năng kết nối của các tổ chức giáo dục và dạy nghề (VET) với các tổ chức sử dụng lao động. | TH |\n| | Đảm bảo nâng cao kỹ năng đem lại lợi ích cho mọi người qua: (i) thu hẹp khoảng cách chênh lệch về phát triển vốn nhân lực trọn vòng đời, bao gồm tập trung vào các trường hợp bị suy dinh dưỡng và giáo dục từ sớm (ECED), tỷ lệ bỏ học trung học ở trẻ em nghèo, khả năng chi trả và tiếp cận giáo dục sau phổ thông; và (ii) khuyến khích nhiều nữ giới tham gia vào các lĩnh vực STEM. | TH |",
+   "source_note": ""
+  }
+ ]
+}

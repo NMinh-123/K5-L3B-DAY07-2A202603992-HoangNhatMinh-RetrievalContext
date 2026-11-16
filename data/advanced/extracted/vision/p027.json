@@ -1,0 +1,47 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 2802,
+  "completion_tokens": 798,
+  "total_tokens": 3600,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 11,
+   "engine_ttft_ms": 276,
+   "engine_ttlt_ms": 9150,
+   "pre_inference_ms": 368,
+   "service_tbt_ms": 11,
+   "service_ttft_ms": 909,
+   "service_ttlt_ms": 9777,
+   "user_visible_ttft_ms": 541
+  }
+ },
+ "latency_s": 19.8,
+ "items": [
+  {
+   "label": "Hình 4",
+   "kind": "bar_chart",
+   "title": "Các doanh nghiệp trong chuỗi giá trị toàn cầu (GVC) tạo việc làm nhiều hơn, có năng suất cao hơn và trả lương cao hơn",
+   "panels": "A. Tỷ lệ việc làm dựa vào xuất khẩu trên tổng (%)",
+   "content": "Biểu đồ cột nhóm, trục tung trái: 'Tỷ lệ %' (0–60), trục hoành: các quốc gia (Trung Quốc, Indonesia, Philippines, Thổ Nhĩ Kỳ, Hàn Quốc, Mexico, Malaysia, Thái Lan, Việt Nam, Singapore). Có ba chuỗi: 1995 (cột xanh dương), 2019 (cột xám), Thay đổi (chấm đỏ, trục phụ phải 'Điểm %' từ -20 đến 40). Chú giải: Xanh dương – 1995, Xám – 2019, Đỏ – Thay đổi. Các giá trị in số trên hình: không có số cụ thể trên từng cột, chỉ có các mốc trục. Xu hướng chính: Tỷ lệ việc làm dựa vào xuất khẩu tăng mạnh ở hầu hết các nước từ 1995 đến 2019, đặc biệt ở Việt Nam và Singapore. Chấm đỏ thể hiện mức thay đổi, nhiều nước tăng trên 10 điểm %, riêng Việt Nam và Singapore tăng mạnh nhất (khoảng 30–40 điểm %, đọc từ trục).",
+   "source_note": "Nguồn: Winkler, Aguilar-Luna, Kruse và Maliszewska (2023)\nDữ liệu: OECD TÍE"
+  },
+  {
+   "label": "Hình 4",
+   "kind": "bar_chart",
+   "title": "Các doanh nghiệp trong chuỗi giá trị toàn cầu (GVC) tạo việc làm nhiều hơn, có năng suất cao hơn và trả lương cao hơn",
+   "panels": "B. Năng suất và mức lương cao hơn của các doanh nghiệp tham gia các chuỗi giá trị toàn cầu (GVC)",
+   "content": "Biểu đồ cột, trục tung: 'Điểm %' (-20 đến 40). Các nhóm trên trục hoành: Xuất khẩu (Năng suất lao động, Lương), Nhập khẩu (Năng suất lao động, Lương), GVC trong nước (Năng suất lao động, Lương), GVC nước ngoài (Năng suất lao động, Lương). Chú giải: Xanh dương – Năng suất lao động, Xám – Lương. Các giá trị in số trên hình: Xuất khẩu – Năng suất lao động: 27%, Lương: 17%; Nhập khẩu – Năng suất lao động: 45%, Lương: 31%; GVC trong nước – Năng suất lao động: 55%, Lương: 30%; GVC nước ngoài – Năng suất lao động: 70%, Lương: 47%. Xu hướng chính: Doanh nghiệp tham gia GVC, đặc biệt là GVC nước ngoài, có năng suất lao động và mức lương cao hơn rõ rệt so với doanh nghiệp không tham gia.",
+   "source_note": "Nguồn: Khảo sát doanh nghiệp của Tổng cục Thống kê Việt Nam, báo cáo gửi Ngân hàng Thế giới (2020a)\nGhi chú: Năng suất và mức lương cao hơn được đo so với doanh nghiệp tại thị trường trong nước (không tham gia xuất khẩu hoặc nhập khẩu), sau khi kiểm soát về quy mô doanh nghiệp và khác biệt ngành nghề"
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 2638,
+  "completion_tokens": 1081,
+  "total_tokens": 3719,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "service_ttft_ms": 1766,
+   "user_visible_ttft_ms": 1387,
+   "pre_inference_ms": 378,
+   "service_tbt_ms": 8,
+   "service_ttlt_ms": 10799,
+   "engine_ttft_ms": 499,
+   "engine_ttlt_ms": 9542,
+   "engine_tbt_ms": 8
+  }
+ },
+ "latency_s": 15.4,
+ "items": [
+  {
+   "label": "Hình 32",
+   "kind": "line_chart",
+   "title": "Tỷ lệ lao động trẻ có trình độ sau phổ thông tham gia việc làm không thủ công đòi hỏi kỹ năng cao đã giảm 20 điểm phần trăm trong một thập kỷ",
+   "panels": [
+    {
+     "panel": "Độ tuổi 20-29",
+     "title": null
+    },
+    {
+     "panel": "Độ tuổi 30-39",
+     "title": null
+    },
+    {
+     "panel": "Độ tuổi 40-49",
+     "title": null
+    },
+    {
+     "panel": "Độ tuổi 50-59",
+     "title": null
+    }
+   ],
+   "content": "Biểu đồ gồm 4 nhóm tuổi: 20-29, 30-39, 40-49, 50-59. Trục tung: Tỷ lệ lao động có trình độ sau phổ thông (%), các mốc 0, 20, 40, 60, 80, 100. Trục hoành: các năm 2010, 2012, 2014, 2016, 2018, 2020. Chú giải màu: Đỏ - Không thủ công, kỹ năng cao; Xanh dương - Không thủ công, kỹ năng thấp; Cam - Thủ công có kỹ năng; Vàng - Thủ công không kỹ năng. Giá trị số in trên hình:\n\nNhóm tuổi 20-29:\n- 2010: Không thủ công, kỹ năng cao: khoảng 100 (đọc từ trục)\n- 2012: Không thủ công, kỹ năng cao: khoảng 90 (đọc từ trục)\n- 2014: Không thủ công, kỹ năng cao: khoảng 80 (đọc từ trục)\n- 2016: Không thủ công, kỹ năng cao: khoảng 70 (đọc từ trục)\n- 2018: Không thủ công, kỹ năng cao: khoảng 60 (đọc từ trục)\n- 2020: Không thủ công, kỹ năng cao: khoảng 60 (đọc từ trục)\n\nCác chuỗi còn lại ở nhóm tuổi này đều dưới 20% (đọc từ trục).\n\nNhóm tuổi 30-39, 40-49, 50-59:\n- Tất cả các chuỗi đều dưới 20% (đọc từ trục), riêng chuỗi Không thủ công, kỹ năng cao giảm nhẹ qua các năm.\n\nXu hướng chính: Tỷ lệ lao động trẻ (20-29) có trình độ sau phổ thông làm việc không thủ công, kỹ năng cao giảm mạnh từ 2010 đến 2020 (giảm khoảng 20 điểm phần trăm). Các nhóm tuổi lớn hơn có tỷ lệ này thấp hơn và ít biến động.",
+   "source_note": "Nguồn: Ngân hàng Thế giới (2022b) dựa trên số liệu LFS"
+  },
+  {
+   "label": "Hình 33",
+   "kind": "line_chart",
+   "title": "Vấn đề thiếu kỹ năng phù hợp ngày càng gia tăng trong 15 năm qua, nhất là ở những doanh nghiệp liên quan đến xuất khẩu",
+   "panels": null,
+   "content": "Trục tung: Tỷ lệ (%) các doanh nghiệp cho biết không đủ lực lượng lao động có trình độ phù hợp là hạn chế lớn, các mốc 0, 5, 10, 15, 20, 25. Trục hoành: các năm 2009, 2015, 2023. Chú giải màu: Đen - Toàn bộ; Xanh dương - Chế tạo chế biến; Đỏ - Liên quan xuất khẩu. Giá trị số in trên hình:\n- 2009: Toàn bộ: khoảng 9% (đọc từ trục); Chế tạo chế biến: khoảng 6% (đọc từ trục); Liên quan xuất khẩu: khoảng 9% (đọc từ trục)\n- 2015: Toàn bộ: khoảng 12% (đọc từ trục); Chế tạo chế biến: khoảng 10% (đọc từ trục); Liên quan xuất khẩu: khoảng 15% (đọc từ trục)\n- 2023: Toàn bộ: khoảng 12% (đọc từ trục); Chế tạo chế biến: khoảng 12% (đọc từ trục); Liên quan xuất khẩu: khoảng 20% (đọc từ trục)\n\nXu hướng chính: Tỷ lệ doanh nghiệp cho biết thiếu kỹ năng phù hợp tăng dần qua các năm, đặc biệt ở nhóm doanh nghiệp liên quan xuất khẩu (tăng từ khoảng 9% lên 20%).",
+   "source_note": "Con đường dẫn đến tương lai thu nhập cao của Việt Nam     I  77  I"
+  }
+ ]
+}

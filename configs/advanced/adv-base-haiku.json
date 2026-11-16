@@ -1,0 +1,3 @@
+{"name": "adv-base-haiku", "description": "Hybrid RRF trên text + mô tả hình (trích xuất gpt-4.1 lúc index), claude-haiku-4-5 điều phối, không đọc lại hình.",
+ "retriever": "hybrid", "top_k": 4, "max_searches": 4, "max_turns": 9, "budget_chars": 9000,
+ "model": "claude-haiku-4-5-20251001", "temperature": 0.0}

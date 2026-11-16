@@ -1,0 +1,47 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 2825,
+  "completion_tokens": 725,
+  "total_tokens": 3550,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 8,
+   "engine_ttft_ms": 234,
+   "engine_ttlt_ms": 5752,
+   "pre_inference_ms": 358,
+   "service_tbt_ms": 8,
+   "service_ttft_ms": 754,
+   "service_ttlt_ms": 6266,
+   "user_visible_ttft_ms": 396
+  }
+ },
+ "latency_s": 11.8,
+ "items": [
+  {
+   "label": "Hình 9",
+   "kind": "line_chart",
+   "title": "Lương tăng làm xói mòn lợi thế về chi phí\nA. Lương tăng nhanh ...",
+   "panels": "A. Lương tăng nhanh ...",
+   "content": "Biểu đồ đường thể hiện 'Thu nhập bình quân ngang giá sức mua (2017 US$/h)' trên trục tung (0–8 US$/h) và năm trên trục hoành (2000–2022). Chú giải màu: Đỏ – Việt Nam, Xanh nhạt – Philippines, Xanh đậm – Thái Lan, Đen – Indonesia, Xám – Malaysia, Cam – Trung Quốc. Giá trị in số: không có số cụ thể in trên các đường, chỉ có các mốc trục tung (8, 7, 6, 5, 4, 3, 2, 1, 0) và trục hoành (2000, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022). Xu hướng chính: Đường của Việt Nam tăng đều từ khoảng 2 US$/h năm 2000 lên gần 5 US$/h năm 2022, vượt Philippines và Indonesia, nhưng vẫn thấp hơn Malaysia, Trung Quốc và Thái Lan.",
+   "source_note": "Nguồn: WDI, Viễn Thông &c UNESCO(UIS)"
+  },
+  {
+   "label": "Hình 9",
+   "kind": "scatter",
+   "title": "Lương tăng làm xói mòn lợi thế về chi phí\nB. ...vượt trội tốc độ tăng năng suất lao động",
+   "panels": "B. ...vượt trội tốc độ tăng năng suất lao động",
+   "content": "Biểu đồ scatter thể hiện mối quan hệ giữa 'Chi phí lao động, chế tạo chế biến (% thay đổi 2012-2018)' trên trục tung (0%–60%) và 'Chi phí lao động, chế tạo chế biến (% thay đổi 2012-2018)' trên trục hoành (0%–60%). Các điểm dữ liệu gồm: Trung Quốc (gần 50% trên cả hai trục), Việt Nam (gần 40% trên trục tung, khoảng 20% trên trục hoành), Malaysia (khoảng 20% trên cả hai trục), Thái Lan (khoảng 10% trên cả hai trục), Hàn Quốc (dưới 10% trên cả hai trục), Philippines (dưới 10% trên cả hai trục), Indonesia (khoảng 30% trên trục tung, khoảng 20% trên trục hoành). Chú giải: Đường chéo chia hai vùng – vùng 'Chi phí lao động tăng nhanh hơn năng suất' (phía trên phải) và 'Năng suất lao động tăng nhanh hơn chi phí' (phía dưới trái). Việt Nam và Trung Quốc nằm ở vùng chi phí lao động tăng nhanh hơn năng suất.",
+   "source_note": "Nguồn: WDI, ILO, PWT 10.01"
+  }
+ ]
+}

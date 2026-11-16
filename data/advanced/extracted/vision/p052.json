@@ -1,0 +1,42 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3600,
+  "completion_tokens": 1062,
+  "total_tokens": 4662,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 10,
+   "engine_ttft_ms": 312,
+   "engine_ttlt_ms": 11039,
+   "pre_inference_ms": 569,
+   "service_tbt_ms": 10,
+   "service_ttft_ms": 1180,
+   "service_ttlt_ms": 11890,
+   "user_visible_ttft_ms": 611
+  }
+ },
+ "latency_s": 15.2,
+ "items": [
+  {
+   "label": "Hình 19",
+   "kind": "scatter",
+   "title": "Công nghệ rô-bốt trong ngành nhựa và cao su đẩy mạnh tăng trưởng hàm lượng giá trị gia tăng hàng xuất khẩu, qua đó cho thấy rô-bốt đang đóng vai trò bổ sung cho lao động chứ không thay thế lao động",
+   "panels": [
+    "A. Tăng trưởng lượng rô-bốt so với tăng trưởng hàm lượng giá trị gia tăng hàng xuất khẩu, ngành nhựa và cao su, 2011-2015",
+    "B. Tăng trưởng lượng rô-bốt so với tăng trưởng giá trị gia tăng của lao động, ngành nhựa và cao su, 2011-2015"
+   ],
+   "content": "Biểu đồ gồm hai scatter plot song song, mỗi biểu đồ thể hiện mối quan hệ giữa tăng trưởng lượng rô-bốt (trục hoành, đơn vị: CAGR %) và một chỉ số tăng trưởng khác (trục tung, đơn vị: CAGR %) cho các quốc gia trong ngành nhựa và cao su giai đoạn 2011-2015.\n\nPanel A: Trục hoành: Tăng trưởng lượng rô-bốt 2011-2015 (CAGR %), các mốc: -20%, -10%, 0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%. Trục tung: Tăng trưởng hàm lượng giá trị gia tăng trong nước trong xuất khẩu 2011-2015 (CAGR %), các mốc: -10%, -5%, 0%, 5%, 10%, 15%, 20%. Các điểm dữ liệu gồm các quốc gia: VNM (Việt Nam), MEX (Mexico), USA, KOR, TUR, CHN, HUN, POL, THA, TWN, AUT, CZE, DEU, ESP, FRA, GBR, JPN, ITA, BRA, IDN, MYS. Giá trị in số trên hình:\n- VNM: vị trí khoảng (40%, 10%)\n- MEX: khoảng (70%, 15%)\n- USA, KOR, TUR, CHN, HUN, POL, THA, TWN: tập trung quanh (10-30%, 0-5%)\n- AUT, CZE, DEU, ESP, FRA, GBR, JPN, ITA, BRA, IDN, MYS: quanh (0-20%, -5% đến 5%)\nXu hướng chính: Việt Nam và Mexico có tăng trưởng lượng rô-bốt và tăng trưởng hàm lượng giá trị gia tăng trong xuất khẩu cao nhất nhóm; các nước còn lại thấp hơn rõ rệt.\n\nPanel B: Trục hoành: Tăng trưởng lượng rô-bốt 2011-2015 (CAGR %), các mốc: -20%, -10%, 0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%. Trục tung: Tăng trưởng giá trị gia tăng của lao động 2011-2015 (CAGR %), các mốc: -15%, -10%, -5%, 0%, 5%, 10%, 15%. Các điểm dữ liệu gồm các quốc gia: VNM (Việt Nam), KOR, MEX, TUR, CHN, HUN, POL, THA, TWN, AUT, CZE, DEU, ESP, FRA, GBR, JPN, ITA, BRA, IDN, MYS, USA. Giá trị in số trên hình:\n- VNM: vị trí khoảng (40%, 10%)\n- KOR: khoảng (30%, 10%)\n- MEX: khoảng (70%, 5%)\n- TUR, CHN, HUN, POL, THA, TWN: quanh (10-40%, 0-5%)\n- AUT, CZE, DEU, ESP, FRA, GBR, JPN, ITA, BRA, IDN, MYS, USA: quanh (0-20%, -10% đến 5%)\nXu hướng chính: Việt Nam và Hàn Quốc có tăng trưởng lượng rô-bốt và tăng trưởng giá trị gia tăng của lao động cao nhất nhóm; các nước còn lại thấp hơn rõ rệt.\n\nChú giải màu: không có màu sắc phân biệt, mỗi điểm là một quốc gia với mã quốc gia 3 chữ cái.",
+   "source_note": "Nguồn: Tính toán của tác giả sử dụng số liệu của Liên đoàn Công nghệ Rô-bốt Quốc tế (IFR) và OECD TiVA (panel A); Nguồn: Tính toán của tác giả sử dụng số liệu của Liên đoàn Công nghệ Rô-bốt Quốc tế (IFR) và OECD OECD TiE (panel B)"
+  }
+ ]
+}

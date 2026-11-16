@@ -1,0 +1,47 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3360,
+  "completion_tokens": 894,
+  "total_tokens": 4254,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 10,
+   "engine_ttft_ms": 752,
+   "engine_ttlt_ms": 9774,
+   "pre_inference_ms": 529,
+   "service_tbt_ms": 10,
+   "service_ttft_ms": 1826,
+   "service_ttlt_ms": 10842,
+   "user_visible_ttft_ms": 1297
+  }
+ },
+ "latency_s": 14.8,
+ "items": [
+  {
+   "label": "Hình 15",
+   "kind": "bar_chart",
+   "title": "Dịch chuyển thương mại\nA. Thay đổi trong tỷ lệ hàng nhập khẩu của Hoa Kỳ, 2018–2023",
+   "panels": null,
+   "content": "Tên trục tung: Điểm phần trăm. Không có trục hoành, các cột biểu diễn các quốc gia/khu vực. Chú giải màu:\n- Tím: Xe cộ\n- Xanh dương: Sản xuất khác\n- Vàng: Kim loại\n- Đỏ: Điện tử\n- Xanh lá: Dệt may\n- Xanh nhạt: Khai thác\n- Cam: Máy móc\n- Nâu: Nông nghiệp\nCác quốc gia/hạng mục (theo thứ tự từ trái sang phải):\n- Mexico: khoảng 2 (đọc từ trục)\n- Việt Nam: khoảng 1,5 (đọc từ trục)\n- Liên minh Châu Âu: khoảng 1 (đọc từ trục)\n- Đài loan, Trung Quốc: khoảng 0,5 (đọc từ trục)\n- Hàn Quốc: khoảng 0,2 (đọc từ trục)\n- Các nước khác: khoảng 0 (đọc từ trục)\n- Ấn Độ: khoảng -0,5 (đọc từ trục)\n- Thái Lan: khoảng -1 (đọc từ trục)\n- Indonesia: khoảng -2 (đọc từ trục)\n- Malaysia: khoảng -3 (đọc từ trục)\n- Philippines: khoảng -4 (đọc từ trục)\n- Nga: khoảng -5 (đọc từ trục)\n- Nhật Bản: khoảng -6 (đọc từ trục)\n- Trung Quốc: khoảng -8 (đọc từ trục)\nXu hướng chính: Mexico, Việt Nam, EU, Đài Loan, Hàn Quốc tăng tỷ lệ hàng nhập khẩu vào Hoa Kỳ; Trung Quốc giảm mạnh nhất.",
+   "source_note": "Nguồn: Ngân hàng Thế giới"
+  },
+  {
+   "label": "Hình 15",
+   "kind": "line_chart",
+   "title": "Dịch chuyển thương mại\nB. Nhập khẩu từ Trung Quốc và xuất khẩu sang Hoa Kỳ hàng tháng",
+   "panels": null,
+   "content": "Có hai đường biểu diễn:\n- Đường 1 (màu xanh dương): Nhập khẩu hàng tháng của Trung Quốc (tỷ đô la), trục tung bên trái (0–12 tỷ đô la)\n- Đường 2 (màu xanh nhạt): Xuất khẩu hàng tháng của Trung Quốc (tỷ đô la), trục tung bên phải (0–10 tỷ đô la)\nTrục hoành: Thời gian, các mốc:\nT3-13, T7-14, T11-13, T3-15, T7-16, T11-15, T3-17, T7-18, T11-17, T3-19, T7-20, T11-19, T3-21, T7-22, T11-21, T3-23, T7-23, T11-23\nCác mốc chú thích:\n- Tương quan: Tháng 3 năm 2013 - Tháng 11 năm 2016: 84%\n- Tương quan: Tháng 12 năm 2016 - Tháng 2 năm 2024: 96%\nXu hướng chính: Cả nhập khẩu từ Trung Quốc và xuất khẩu sang Hoa Kỳ đều tăng mạnh qua các năm, đặc biệt sau năm 2016, hai đường có xu hướng đồng biến với tương quan cao.",
+   "source_note": "Nguồn: Tính toán của cán bộ Ngân hàng Thế giới dùng số liệu của Tổng cục Hải quan Việt Nam và Haver Analytics giai đoạn tháng 03/2013 – 02/2024"
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3268,
+  "completion_tokens": 1061,
+  "total_tokens": 4329,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 7,
+   "engine_ttft_ms": 562,
+   "engine_ttlt_ms": 8458,
+   "pre_inference_ms": 479,
+   "service_tbt_ms": 7,
+   "service_ttft_ms": 1812,
+   "service_ttlt_ms": 9703,
+   "user_visible_ttft_ms": 1333
+  }
+ },
+ "latency_s": 14.3,
+ "items": [
+  {
+   "label": "Hình 17",
+   "kind": "bubble_chart",
+   "title": "Các nền kinh tế phát triển đầu tư nhiều hơn cho tự động hóa ...",
+   "panels": null,
+   "content": "Biểu đồ bong bóng thể hiện mối quan hệ giữa số lượng rô-bốt công nghiệp mỗi lao động (trục dọc, nhãn: 'Số lượng rô-bốt mỗi lao động') và GDP theo đầu người (điều chỉnh ngang giá sức mua 2017, US$, trục ngang, nhãn: 'người (điều chỉnh ngang giá sức mua 2017, US$)'). Các quốc gia/hạng mục gồm: Hàn Quốc, Nhật Bản, Trung Quốc, Singapore, Việt Nam, Philippines, Indonesia, Thái Lan, Malaysia. Chú giải: mỗi bong bóng đại diện cho một quốc gia, kích thước bong bóng không có số in cụ thể. Giá trị số in trên hình:\n- Việt Nam: vị trí gần gốc tọa độ, không có số in cụ thể, nhưng theo chú thích trang, khoảng 7 rô-bốt trên một ngàn lao động chế tạo chế biến.\n- Philippines: vị trí gần Việt Nam, không có số in cụ thể.\n- Indonesia: vị trí gần Việt Nam, không có số in cụ thể.\n- Thái Lan: vị trí gần Việt Nam, không có số in cụ thể.\n- Malaysia: vị trí gần Việt Nam, không có số in cụ thể.\n- Trung Quốc: vị trí cao hơn, không có số in cụ thể.\n- Nhật Bản: vị trí cao hơn, không có số in cụ thể.\n- Hàn Quốc: vị trí cao nhất về số lượng rô-bốt mỗi lao động.\n- Singapore: vị trí cao nhất về GDP theo đầu người.\nCác giá trị trục ngang: 0, 20.000, 40.000, 60.000, 80.000, 100.000, 120.000 (US$). Các giá trị trục dọc: 0, 2.000, 4.000, 6.000, 8.000, 10.000, 12.000 (rô-bốt mỗi lao động). Xu hướng chính: Các nền kinh tế phát triển (Singapore, Hàn Quốc, Nhật Bản) có số lượng rô-bốt mỗi lao động và GDP đầu người cao hơn, trong khi các nền kinh tế mới nổi (Việt Nam, Philippines, Indonesia, Thái Lan, Malaysia) có giá trị thấp hơn.",
+   "source_note": "Nguồn: Ngân hàng Thế giới (2020b)"
+  },
+  {
+   "label": null,
+   "kind": "scatter",
+   "title": "... còn các nền kinh tế mới nổi bắt đầu phi công nghiệp hóa ở các mức thu nhập thấp hơn so với trước đây",
+   "panels": null,
+   "content": "Biểu đồ scatter thể hiện mối quan hệ giữa tỷ lệ định về việc làm chế tạo chế biến (trục ngang, nhãn: 'Tỷ lệ định về việc làm chế tạo chế biến') và GDP theo đầu người khi đạt đỉnh (1990 $, trục dọc, nhãn: 'GDP theo đầu người khi đạt đỉnh (1990 $)'). Các quốc gia/hạng mục gồm: USA. 1953, GER. 1970, UK. 1961, SWE. 1961, KOR. 1989, MEX. 1990, BRA. 1986, COL. 1970, CHN. 1996, IND. 2002. Giá trị số in trên hình:\n- USA. 1953\n- GER. 1970\n- UK. 1961\n- SWE. 1961\n- KOR. 1989\n- MEX. 1990\n- BRA. 1986\n- COL. 1970\n- CHN. 1996\n- IND. 2002\nCác giá trị trục ngang: 10, 15, 20, 25, 30, 35, 40 (%). Các giá trị trục dọc: 0, 2.000, 4.000, 6.000, 8.000, 10.000, 12.000 (US$). Xu hướng chính: Các nền kinh tế phát triển (USA, GER, UK, SWE, KOR) đạt đỉnh công nghiệp hóa ở mức GDP đầu người cao hơn và tỷ lệ việc làm chế tạo chế biến cao hơn, trong khi các nền kinh tế mới nổi (MEX, BRA, COL, CHN, IND) đạt đỉnh ở mức GDP đầu người thấp hơn và tỷ lệ việc làm chế tạo chế biến thấp hơn.",
+   "source_note": "Nguồn: Ngân hàng Thế giới (2020b) dựa vào Rodrik (2016)"
+  }
+ ]
+}

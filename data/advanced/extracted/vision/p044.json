@@ -1,0 +1,42 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3157,
+  "completion_tokens": 725,
+  "total_tokens": 3882,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 10,
+   "engine_ttft_ms": 697,
+   "engine_ttlt_ms": 7967,
+   "pre_inference_ms": 435,
+   "service_tbt_ms": 10,
+   "service_ttft_ms": 1665,
+   "service_ttlt_ms": 8926,
+   "user_visible_ttft_ms": 1230
+  }
+ },
+ "latency_s": 12.2,
+ "items": [
+  {
+   "label": "Hình 13",
+   "kind": "line_chart",
+   "title": "Định hình lại thương mại toàn cầu",
+   "panels": [
+    "A. Thương mại thế giới chững lại",
+    "B. Chủ nghĩa bảo hộ thương mại"
+   ],
+   "content": "Biểu đồ gồm hai phần A và B.\n\nA. Thương mại thế giới chững lại:\n- Trục tung: Thương mại (chỉ số, 2005=100), các mức: 60, 70, 80, 90, 100, 110, 120, 130.\n- Trục hoành: Năm, từ 1995 đến 2021, các mốc: 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021.\n- Chú giải: Màu xanh dương đậm: 'Thương mại (chỉ số, 2005=100)'; Đường chấm đen: 'Đường tuyến tính (thương mại 1990 - 2005)'.\n- Giá trị in số trên hình: Không có số cụ thể trên đường, chỉ có các mốc trục.\n- Xu hướng chính: Chỉ số thương mại tăng mạnh từ 1995 đến 2008, sau đó tăng chậm lại và gần như đi ngang từ 2011 đến 2021. Đường tuyến tính thể hiện xu hướng tăng đều giai đoạn 1990-2005, sau đó thực tế đi chậm lại so với xu hướng này.\n\nB. Chủ nghĩa bảo hộ thương mại:\n- Trục tung: Số lượng (không ghi rõ đơn vị, có thể là số biện pháp), các mức: 0, 200, 400, 600, 800, 1.000.\n- Trục hoành: Năm, từ 2009 đến 2023, các mốc: 2009, 2011, 2013, 2015, 2017, 2019, 2021, 2023.\n- Chú giải: Màu xanh dương đậm: 'Gây hạn chế'; Màu xanh nhạt: 'Tự do hóa'.\n- Giá trị in số trên hình: Không có số cụ thể trên đường, chỉ có các mốc trục.\n- Xu hướng chính: Số biện pháp 'Gây hạn chế' tăng mạnh từ 2009 đến 2023, đặc biệt tăng nhanh sau 2017. Số biện pháp 'Tự do hóa' cũng tăng nhưng thấp hơn nhiều so với 'Gây hạn chế'.\n\nKhông có số liệu cụ thể in trên các đường, chỉ có thể đọc xu hướng từ trục.",
+   "source_note": "Nguồn: WDI và tổ chức Cảnh báo Thương mại Toàn cầu"
+  }
+ ]
+}

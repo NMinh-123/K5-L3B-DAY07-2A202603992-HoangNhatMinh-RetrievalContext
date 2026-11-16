@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 2548,
+  "completion_tokens": 356,
+  "total_tokens": 2904,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 8,
+   "engine_ttft_ms": 489,
+   "engine_ttlt_ms": 3263,
+   "pre_inference_ms": 455,
+   "service_tbt_ms": 8,
+   "service_ttft_ms": 1326,
+   "service_ttlt_ms": 4095,
+   "user_visible_ttft_ms": 871
+  }
+ },
+ "latency_s": 9.0,
+ "items": [
+  {
+   "label": "Hình 5",
+   "kind": "scatter",
+   "title": "Lợi ích của các chuỗi giá trị toàn cầu (GVC) bị tập trung theo địa bàn",
+   "panels": null,
+   "content": "Biểu đồ dạng scatter plot thể hiện mối quan hệ giữa tỷ lệ việc làm tại các doanh nghiệp trong chuỗi giá trị toàn cầu trên tổng việc làm, năm 2014 (%) (trục ngang) và thay đổi về tỷ lệ nghèo tính theo mức chi tiêu 2004-2014 (%) (trục dọc). Trục ngang có các mốc: 0, 10, 20, 30, 40, 50, 60, 70, 80. Trục dọc có các mốc: 60, 40, 20, 0, -20, -40, -60, -80, -100. Mỗi điểm biểu diễn một tỉnh/thành. Đường xu hướng màu vàng đi xuống, cho thấy khi tỷ lệ việc làm trong GVC tăng thì tỷ lệ nghèo giảm. Nhãn trên hình: 'Việc làm trong GVC tăng' (mũi tên ngang sang phải), 'Giảm nghèo tăng' (mũi tên xuống). Không có số cụ thể in trên từng điểm, chỉ đọc được xu hướng tổng thể là tỷ lệ việc làm trong GVC càng cao thì tỷ lệ nghèo càng giảm.",
+   "source_note": "Nguồn: Tính toán của Ngân hàng Thế giới, sử dụng dữ liệu của Hải quan Việt Nam và khảo sát doanh nghiệp của CTKT."
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3850,
+  "completion_tokens": 1377,
+  "total_tokens": 5227,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "service_ttft_ms": 1909,
+   "user_visible_ttft_ms": 1507,
+   "pre_inference_ms": 402,
+   "service_tbt_ms": 10,
+   "service_ttlt_ms": 15468,
+   "engine_ttft_ms": 636,
+   "engine_ttlt_ms": 14201,
+   "engine_tbt_ms": 10
+  }
+ },
+ "latency_s": 23.6,
+ "items": [
+  {
+   "label": "Bảng B3.1",
+   "kind": "table",
+   "title": "Tác động đến xuất khẩu, tỷ lệ % thay đổi so với kịch bản như hiện hành, 2035",
+   "panels": null,
+   "content": "Bảng gồm ba phần, mỗi phần là một nhóm lĩnh vực với các kịch bản tự do hóa thương mại (CPTPP, EVFTA, RCEP, NTM). Các cột:\n- Các lĩnh vực\n- Xuất khẩu năm 2035 (triệu USD)\n- Tỷ lệ % thay đổi (%) theo từng kịch bản\n- Thay đổi tính theo triệu USD theo từng kịch bản\n\nPhần 1:\n| Các lĩnh vực           | Xuất khẩu năm 2035 (triệu USD) | CPTPP (%) | EVFTA (%) | RCEP (%) | NTM (%) | CPTPP (triệu USD) | EVFTA (triệu USD) | RCEP (triệu USD) | NTM (triệu USD) |\n|-----------------------|-------------------------------|-----------|-----------|----------|---------|-------------------|-------------------|------------------|-----------------|\n| Nông sản thực phẩm    | 48.876                        | 1,5%      | 0,9%      | 2,0%     | 3,4%    | 755               | 437               | 988              | 1672            |\n| Tài nguyên            | 27.445                        | -4,3%     | -8,2%     | 0,2%     | -8,2%   | -1220             | -2356             | 63               | -2356           |\n| Chế tạo chế biến      | 389.619                       | 2,3%      | 1,9%      | 0,6%     | 3,3%    | 8953              | 7465              | 2166             | 12772           |\n| Dịch vụ               | 46.536                        | -1,3%     | -1,0%     | 0,6%     | -1,1%   | -612              | -481              | 258              | -507            |\n\nPhần 2:\n| Các lĩnh vực           | Xuất khẩu năm 2035 (triệu USD) | CPTPP (%) | EVFTA (%) | RCEP (%) | NTM (%) | CPTPP (triệu USD) | EVFTA (triệu USD) | RCEP (triệu USD) | NTM (triệu USD) |\n|-----------------------|-------------------------------|-----------|-----------|----------|---------|-------------------|-------------------|------------------|-----------------|\n| Nông sản thực phẩm    | 326.573                       | 0,4%      | 0,2%      | 0,5%     | 0,4%    | 1.165             | 533               | 1.551            | 1.192           |\n| Tài nguyên            | 44.968                        | -1,9%     | -3,8%     | -0,7%    | -3,8%   | -913              | -2.326            | -434             | -2.326           |\n| Chế tạo chế biến      | 820.638                       | 0,9%      | 0,8%      | 0,2%     | 1,6%    | 7.017             | 6.507             | 1.664            | 12.661          |\n| Dịch vụ               | 539.096                       | 0,3%      | 0,4%      | 0,0%     | 0,8%    | 1.702             | 2.110             | -3               | 4.414           |\n\nPhần 3:\n| Các lĩnh vực           | Xuất khẩu năm 2035 (triệu USD) | CPTPP (%) | EVFTA (%) | RCEP (%) | NTM (%) | CPTPP (triệu USD) | EVFTA (triệu USD) | RCEP (triệu USD) | NTM (triệu USD) |\n|-----------------------|-------------------------------|-----------|-----------|----------|---------|-------------------|-------------------|------------------|-----------------|\n| Nông sản thực phẩm    | 63.464                        | 1,4%      | 1,3%      | 0,6%     | 2,5%    | 900               | 794               | 405              | 1585            |\n| Tài nguyên            | 4.051                         | 1,7%      | 1,1%      | 2,4%     | 2,4%    | 370               | 252               | 533              | 525             |\n| Chế tạo chế biến      | 398.454                       | 1,4%      | 1,2%      | 0,4%     | 2,3%    | 5506              | 4682              | 1270             | 8643            |\n| Dịch vụ               | 32.891                        | 1,3%      | 1,3%      | -0,2%    | 3,0%    | 428               | 413               | -71              | 989             |\n\nCác giá trị số đều được chép đúng như in. Xu hướng chính: Chế tạo chế biến và nông sản thực phẩm có mức tăng trưởng xuất khẩu cao nhất theo kịch bản NTM (biện pháp phi thuế quan được hạ thấp). Tài nguyên và dịch vụ có mức tăng trưởng thấp hoặc âm ở nhiều kịch bản, đặc biệt là EVFTA và NTM. Dịch vụ tăng trưởng tốt nhất ở kịch bản NTM ở phần 3.\n",
+   "source_note": "Nguồn: Tính toán của cán bộ NHTG, dựa trên kết quả Envisage. Ghi chú: CPTPP, EVFTA và RCEP đại diện ba kịch bản tự do hóa thuế quan riêng biệt phát sinh qua các hiệp định được Việt Nam ký kết gần đây"
+  }
+ ]
+}

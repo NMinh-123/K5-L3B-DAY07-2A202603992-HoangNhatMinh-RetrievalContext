@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 4751,
+  "completion_tokens": 672,
+  "total_tokens": 5423,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 11,
+   "engine_ttft_ms": 766,
+   "engine_ttlt_ms": 8144,
+   "pre_inference_ms": 1042,
+   "service_tbt_ms": 11,
+   "service_ttft_ms": 2304,
+   "service_ttlt_ms": 9675,
+   "user_visible_ttft_ms": 1261
+  }
+ },
+ "latency_s": 21.0,
+ "items": [
+  {
+   "label": "Hình B1.1",
+   "kind": "diagram",
+   "title": "Quy trình sản xuất vi mạch bán dẫn tiêu biểu kéo dài từ 4-6 tháng với 3+ chuyến đi vòng quanh thế giới",
+   "panels": null,
+   "content": "Sơ đồ quy trình sản xuất vi mạch bán dẫn toàn cầu, gồm 7 bước chính, thể hiện trên bản đồ thế giới với các mũi tên chỉ hướng di chuyển giữa các quốc gia/khu vực. Các bước và quốc gia/khu vực liên quan như sau:\n1. (Màu nâu tím, góc phải) Thỏi silicon được cắt thành tấm wafer (không ghi rõ quốc gia, nhưng vị trí trên bản đồ là Đông Á, gần Nhật Bản).\n2. (Màu xanh đậm, phía tây) Khuôn bán dẫn được lắp ráp, đóng gói và kiểm thử (vị trí Đông Nam Á, gần Malaysia).\n3. (Màu xanh đậm, phía tây) Bán dẫn Wafer được phân loại, cho vào khuôn (vị trí Đông Nam Á, gần Malaysia).\n4. (Màu xanh đậm, phía đông nam) Khuôn bán dẫn được lắp ráp, đóng gói và kiểm thử (vị trí Đông Nam Á, gần Singapore/Malaysia).\n5. (Màu xanh đậm, phía đông nam) Sản phẩm cuối cùng được chuyển đến kho (vị trí Đông Nam Á, gần Singapore/Malaysia).\n6. (Màu cam, phía đông bắc) Các nhà sản xuất sản phẩm cuối cùng tích hợp chip vào sản phẩm tiêu dùng (vị trí Trung Quốc).\n7. (Màu cam, phía tây) Khách hàng mua sản phẩm cuối cùng (vị trí Bắc Mỹ).\n\nCác tuyến vận chuyển chính:\n- Nhật Bản sang Mỹ\n- Trung Quốc sang Mỹ\n- Singapore sang Trung Quốc\n- Mỹ sang Malaysia\n\nQuan hệ giữa các bước:\n- Bước 1 (cắt wafer) → Bước 2 (lắp ráp, đóng gói, kiểm thử) → Bước 3 (phân loại wafer, cho vào khuôn) → Bước 4 (lắp ráp, đóng gói, kiểm thử) → Bước 5 (chuyển đến kho) → Bước 6 (tích hợp chip vào sản phẩm tiêu dùng) → Bước 7 (khách hàng mua sản phẩm cuối cùng).\n\nChú thích bản đồ: Đường biên giới, màu sắc, tên gọi và các thông tin khác biểu hiện trên các bản đồ trong báo cáo này không hàm ý bất kỳ đánh giá nào của Ngân hàng Thế giới về vị thế pháp lý của bất kỳ vùng lãnh thổ nào và cũng không thể hiện bất kỳ sự ủng hộ hay chấp nhận nào của Ngân hàng Thế giới về các đường biên giới đó.",
+   "source_note": "Nguồn: Antras (2024)"
+  }
+ ]
+}

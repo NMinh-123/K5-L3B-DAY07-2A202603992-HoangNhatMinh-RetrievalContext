@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3282,
+  "completion_tokens": 311,
+  "total_tokens": 3593,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 10,
+   "engine_ttft_ms": 702,
+   "engine_ttlt_ms": 3819,
+   "pre_inference_ms": 394,
+   "service_tbt_ms": 10,
+   "service_ttft_ms": 2024,
+   "service_ttlt_ms": 5135,
+   "user_visible_ttft_ms": 1630
+  }
+ },
+ "latency_s": 9.3,
+ "items": [
+  {
+   "label": "Hình B1.1",
+   "kind": "diagram",
+   "title": null,
+   "panels": null,
+   "content": "Hình là một sơ đồ quy trình sản xuất vi mạch bán dẫn toàn cầu, thể hiện các bước chính và sự di chuyển giữa các khu vực/quốc gia. Sơ đồ gồm ba khâu hoạt động chính: (i) Thiết kế, (ii) Chế tạo/Đúc, (iii) Lắp ráp, Kiểm thử và Đóng gói. Các bước này được kết nối bằng các mũi tên thể hiện quy trình sản xuất thường bao gồm 3+ chuyến đi vòng quanh thế giới. Sơ đồ có các nhãn về các khu vực/khu vực chuyên sâu vào từng khâu: Hoa Kỳ đi đầu về thiết kế và chế tạo chế biến cao cấp; Đông Á có lợi thế về chế tạo tấm vật liệu, lắp ráp, đóng gói và kiểm thử. Sơ đồ cũng thể hiện rằng ngành bán dẫn có sự tham gia của 120 quốc gia khác nhau (trên 60% các quốc gia trên thế giới) là các quốc gia xuất khẩu hoặc nhập khẩu các sản phẩm bán dẫn. Năm nền kinh tế sản xuất vi mạch điện tử hàng đầu chiếm khoảng 75% giá trị gia tăng toàn cầu ngành vi mạch bán dẫn.",
+   "source_note": null
+  }
+ ]
+}

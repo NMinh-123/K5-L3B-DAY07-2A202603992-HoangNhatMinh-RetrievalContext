@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3607,
+  "completion_tokens": 1393,
+  "total_tokens": 5000,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 11,
+   "engine_ttft_ms": 221,
+   "engine_ttlt_ms": 15585,
+   "pre_inference_ms": 446,
+   "service_tbt_ms": 11,
+   "service_ttft_ms": 783,
+   "service_ttlt_ms": 16141,
+   "user_visible_ttft_ms": 337
+  }
+ },
+ "latency_s": 20.1,
+ "items": [
+  {
+   "label": "Hình 10",
+   "kind": "bar_chart",
+   "title": "Hạn chế về nguồn cung việc làm và lao động có kỹ năng",
+   "panels": "A. Tỷ lệ hoàn thành giáo dục sau phổ thông, 2022; B. Số lượng việc làm trong các lĩnh vực chế tạo chế biến (triệu)",
+   "content": "Panel A (biểu đồ cột đứng):\n- Trục tung: Tỷ lệ hoàn thành giáo dục sau phổ thông (%), không ghi rõ đơn vị nhưng các cột có nhãn phần trăm.\n- Trục hoành: Các quốc gia (Indonesia, Việt Nam, Malaysia, Thái Lan, Hàn Quốc, Philippines, Singapore).\n- Chú giải: Màu xanh nhạt – Bằng cử nhân trở lên; Màu xanh đậm – Bằng cấp nghề.\n- Giá trị in số trên hình:\n  - Indonesia: 1% (bằng cử nhân trở lên), 8% (bằng cấp nghề)\n  - Việt Nam: 3% (bằng cử nhân trở lên), 12% (bằng cấp nghề)\n  - Malaysia, Thái Lan: 5% (bằng cử nhân trở lên), 21% (bằng cấp nghề)\n  - Hàn Quốc: 12% (bằng cử nhân trở lên), 29% (bằng cấp nghề)\n  - Philippines: 16% (bằng cử nhân trở lên), không có số cho bằng cấp nghề\n  - Singapore: 16% (bằng cử nhân trở lên), không có số cho bằng cấp nghề\n- Xu hướng chính: Việt Nam và Indonesia có tỷ lệ lao động hoàn thành giáo dục sau phổ thông thấp nhất, Singapore và Philippines cao nhất về tỷ lệ cử nhân trở lên.\n\nPanel B (biểu đồ cột chồng theo năm):\n- Trục tung: Số lượng việc làm trong các lĩnh vực chế tạo chế biến (triệu)\n- Trục hoành: Năm (2007–2021)\n- Chú giải: Vàng – Kỹ năng cao; Xanh – Kỹ năng thấp và vừa; Đỏ – Không có kỹ năng\n- Giá trị in số trên hình:\n  - 2007: Kỹ năng cao 4,6; Kỹ năng thấp và vừa 1,3; Không có kỹ năng 0,4; Tổng 6,3\n  - 2009: Kỹ năng cao 5,6; Kỹ năng thấp và vừa 0,9; Không có kỹ năng 0,5; Tổng 7,0\n  - 2010: Kỹ năng cao 5,8; Kỹ năng thấp và vừa 0,8; Không có kỹ năng 0,5; Tổng 7,1\n  - 2011: Kỹ năng cao 5,9; Kỹ năng thấp và vừa 0,7; Không có kỹ năng 0,5; Tổng 7,1\n  - 2012: Kỹ năng cao 5,9; Kỹ năng thấp và vừa 0,7; Không có kỹ năng 0,5; Tổng 7,3\n  - 2013: Kỹ năng cao 6,1; Kỹ năng thấp và vừa 0,8; Không có kỹ năng 0,5; Tổng 7,6\n  - 2014: Kỹ năng cao 6,4; Kỹ năng thấp và vừa 0,8; Không có kỹ năng 0,5; Tổng 7,8\n  - 2015: Kỹ năng cao 7,0; Kỹ năng thấp và vừa 0,8; Không có kỹ năng 0,6; Tổng 8,3\n  - 2016: Kỹ năng cao 7,5; Kỹ năng thấp và vừa 0,8; Không có kỹ năng 0,6; Tổng 8,9\n  - 2017: Kỹ năng cao 7,8; Kỹ năng thấp và vừa 0,9; Không có kỹ năng 0,7; Tổng 9,3\n  - 2018: Kỹ năng cao 8,0; Kỹ năng thấp và vừa 1,0; Không có kỹ năng 0,7; Tổng 9,7\n  - 2019: Kỹ năng cao 9,2; Kỹ năng thấp và vừa 1,0; Không có kỹ năng 0,8; Tổng 11,0\n  - 2020: Kỹ năng cao 9,5; Kỹ năng thấp và vừa 1,0; Không có kỹ năng 0,8; Tổng 11,0\n  - 2021: Kỹ năng cao 9,4; Kỹ năng thấp và vừa 1,2; Không có kỹ năng 0,8; Tổng 11,2\n- Xu hướng chính: Tổng số việc làm tăng dần qua các năm, chủ yếu là việc làm kỹ năng cao, tỷ lệ việc làm không có kỹ năng tăng nhẹ từ 0,4 triệu lên 0,8 triệu, việc làm kỹ năng thấp và vừa dao động quanh 0,7–1,2 triệu.",
+   "source_note": "Nguồn: WDI, Viện Thống kê UNESCO(UIS). (Panel A), LFS, TCTK, và ILO (Biểu đồ B).\nGhi chú: Các mức kỹ năng được xác định dựa trên Phân loại Chuẩn Quốc tế về Nghề nghiệp (ISCO) 08 và yêu cầu kỹ năng cho những nghề nghiệp đó. Nghề nghiệp đòi hỏi kỹ năng cao tương ứng với nghề quản lý, chuyên gia hành nghề chuyên môn, kỹ thuật viên và nhân viên hành nghề chuyên môn (kỹ năng ISCO bậc 3 và 4). Nghề nghiệp đòi hỏi kỹ năng thấp tương ứng với nghề nhân viên hỗ trợ hành chính, nhân viên bán hàng và phục vụ, lao động nông lâm ngư nghiệp có kỹ năng, thợ thủ công và các nghề liên quan, nhân viên vận hành máy móc và nhà máy, thợ gia công (kỹ năng ISCO bậc 2). Nghề nghiệp không đòi hỏi kỹ năng tương ứng với những nghề sơ đẳng (kỹ năng ISCO bậc 1)."
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+{"name": "adv-base-haiku-v2", "description": "adv-base-haiku + lượt tìm đầu bằng câu hỏi gốc + top-k 6 + nhắc 1 lần khi không gọi tool. Giả thuyết: câu hỏi gốc xếp đúng đoạn văn (ad13: hạng 1 thay vì hạng 5 với truy vấn agent tự viết).",
+ "retriever": "hybrid", "top_k": 6, "max_searches": 4, "max_turns": 10, "budget_chars": 9000,
+ "seed_with_question": true, "nudge_no_tool": true,
+ "model": "claude-haiku-4-5-20251001", "temperature": 0.0}

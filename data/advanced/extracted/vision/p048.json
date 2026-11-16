@@ -1,0 +1,47 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3204,
+  "completion_tokens": 830,
+  "total_tokens": 4034,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 8,
+   "engine_ttft_ms": 547,
+   "engine_ttlt_ms": 6874,
+   "pre_inference_ms": 609,
+   "service_tbt_ms": 8,
+   "service_ttft_ms": 1900,
+   "service_ttlt_ms": 8263,
+   "user_visible_ttft_ms": 1291
+  }
+ },
+ "latency_s": 16.4,
+ "items": [
+  {
+   "label": "Hình 16",
+   "kind": "stacked_bar",
+   "title": "Nhu cầu dịch chuyển hướng đến châu Á trên toàn cầu",
+   "panels": "Bóc tách chi tiết nhu cầu cuối cho hàng xuất khẩu của Việt Nam (% tổng xuất khẩu)",
+   "content": "Biểu đồ cột chồng thể hiện tỷ trọng nhu cầu cuối cho hàng xuất khẩu của Việt Nam theo các khu vực/quốc gia từ năm 2000 đến 2020. Trục tung: % tổng xuất khẩu (đơn vị: %), các mốc 0, 10, 20, ..., 100. Trục hoành: năm (2000, 2005, 2010, 2015, 2020). Chú giải màu: Còn lại, EU, Hoa Kỳ, Nhật, Đông Á: Quốc gia mới nổi (trừ Trung Quốc), TQ. Giá trị in số trên cột năm 2020: Đông Á: Quốc gia mới nổi (trừ TQ) – 31%. Các giá trị số khác không in trên hình, chỉ đọc từ trục. Xu hướng chính: Tỷ trọng của Đông Á (quốc gia mới nổi, trừ TQ) tăng mạnh qua các năm, chiếm 31% năm 2020; tỷ trọng của các khu vực khác giảm hoặc ổn định.",
+   "source_note": "Nguồn: Các bảng đầu ra đầu vào liên quốc gia (ICIO) của OECD, ước tính của cán bộ\nGhi chú: Đông Á quốc gia mới nổi (trừ Trung Quốc) gồm Cam-pu-chia, In-đô-nê-xia, Lào, Ma-lay-xia, Miến Điện, Phi-lip-pin, Thái Lan, và Việt Nam"
+  },
+  {
+   "label": "Hình 16",
+   "kind": "line_chart",
+   "title": "Nhu cầu dịch chuyển hướng đến châu Á trên toàn cầu",
+   "panels": "Chỉ tiêu tăng lớp tiêu dùng (% tổng toàn cầu)",
+   "content": "Biểu đồ đường thể hiện tỷ trọng lớp tiêu dùng của ba nhóm: Quốc gia mới nổi Đông Á, Hoa Kỳ, EU từ năm 2000 đến 2034. Trục tung: % tổng toàn cầu (đơn vị: %), các mốc 10, 12, 14, ..., 26. Trục hoành: năm (2000, 2019, 2022, 2025, 2028, 2031, 2034). Chú giải màu: Quốc gia mới nổi Đông Á (đường xanh), Hoa Kỳ (đường đỏ), EU (đường vàng). Giá trị in số: Quốc gia mới nổi Đông Á – 12% (2000), 26% (2034); Hoa Kỳ – 24% (2000), 14% (2034); EU – 22% (2000), 10% (2034). Xu hướng chính: Tỷ trọng lớp tiêu dùng của Quốc gia mới nổi Đông Á tăng mạnh từ 12% lên 26%; Hoa Kỳ và EU giảm từ 24% và 22% xuống 14% và 10%.",
+   "source_note": "Nguồn: Nguồn: tính toán của cán bộ Ngân hàng Thế giới sử dụng World Data Pro! dựa trên nhiều khảo sát hộ gia đình.\nGhi chú: Tăng lớp trung lưu là nhóm chi tiêu trên 12 US$ (điều chỉnh ngang giá sức mua) mỗi ngày. Các quốc gia mới nổi Đông Á được đưa vào gồm Cam-pu-chia, In-đô-nê-xia, Lào, Ma-lay-xia, Miến Điện, Phi-lip-pin, Thái Lan, Việt Nam và Trung Quốc"
+  }
+ ]
+}

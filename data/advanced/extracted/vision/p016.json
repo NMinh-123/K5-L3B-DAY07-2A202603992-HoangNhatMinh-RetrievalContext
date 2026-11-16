@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 2796,
+  "completion_tokens": 986,
+  "total_tokens": 3782,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 10,
+   "engine_ttft_ms": 263,
+   "engine_ttlt_ms": 10205,
+   "pre_inference_ms": 512,
+   "service_tbt_ms": 10,
+   "service_ttft_ms": 892,
+   "service_ttlt_ms": 10830,
+   "user_visible_ttft_ms": 379
+  }
+ },
+ "latency_s": 13.6,
+ "items": [
+  {
+   "label": "Hình S.4",
+   "kind": "line_chart",
+   "title": "Nhu cầu lao động có kỹ năng trong các ngành chế tạo chế biến thâm dụng công nghệ",
+   "panels": null,
+   "content": "Biểu đồ đường thể hiện mức lương trội dành cho người tốt nghiệp đại học trong các lĩnh vực công nghiệp chế tạo chế biến (giai đoạn 2015–2022), với hai chuỗi:\n- Chế tạo chế biến công nghệ cao (màu đen)\n- Chế tạo chế biến công nghệ thấp (màu xanh dương)\n\nTrục tung: Mức lương trội (đơn vị: chỉ số, gốc 100 = năm 2015), từ 80 đến 110, các mốc in số: 85, 90, 95, 100, 105, 110.\nTrục hoành: Năm, từ 2015 đến 2022, các mốc: 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022.\n\nChú giải:\n- Đường màu đen: Chế tạo chế biến công nghệ cao\n- Đường màu xanh dương: Chế tạo chế biến công nghệ thấp\n\nGiá trị in số trên hình:\n- Chế tạo chế biến công nghệ cao:\n  - 2015: khoảng 100 (đọc từ trục)\n  - 2016: khoảng 105 (đọc từ trục)\n  - 2017: khoảng 108 (đọc từ trục)\n  - 2018: khoảng 107 (đọc từ trục)\n  - 2019: khoảng 106 (đọc từ trục)\n  - 2020: khoảng 105 (đọc từ trục)\n  - 2021: khoảng 104 (đọc từ trục)\n  - 2022: khoảng 104 (đọc từ trục)\n- Chế tạo chế biến công nghệ thấp:\n  - 2015: khoảng 100 (đọc từ trục)\n  - 2016: khoảng 98 (đọc từ trục)\n  - 2017: khoảng 97 (đọc từ trục)\n  - 2018: khoảng 96 (đọc từ trục)\n  - 2019: khoảng 95 (đọc từ trục)\n  - 2020: khoảng 94 (đọc từ trục)\n  - 2021: khoảng 93 (đọc từ trục)\n  - 2022: khoảng 92 (đọc từ trục)\n\nXu hướng chính: Mức lương trội cho người tốt nghiệp đại học trong ngành chế tạo chế biến công nghệ cao tăng mạnh từ 2015 đến 2017, sau đó giảm nhẹ và ổn định ở mức cao hơn so với năm 2015. Ngược lại, mức lương trội trong ngành chế tạo chế biến công nghệ thấp giảm dần đều qua các năm.\n\nCác dòng chữ lấy từ lớp text của PDF trong vùng hình:\n- (181,344) 85\n- (181,321) 90\n- (181,299) 95\n- (177,277) 100\n- (177,255) 105\n- (177,232) 110\n- (165,217) Chế tạo chế biến công nghệ cao\n- (309,217) Chế tạo chế biến công nghệ thấp\n- (74,711) trung ở những địa bàn có nguy cơ thiên tai (Hình S.5, biểu đồ B). Điều hết sức quan trọng là tăng cường\n- (74,726) khả năng chống chịu của hạ tầng, doanh nghiệp và người lao động với các cú sốc khí hậu.",
+   "source_note": "Nguồn: Tính toán của cán bộ Ngân hàng Thế giới dựa trên khảo sát lực lượng lao động (LFS).\nGhi chú: Mức lương trội được đo bằng tỷ lệ thu nhập bình quân tháng trung ngành của người có trình độ từ đại học trở lên so với người có trình độ trung học phổ thông trong cùng ngành. Chế tạo chế biến công nghệ cao thể hiện mức lương trội bình quân theo phân loại ISIC cấp độ 4: Hóa chất, dược phẩm, máy tính, điện tử, quang học và thiết bị điện."
+  }
+ ]
+}

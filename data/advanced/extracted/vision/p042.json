@@ -1,0 +1,42 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3198,
+  "completion_tokens": 803,
+  "total_tokens": 4001,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 12,
+   "engine_ttft_ms": 289,
+   "engine_ttlt_ms": 9798,
+   "pre_inference_ms": 525,
+   "service_tbt_ms": 12,
+   "service_ttft_ms": 1079,
+   "service_ttlt_ms": 10613,
+   "user_visible_ttft_ms": 554
+  }
+ },
+ "latency_s": 14.5,
+ "items": [
+  {
+   "label": "Hình 0.11",
+   "kind": "stacked_bar",
+   "title": "Nhu cầu hạ tầng gia tăng đòi hỏi đầu tư về điện và giao thông kết nối",
+   "panels": [
+    "A. Tăng trưởng phụ tải theo nhóm tiêu thụ, 2010-2023, chi tiết cho năm 2023",
+    "B. Tăng trưởng cộng dồn về tiêu thụ năng lượng, khối lượng vận tải hàng hóa và GDP, 2004-2022"
+   ],
+   "content": "Panel A (biểu đồ cột chồng):\n- Trục tung: TWh (đơn vị: terawatt-giờ), giá trị từ 0 đến 300, cách quãng 100.\n- Trục hoành: Năm (2010, 2015, 2020, 2023).\n- Chú giải màu:\n  + Xanh dương đậm: Công nghiệp và xây dựng\n  + Xanh dương nhạt: Thương mại & dịch vụ\n  + Cam: Hộ gia đình\n  + Xanh lá: Nông lâm thuỷ sản\n  + Xám: Khác\n- Giá trị in số trên cột (tổng cộng các nhóm):\n  + 2010: 85,7 TWh\n  + 2015: 143,5 TWh\n  + 2020: 214,3 TWh\n  + 2023: 251,3 TWh\n- Không có số in riêng cho từng nhóm màu trên từng năm, chỉ có tổng mỗi cột.\n- Xu hướng: Tổng phụ tải điện tăng mạnh qua các năm, gần gấp 3 lần từ 2010 đến 2023.\n\nPanel B (biểu đồ đường):\n- Trục tung: Tăng trưởng cộng dồn (2000=100), giá trị từ 0 đến 1.000, cách quãng 100.\n- Trục hoành: Năm (2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2020).\n- Chú giải màu:\n  + Đỏ: Vận tải hàng hóa\n  + Cam: Tiêu thụ năng lượng\n  + Xanh dương: GDP theo giá so sánh\n- Không có số in trên các đường, chỉ có trục giá trị.\n- Xu hướng: Vận tải hàng hóa và tiêu thụ năng lượng tăng trưởng cộng dồn nhanh hơn so với GDP. Đường vận tải hàng hóa tăng mạnh nhất, tiếp đến là tiêu thụ năng lượng, GDP tăng chậm hơn rõ rệt.\n",
+   "source_note": "Nguồn: Báo cáo thường niên của EVN và Trung tâm Điều độ hệ thống điện Quốc Gia (NLDC) (hình trái), WDI, Đánh giá thống kê về năng lượng thế giới, TCTK (hình phải).\nGhi chú: Mỗi đường biểu đồ biểu thị tăng trưởng cộng dồn trong giai đoạn 2000-2020. Tiêu thụ năng lượng được tính là tiêu thụ năng lượng sơ cấp theo TWh. GDP theo giá so sánh được tính theo giá 2015 bằng đồng USD. Vận tải hàng hóa được tính bằng tổng khối lượng vận tải hàng hóa theo các phương thức vận tải, đơn vị triệu tấn - km. Tăng trưởng khối lượng vận tải hàng hóa giai đoạn 2000-2004 lấy từ tăng trưởng vận tải hàng không và đường sắt"
+  }
+ ]
+}

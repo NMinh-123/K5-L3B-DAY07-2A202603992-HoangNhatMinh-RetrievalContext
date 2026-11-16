@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3061,
+  "completion_tokens": 824,
+  "total_tokens": 3885,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 10,
+   "engine_ttft_ms": 196,
+   "engine_ttlt_ms": 8806,
+   "pre_inference_ms": 402,
+   "service_tbt_ms": 10,
+   "service_ttft_ms": 720,
+   "service_ttlt_ms": 9325,
+   "user_visible_ttft_ms": 317
+  }
+ },
+ "latency_s": 12.2,
+ "items": [
+  {
+   "label": "Hình S.2",
+   "kind": "bar_chart",
+   "title": "Các chuỗi giá trị toàn cầu (GVC) kết nối hạn chế với các doanh nghiệp trong nước của Việt Nam",
+   "panels": "A. Tỷ lệ doanh nghiệp có kết nối GVC (%); B. Tỷ lệ doanh nghiệp có kết nối nội GVC (%), Việt Nam",
+   "content": "Biểu đồ gồm hai phần: \nA. Tỷ lệ doanh nghiệp có kết nối GVC (%):\n- Trục tung: Tỷ lệ doanh nghiệp có kết nối GVC (%), các mức: 0, 5, 10, 15, 20, 25, 30, 35.\n- Trục hoành: Các quốc gia/năm: Cambodia 2023, Thổ Nhĩ Kỳ 2019, Malaysia 2019, Việt Nam 2023, Indonesia 2023.\n- Giá trị in số trên cột:\n  + Cambodia 2023: 31%\n  + Thổ Nhĩ Kỳ 2019: 24%\n  + Malaysia 2019: 19%\n  + Việt Nam 2023: 18%\n  + Indonesia 2023: 15%\n- Chú giải: Mỗi cột một màu riêng biệt, không có ghi chú màu cụ thể.\n- Xu hướng: Việt Nam 2023 có tỷ lệ doanh nghiệp kết nối GVC thấp hơn các nước so sánh, chỉ cao hơn Indonesia.\n\nB. Tỷ lệ doanh nghiệp có kết nối nội GVC (%), Việt Nam:\n- Trục tung: Tỷ lệ doanh nghiệp có kết nối nội GVC (%), các mức: 0, 20, 40, 60, 80.\n- Trục hoành: Quy mô doanh nghiệp (Nhỏ, Vừa, Lớn) và Năm (2009, 2015, 2023).\n- Giá trị in số trên cột:\n  + Nhỏ: 12%\n  + Vừa: 20%\n  + Lớn: 62%\n  + 2009: 35%\n  + 2015: 20%\n  + 2023: 18%\n- Chú giải: Mỗi cột một màu riêng biệt, không có ghi chú màu cụ thể.\n- Xu hướng: Doanh nghiệp lớn có tỷ lệ kết nối nội GVC cao vượt trội so với doanh nghiệp nhỏ và vừa. Tỷ lệ kết nối nội GVC của Việt Nam giảm mạnh từ 2009 (35%) xuống 2023 (18%).",
+   "source_note": "Nguồn: Tính toán của cán bộ Ngân hàng Thế giới.\nDữ liệu: Khảo sát doanh nghiệp năm 2023 của Ngân hàng Thế giới.\nGhi chú: Hình trên trình bày số trung bình trên mỗi cột. Doanh nghiệp được coi là có kết nối với chuỗi giá trị toàn cầu (GVC) nếu có ít nhất một trong những đặc điểm sau: có trên 10% vốn sở hữu nước ngoài, có sử dụng công nghệ được cấp phép nước ngoài, có tham gia xuất khẩu (10% doanh số trở lên), có tham gia nhập khẩu. Nhập khẩu chỉ được xác định cho các doanh nghiệp trong lĩnh vực chế tạo chế biến. Quy mô doanh nghiệp được xác định theo định nghĩa áp dụng cho dữ liệu điều tra doanh nghiệp của Ngân hàng Thế giới (DTDN NHTG), nhỏ (5-19 lao động), vừa (20-99 lao động) và lớn (100+ lao động). Khảo sát doanh nghiệp của NHTG được phân tầng theo lĩnh vực hoạt động, quy mô và địa bàn của doanh nghiệp."
+  }
+ ]
+}

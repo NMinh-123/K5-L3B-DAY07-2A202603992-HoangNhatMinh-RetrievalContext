@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3378,
+  "completion_tokens": 1052,
+  "total_tokens": 4430,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 8,
+   "engine_ttft_ms": 359,
+   "engine_ttlt_ms": 9132,
+   "pre_inference_ms": 445,
+   "service_tbt_ms": 8,
+   "service_ttft_ms": 1090,
+   "service_ttlt_ms": 9858,
+   "user_visible_ttft_ms": 645
+  }
+ },
+ "latency_s": 47.4,
+ "items": [
+  {
+   "label": "Hình B2.1",
+   "kind": "bubble_chart",
+   "title": "Phân tích cơ hội xuất khẩu\n15 sản phẩm hiện có thế mạnh xuất khẩu năm 2021",
+   "panels": null,
+   "content": "Biểu đồ bong bóng thể hiện 15 sản phẩm xuất khẩu có thế mạnh của Việt Nam năm 2021. Trục tung: Lợi thế cạnh tranh thể hiện (không đơn vị, giá trị từ 1,0 đến 2,8). Trục hoành: Thị phần xuất khẩu toàn cầu (%) (giá trị từ 0 đến 35). Chú giải màu:\n- Màu xanh đậm: Sản phẩm may mặc và giày da xuất khẩu (có thể hình cầu thể hiện giá trị xuất khẩu bằng tỷ US$ năm 2021)\n- Màu xanh nhạt: Sản phẩm điện tử xuất khẩu (có thể hình cầu thể hiện giá trị xuất khẩu bằng tỷ US$ năm 2021)\nCác bong bóng, nhãn và giá trị:\n- HS 6104: Bộ com-lê, quần áo, áo khoác, áo véc-tông, váy dài, váy ngắn, quần, v.v. đồ nữ – Lợi thế cạnh tranh: 3,38; Thị phần: khoảng 3,5 (đọc từ trục)\n- HS 6110: Áo jersey, áo chui đầu, áo dệt ở ngực, áo khoác ngắn, v.v.; đan hoặc móc – Lợi thế cạnh tranh: 4,52; Thị phần: khoảng 4,5 (đọc từ trục)\n- HS 8534: Mạch; in – Lợi thế cạnh tranh: 1,45; Thị phần: khoảng 1,5 (đọc từ trục)\n- HS 8528: Màn hình và máy chiếu – Lợi thế cạnh tranh: 4,99; Thị phần: khoảng 5 (đọc từ trục)\n- HS 8541: Đi-ốt, đèn bán dẫn, các thiết bị bán dẫn tương tự – Lợi thế cạnh tranh: 3,68; Thị phần: khoảng 3,7 (đọc từ trục)\n- HS 8542: Mạch tích hợp điện tử – Lợi thế cạnh tranh: 21,57; Thị phần: khoảng 21,5 (đọc từ trục)\n- HS 8504: Biến thế điện, nắm dòng tĩnh – Lợi thế cạnh tranh: 3,33; Thị phần: khoảng 3,3 (đọc từ trục)\n- HS 8518: Mi-crô và chân; loa – Lợi thế cạnh tranh: 4,60; Thị phần: khoảng 4,6 (đọc từ trục)\n- HS 8517: Bộ điện thoại, gồm di động – Lợi thế cạnh tranh: 83,67; Thị phần: khoảng 83,7 (đọc từ trục)\n- HS 8529: Thiết bị truyền dẫn; linh kiện – Lợi thế cạnh tranh: 6,82; Thị phần: khoảng 6,8 (đọc từ trục)\n- HS 6402: Giày dép, có đế ngoài và phần trên bằng cao su hoặc nhựa – Lợi thế cạnh tranh: 3,93; Thị phần: khoảng 3,9 (đọc từ trục)\n- HS 6103: Bộ com-lê, quần áo, áo khoác, áo véc-tông, quần, v.v. đồ nam – Lợi thế cạnh tranh: không in số; Thị phần: khoảng 2,0 (đọc từ trục)\n- HS 6210: Hàng may mặc làm bằng vải thêu, dệt thun, v.v. – Lợi thế cạnh tranh: không in số; Thị phần: khoảng 1,18 (đọc từ trục)\n- HS 6404: Giày dép, đế cao su, nhựa, da hoặc chất liệu khác – Lợi thế cạnh tranh: không in số; Thị phần: 11,12\n- HS 8518: Mi-crô và chân; loa – Lợi thế cạnh tranh: không in số; Thị phần: không in số\nXu hướng chính: Các sản phẩm điện tử có lợi thế cạnh tranh cao và thị phần xuất khẩu lớn, nổi bật là bộ điện thoại (HS 8517) và mạch tích hợp điện tử (HS 8542). Sản phẩm may mặc và giày dép cũng có lợi thế cạnh tranh và thị phần xuất khẩu đáng kể.",
+   "source_note": "Không có dòng nguồn/ghi chú/dữ liệu dưới hình."
+  }
+ ]
+}

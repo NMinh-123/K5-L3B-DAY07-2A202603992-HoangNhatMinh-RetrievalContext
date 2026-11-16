@@ -1,0 +1,47 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 2863,
+  "completion_tokens": 1196,
+  "total_tokens": 4059,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 10,
+   "engine_ttft_ms": 689,
+   "engine_ttlt_ms": 13153,
+   "pre_inference_ms": 335,
+   "service_tbt_ms": 10,
+   "service_ttft_ms": 1537,
+   "service_ttlt_ms": 13991,
+   "user_visible_ttft_ms": 1202
+  }
+ },
+ "latency_s": 17.6,
+ "items": [
+  {
+   "label": "Hình 12",
+   "kind": "bar_chart",
+   "title": "Việt Nam tăng trưởng kinh tế cao nhưng thâm thải các-bon ....\nA. Tăng trưởng cộng dồn về GDP và khí thải CO₂, 1990-2019 (1990=100)",
+   "panels": "A. Tăng trưởng cộng dồn về GDP và khí thải CO₂, 1990-2019 (1990=100)",
+   "content": "Trục tung: Tăng trưởng cộng dồn 1990-2019 (1990=100), đơn vị không ghi rõ nhưng các giá trị là số chỉ số (index).\nTrục hoành: Các quốc gia (Trung Quốc, Việt Nam, Malaysia, Indonesia, Philippines, Thái Lan, Hàn Quốc).\nChú giải: \n- Màu xanh dương: GDP\n- Màu cam: Khí thải CO₂ của công nghiệp chế tạo chế biến và xây dựng\nCác giá trị in số trên hình:\n- Trung Quốc – GDP: khoảng 1.800 (đọc từ trục)\n- Trung Quốc – Khí thải CO₂: khoảng 1.600 (đọc từ trục)\n- Việt Nam – GDP: khoảng 1.600 (đọc từ trục)\n- Việt Nam – Khí thải CO₂: khoảng 1.200 (đọc từ trục)\n- Malaysia – GDP: khoảng 1.400 (đọc từ trục)\n- Malaysia – Khí thải CO₂: khoảng 1.000 (đọc từ trục)\n- Indonesia – GDP: khoảng 1.200 (đọc từ trục)\n- Indonesia – Khí thải CO₂: khoảng 800 (đọc từ trục)\n- Philippines – GDP: khoảng 1.000 (đọc từ trục)\n- Philippines – Khí thải CO₂: khoảng 600 (đọc từ trục)\n- Thái Lan – GDP: khoảng 800 (đọc từ trục)\n- Thái Lan – Khí thải CO₂: khoảng 400 (đọc từ trục)\n- Hàn Quốc – GDP: khoảng 600 (đọc từ trục)\n- Hàn Quốc – Khí thải CO₂: khoảng 200 (đọc từ trục)\nXu hướng chính: Việt Nam có mức tăng trưởng GDP và khí thải CO₂ cao thứ hai sau Trung Quốc, nhưng mức tăng trưởng khí thải CO₂ thấp hơn tăng trưởng GDP.",
+   "source_note": "Nguồn: WDI\nGhi chú: Khí thải CO₂ trong công nghiệp chế tạo chế biến và xây dựng dựa trên tỷ lệ đốt trong nhiên liệu trong các ngành trên từ 1990-2014, ngoại suy cho năm 2019 dựa trên tổng tăng trưởng khí thải"
+  },
+  {
+   "label": "Hình 12",
+   "kind": "line_chart",
+   "title": "… Một phần do sự đóng góp của xuất khẩu\nB. Khí thải CO₂ liên quan đến xuất khẩu (% tổng lượng khí thải của sản xuất)",
+   "panels": "B. Khí thải CO₂ liên quan đến xuất khẩu (% tổng lượng khí thải của sản xuất)",
+   "content": "Trục tung: % (tỷ lệ khí thải CO₂ liên quan đến xuất khẩu trên tổng lượng khí thải của sản xuất), từ -60% đến 40%.\nTrục hoành: Năm (1990, 1992, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2020).\nChú giải (màu/kiểu đường nét):\n- Đường liền xanh dương: Trung Quốc\n- Đường chấm xanh dương: Malaysia\n- Đường chấm đỏ: Thái Lan\n- Đường chấm đen: Indonesia\n- Đường chấm xanh lá: Mexico\n- Đường chấm cam: Thổ Nhĩ Kỳ\n- Đường liền xanh nhạt: Hàn Quốc\n- Đường liền đỏ: Việt Nam\n- Đường liền xanh lam: Philippines\nCác giá trị in số trên hình:\n- Không có giá trị số cụ thể trên các đường, chỉ có các mức trục tung: -60%, -50%, -40%, -30%, -20%, -10%, 0%, 10%, 20%, 30%, 40%.\nXu hướng chính: Việt Nam có tỷ lệ khí thải CO₂ liên quan đến xuất khẩu tăng mạnh từ mức âm (dưới 0%) vào đầu thập niên 1990 lên mức dương (trên 20%) vào năm 2020, vượt qua nhiều nước khác. Trung Quốc, Malaysia, Thái Lan, Indonesia, Mexico, Thổ Nhĩ Kỳ, Hàn Quốc, Philippines có các xu hướng khác nhau, nhưng Việt Nam nổi bật với mức tăng nhanh nhất.",
+   "source_note": "Nguồn: Dự án Các-bon Toàn cầu, Thế giới của chúng ta bằng dữ liệu\nGhi chú: Khí thải liên quan đến xuất khẩu tương ứng hàm lượng khí thải CO₂ trong xuất khẩu trừ đi hàm lượng trong tổng nhập khẩu"
+  }
+ ]
+}

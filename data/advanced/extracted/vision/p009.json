@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 2253,
+  "completion_tokens": 804,
+  "total_tokens": 3057,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 11,
+   "engine_ttft_ms": 218,
+   "engine_ttlt_ms": 9104,
+   "pre_inference_ms": 281,
+   "service_tbt_ms": 11,
+   "service_ttft_ms": 765,
+   "service_ttlt_ms": 9646,
+   "user_visible_ttft_ms": 484
+  }
+ },
+ "latency_s": 12.2,
+ "items": [
+  {
+   "label": null,
+   "kind": "table",
+   "title": "TỪ VIẾT TẮT",
+   "panels": null,
+   "content": "| Số | Từ viết tắt     | Diễn giải                                                                 |\n|----|-----------------|--------------------------------------------------------------------------|\n| 1  | AD              | Chống bán phá giá                                                         |\n| 2  | AHKFTA JC       | Ủy ban Hợp tác Thương mại Tự do ASEAN – Hồng Kông                        |\n| 3  | APCA            | Cục Kiểm soát Thủ tục Hành chính                                          |\n| 4  | ASEAN           | Hiệp hội Các quốc gia Đông Nam Á                                          |\n| 5  | ATP             | Lắp ráp, Kiểm thử và Đóng gói                                            |\n| 6  | BEC             | Các danh mục hàng hóa theo ngành Kinh tế rộng                            |\n| 7  | CBAM            | Cơ chế Điều chỉnh Biên giới Carbon                                        |\n| 8  | CGE             | Mô hình Cân bằng Tổng hợp có thể tính toán                               |\n| 9  | CMT             | Cắt - May - Hoàn thiện                                                    |\n| 10 | CPTPP           | Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương             |\n| 11 | CVM             | Các biện pháp đối kháng                                                   |\n| 12 | EAEU            | Liên minh Kinh tế Á-Âu                                                   |\n| 13 | EAP             | Đông Á và Thái Bình Dương                                                |\n| 14 | ECED            | Giáo dục và Phát triển Trẻ em Mầm non                                     |\n| 15 | ESCs            | Trung tâm Dịch vụ Việc làm                                               |\n| 16 | EVFTA           | Hiệp định Thương mại Tự do Liên minh Châu Âu – Việt Nam                   |\n| 17 | EVN             | Tập đoàn Điện lực Việt Nam                                                |\n| 18 | FDI             | Đầu tư trực tiếp nước ngoài                                              |\n| 19 | FTA             | Hiệp định Thương mại Tự do                                               |\n| 20 | GATS            | Hiệp định Chung về Thương mại Dịch vụ                                     |\n| 21 | GDP             | Tổng sản phẩm quốc nội                                                    |\n| 22 | GHG             | Khí nhà kính                                                             |\n| 23 | GMS             | Tiểu vùng Mê Kông Mở rộng                                                |\n| 24 | GTAP            | Dự án Phân tích Thương mại Toàn cầu                                      |\n| 25 | GVC             | Chuỗi giá trị toàn cầu                                                   |\n| 26 | HHI             | Chỉ số Herfindahl-Hirschman                                              |\n| 27 | HVDC            | Dòng điện một chiều cao áp                                               |\n| 28 | ICT             | Công nghệ thông tin và truyền thông                                      |\n| 29 | IoT             | Internet vạn vật                                                         |\n| 30 | IP              | Sở hữu trí tuệ                                                           |\n| 31 | IPAs            | Cơ quan Xúc tiến Đầu tư                                                  |\n| 32 | IPR             | Quyền sở hữu trí tuệ                                                     |\n| 33 | LMIC            | Quốc gia thu nhập trung bình thấp                                        |\n| 34 | LMIS            | Hệ thống thông tin thị trường lao động                                   |\n| 35 | LTGM            | Mô hình Tăng trưởng Dài hạn                                              |",
+   "source_note": ""
+  }
+ ]
+}

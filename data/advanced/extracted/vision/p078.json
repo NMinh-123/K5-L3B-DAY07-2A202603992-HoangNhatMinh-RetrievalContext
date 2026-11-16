@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 2838,
+  "completion_tokens": 588,
+  "total_tokens": 3426,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "service_ttft_ms": 1957,
+   "user_visible_ttft_ms": 1522,
+   "pre_inference_ms": 436,
+   "service_tbt_ms": 8,
+   "service_ttlt_ms": 6677,
+   "engine_ttft_ms": 656,
+   "engine_ttlt_ms": 5381,
+   "engine_tbt_ms": 8
+  }
+ },
+ "latency_s": 10.1,
+ "items": [
+  {
+   "label": "Hình 34",
+   "kind": "line_chart",
+   "title": "Thiếu hụt kỹ năng diễn ra cấp thiết hơn ở những ngành công nghiệp chế tạo chế biến thâm dụng công nghệ, khiến cho mức lương trội tăng lên",
+   "panels": null,
+   "content": "Biểu đồ đường thể hiện mức lương trội dành cho người tốt nghiệp đại học ở các ngành công nghiệp chế tạo chế biến (đơn vị: chỉ số, 100=2015) theo từng năm từ 2015 đến 2022. Trục tung là chỉ số mức lương trội, các mốc: 75, 85, 95, 105, 115, 125. Trục hoành là năm: 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022. Chú giải màu:\n- Xanh đậm: Thiết bị đo lường, quang học & thiết bị điện\n- Đỏ: Điện tử tiêu dùng và máy tính\n- Xanh nhạt: Gỗ, kim loại, cao su & đồ nội thất\n- Cam: Máy móc & thiết bị vận tải\n- Tím: Hoá chất & dược phẩm\n- Hồng: Dệt, may mặc & giày da\n- Xanh lá: Thực phẩm, đồ uống và thuốc lá\n- Vàng: Giấy & in ấn\n- Chấm tím: Chế tạo chế biến khác\nCác giá trị in số trên hình:\n- 2015: 75\n- 2016: 85\n- 2017: 95\n- 2018: 105\n- 2019: 115\n- 2020: 125\nXu hướng chính: Các ngành thiết bị đo lường, quang học & thiết bị điện và điện tử tiêu dùng, máy tính có mức lương trội tăng mạnh từ 2015 đến 2022, vượt xa các ngành khác. Các ngành còn lại có mức lương trội thấp hơn và tăng chậm hơn.\nGiá trị cụ thể từng chuỗi không in số, chỉ có tổng mức lương trội cho một số năm (có thể là chuỗi chính, nhưng không chắc từng số thuộc chuỗi nào).",
+   "source_note": "Nguồn: Tính toán của cán bộ Ngân hàng Thế giới dựa trên số liệu LFS.\nGhi chú: Mức lương trội được đo bằng tỷ lệ thu nhập bình quân tháng theo ngành cho người tốt nghiệp đại học trở lên so với người tốt nghiệp trung học phổ thông trong cùng ngành"
+  }
+ ]
+}

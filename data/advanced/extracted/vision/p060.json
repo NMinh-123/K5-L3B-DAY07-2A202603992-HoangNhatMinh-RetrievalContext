@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3260,
+  "completion_tokens": 797,
+  "total_tokens": 4057,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "service_ttft_ms": 1484,
+   "user_visible_ttft_ms": 974,
+   "pre_inference_ms": 509,
+   "service_tbt_ms": 8,
+   "service_ttlt_ms": 7883,
+   "engine_ttft_ms": 504,
+   "engine_ttlt_ms": 6908,
+   "engine_tbt_ms": 8
+  }
+ },
+ "latency_s": 11.9,
+ "items": [
+  {
+   "label": "Hình 24",
+   "kind": "scatter",
+   "title": "Chiến lược về hiệp định thương mại của Việt Nam tập trung vào bề rộng hơn là chiều sâu",
+   "panels": null,
+   "content": "Biểu đồ scatter thể hiện mối quan hệ giữa 'Chiều sâu của hiệp định thương mại tự do (FTA)' (trục dọc, từ 0 đến 10) và 'Sử dụng Hiệp định thương mại tự do' (trục ngang, từ 0 đến 10), với các quốc gia/khu vực là các điểm trên biểu đồ. Trục dọc: Chiều sâu của hiệp định thương mại tự do (FTA) – Tự do hóa hàng hóa và dịch vụ, biện pháp phi thuế quan, khả năng thực thi hiệu lực. Trục ngang: Sử dụng Hiệp định thương mại tự do (GDP và phạm vi bao phủ lưu lượng thương mại của hiệp định thương mại). Chú giải màu: Đỏ – Việt Nam; Xanh dương – các quốc gia/khu vực khác; Cam – các quốc gia/khu vực có chiều sâu FTA thấp. Các giá trị in số trên trục: Trục dọc (chiều sâu): 0, 2, 4, 6, 8, 10; Trục ngang (sử dụng): 0, 2, 4, 6, 8, 10. Các điểm dữ liệu (tên quốc gia/khu vực, vị trí tương đối): Việt Nam (điểm đỏ, sử dụng FTA cao, chiều sâu trung bình), EU, Trung Quốc, Hoa Kỳ, Nhật Bản, Hồng Kông, Hàn Quốc, Anh Quốc, Canada, Mê-hi-cô, Đài Loan, Ấn Độ, Sing-ga-po, Thụy Sỹ, Australia, Ma-lay-xia, Thái Lan, Thổ Nhĩ Kỳ, In-đô-nê-xia, Mercosur, Na Uy, Phi-líp-pin, Chi-lê, Ít-xai-ren, Ai-cập, Cô-lôm-bia, Pê-ru, Ma Rốc, Pa-kít-xtan, Niu Di-lân, Băng-la-đét, Cam-pu-chia, Miến Điện, Guatemala, Cộng hòa Đô-mi-ni-căng, Honduras, El Salvador, Brunei, Nicaragua. Xu hướng chính: Việt Nam có mức sử dụng FTA cao nhưng chiều sâu FTA ở mức trung bình, trong khi một số quốc gia có chiều sâu FTA cao nhưng mức sử dụng thấp, và ngược lại.",
+   "source_note": "Nguồn: Ngân hàng Thế giới sử dụng DESTA, BCG\nGhi chú: Sử dụng và chiều sâu của HĐTM tự do được đo trên thang điểm từ 0 đến 10, trong đó 10 nghĩa là khả năng sử dụng hoặc chiều sâu lớn nhất theo phương pháp luận của Dư và đồng sự (2012) và BCG (2024). Tự do hóa hàng hóa được tính điểm dựa trên mức thuế quan gia quyền hiệu quả trong số hàng hóa nhập khẩu và đối tác HĐTM tự do. Tự do hóa dịch vụ được tính điểm dựa trên số lượng các loại dịch vụ được quy định trong các HĐTM tự do. Bề rộng là chỉ tiêu về các điều khoản phi thương mại được đưa vào (quyền sở hữu trí tuệ, lưu lượng đầu tư, v.v.). Khả năng thực thi hiệu lực được đo lường dựa trên thế mạnh của các cơ chế giải quyết tranh chấp"
+  }
+ ]
+}

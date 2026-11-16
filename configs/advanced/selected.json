@@ -1,0 +1,48 @@
+{
+  "selected": "adv-base-haiku-v2",
+  "frozen_at": "2026-11-16T12:05:40+07:00",
+  "rule": "configs/advanced/SELECTION.md",
+  "reason": "Hòa adv-inspect-haiku-v2 ở 17/18 dev (đọc tay) và Context Evidence 15/15; rẻ hơn (0,19 so với 0,35 USD) và nhanh hơn (4,2 so với 13,9 s trung vị).",
+  "dev": [
+    {
+      "config": "adv-base-haiku",
+      "dev_pass_human": "15/18",
+      "context_evidence_all": "14/15",
+      "cost_usd_est": 0.2156,
+      "latency_s_median": 9.05
+    },
+    {
+      "config": "adv-inspect-haiku",
+      "dev_pass_human": "14/18",
+      "context_evidence_all": "13/15",
+      "cost_usd_est": 0.3885,
+      "latency_s_median": 17.075000000000003
+    },
+    {
+      "config": "adv-base-haiku-v2",
+      "dev_pass_human": "17/18",
+      "context_evidence_all": "15/15",
+      "cost_usd_est": 0.1905,
+      "latency_s_median": 4.175000000000001
+    },
+    {
+      "config": "adv-inspect-haiku-v2",
+      "dev_pass_human": "17/18",
+      "context_evidence_all": "15/15",
+      "cost_usd_est": 0.3531,
+      "latency_s_median": 13.885
+    }
+  ],
+  "test_seen_before_selection": false,
+  "note": "Học viên yêu cầu chưa commit; mã băm SHA-256 dưới đây cố định cấu hình, benchmark và code tại thời điểm chốt.",
+  "sha256": {
+    "configs/advanced/adv-base-haiku-v2.json": "62f0f6150e673e67cf5f6b1657cbdc9156ccb4b5d25db71cfab7a7900dda5ebe",
+    "data/advanced/benchmark.json": "25b3dd0e450877cb2f6fafe05f16e0cf9cdba226941b8280f0f47ed23dff4c31",
+    "data/advanced/chunks.json": "f0c3e413524f2040991e3d809e3cabe35bd56a368f307191edd788e3b63ae627",
+    "src/advanced/agent_adv.py": "f89f29b4c4583f5ed6cc15ae94fbdc998796171f4908a99ee8134ff6bdaa044c",
+    "src/advanced/run_adv.py": "fdebc244d00e30afd997ae71a8bb48fe8636a0aa10ae1cad0f7aece26d2db19a",
+    "src/agent.py": "5539a581af2b9eb401002a7c625e20dd95c82401e5e0788305c7f8476138e2bf",
+    "src/lexical.py": "97c218616b4899c362cf49af0e4c1d333a6a6539fe13279713c2cb187076472c",
+    "src/dense.py": "dc4528ef03e3789ee8394fdba6cdaec09b041f53fab74429087471f5b9de9815"
+  }
+}

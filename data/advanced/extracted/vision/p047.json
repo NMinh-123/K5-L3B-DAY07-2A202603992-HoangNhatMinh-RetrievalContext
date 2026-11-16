@@ -1,0 +1,30 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 2347,
+  "completion_tokens": 7,
+  "total_tokens": 2354,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 6,
+   "engine_ttft_ms": 544,
+   "engine_ttlt_ms": 595,
+   "pre_inference_ms": 218,
+   "service_tbt_ms": 7,
+   "service_ttft_ms": 1471,
+   "service_ttlt_ms": 1518,
+   "user_visible_ttft_ms": 1253
+  }
+ },
+ "latency_s": 6.4,
+ "items": []
+}

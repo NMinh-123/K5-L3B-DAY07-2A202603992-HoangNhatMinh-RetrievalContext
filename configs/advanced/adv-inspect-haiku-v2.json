@@ -1,0 +1,4 @@
+{"name": "adv-inspect-haiku-v2", "description": "adv-base-haiku-v2 + tool inspect_figure (claude-haiku-4-5 đọc lại ảnh trang + nhãn lớp text), tối đa 2 lần. Giả thuyết: đọc lại ảnh sửa lỗi đọc sơ đồ/biểu đồ không in số (ad05, ad10).",
+ "retriever": "hybrid", "top_k": 6, "max_searches": 4, "max_inspects": 2, "max_turns": 11, "budget_chars": 9000,
+ "seed_with_question": true, "nudge_no_tool": true,
+ "model": "claude-haiku-4-5-20251001", "inspect_model": "claude-haiku-4-5-20251001", "temperature": 0.0}

@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3226,
+  "completion_tokens": 700,
+  "total_tokens": 3926,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "service_ttft_ms": 2060,
+   "user_visible_ttft_ms": 1542,
+   "pre_inference_ms": 518,
+   "service_tbt_ms": 9,
+   "service_ttlt_ms": 8281,
+   "engine_ttft_ms": 645,
+   "engine_ttlt_ms": 6873,
+   "engine_tbt_ms": 9
+  }
+ },
+ "latency_s": 23.3,
+ "items": [
+  {
+   "label": "Bảng 3",
+   "kind": "table",
+   "title": "Tổng hợp các hệ số trọng lực chính và mức giảm chi phí thương mại nhờ các hiệp định thương mại ưu đãi (PTA) tương đương thuế quan (AVE)",
+   "panels": null,
+   "content": "Bảng gồm các cột: Hàng hóa | PTA | PTA med | EU | PTA deep | EU\n\n| Hàng hóa                | PTA   | PTA med | EU    | PTA deep | EU     |\n|------------------------|-------|---------|-------|----------|--------|\n| Cây trồng              | 0,036 | 0,784   | 2,071 | -31,6%   | -48,8% |\n| Sản phẩm động vật      | 0,017 | 0,380   | 1,537 | -5,1%    | -13,2% |\n| Khai mỏ khác           | 0,035 | 0,764   | 2,497 | -34,4%   | -60,1% |\n| Sản phẩm thịt          | 0,020 | 0,446   | 1,187 | -30,1%   | -47,0% |\n| Thực phẩm và đồ uống   | 0,031 | 0,678   | 1,054 | -13,8%   | -14,2% |\n| Dệt                    | 0,014 | 0,315   | 1,240 | -6,1%    | -15,2% |\n| May mặc và giày da     | 0,010 | 0,213   | 1,285 | -3,0%    | -11,4% |\n| Sản phẩm gỗ và giấy    | 0,010 | 0,213   | 1,285 | -3,0%    | -11,4% |\n| Sản phẩm xăng dầu, than| 0,010 | 0,213   | 1,285 | -3,0%    | -11,4% |\n\nCác giá trị:\n- PTA, PTA med, EU: hệ số trọng lực chính (không có đơn vị)\n- PTA deep, EU: mức giảm chi phí thương mại tương đương thuế quan (AVE), đơn vị % (âm nghĩa là giảm)\n\nChú thích các cột:\n- PTA: Hiệp định thương mại ưu đãi\n- PTA med: Hiệp định thương mại ưu đãi mức trung bình\n- EU: Liên minh châu Âu\n- PTA deep: Hiệp định thương mại ưu đãi sâu\n- Example AVEs: Ví dụ về mức giảm chi phí thương mại tương đương thuế quan\n\nXu hướng chính: Các hiệp định thương mại ưu đãi và EU đều giúp giảm chi phí thương mại (AVE âm), với mức giảm lớn nhất ở nhóm khai mỏ khác và cây trồng. Hệ số trọng lực EU cao nhất ở hầu hết các nhóm hàng hóa.",
+   "source_note": null
+  }
+ ]
+}

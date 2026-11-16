@@ -1,0 +1,42 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 5089,
+  "completion_tokens": 1583,
+  "total_tokens": 6672,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 10,
+   "engine_ttft_ms": 1100,
+   "engine_ttlt_ms": 17475,
+   "pre_inference_ms": 869,
+   "service_tbt_ms": 10,
+   "service_ttft_ms": 2905,
+   "service_ttlt_ms": 19271,
+   "user_visible_ttft_ms": 2036
+  }
+ },
+ "latency_s": 38.6,
+ "items": [
+  {
+   "label": "Hình 3",
+   "kind": "infographic",
+   "title": "Giỏ hàng xuất khẩu chuyển đổi nhanh và ngày càng phức tạp",
+   "panels": [
+    "A. Giỏ hàng xuất khẩu, 2010 (Tổng: 77 tỷ US$)",
+    "B. Giỏ hàng xuất khẩu, 2022 (Tổng: 399 tỷ US$)"
+   ],
+   "content": "Đây là hai biểu đồ dạng treemap (bản đồ cây) thể hiện cơ cấu các mặt hàng xuất khẩu của Việt Nam theo tỷ trọng giá trị xuất khẩu từng mặt hàng trong tổng kim ngạch xuất khẩu, cho hai năm 2010 và 2022. \n\nA. Giỏ hàng xuất khẩu, 2010 (Tổng: 77 tỷ US$):\n- Các nhóm màu:\n  + Xanh lá cây: hàng nông sản, thực phẩm (ví dụ: Rice, Coffee, Pepper, Knit Sweaters, Non-Knit Women's Suits, Leather Footwear, Textile Footwear, Rubber Footwear)\n  + Xanh dương: hàng điện tử, máy móc (Industrial Printers, Broadcasting Equipment, Telephones, Electric Motors, Insulated Wire)\n  + Nâu/đỏ: khoáng sản, nhiên liệu (Crude Petroleum, Coal Briquettes, Refined Petroleum, Fuel Wood)\n  + Vàng: lúa gạo, cà phê, hạt điều, tiêu\n  + Tím: trang sức (Jewellery)\n  + Xám: đồ nội thất (Other Furniture, Seats, Trunks and Cases)\n- Các giá trị lớn nhất (ghi số trên hình):\n  + Crude Petroleum – 6.6%\n  + Rice – 4.25%\n  + Leather Footwear – 3.85%\n  + Other Furniture – 2.99%\n  + Industrial Printers – 2.84%\n  + Broadcasting Equipment – 2.76%\n  + Fish Fillets – 2.36%\n  + Coffee – 2.35%\n  + Knit T-shirts – 1.04%\n  + Knit Sweaters – 2.04%\n  + Non-Knit Women's Suits – 2.23%\n  + Textile Footwear – 2.32%\n  + Crustaceans – 2.13%\n  + Coal Briquettes – 2.1%\n  + Refined Petroleum – 1.63%\n  + Rubber – 1.6%\n  + Jewellery – 1.73%\n  + Trunks and Cases – 1.24%\n  + Seats – 1.15%\n  + Insulated Wire – 1.79%\n  + Telephones – 0.81%\n  + Electric Motors – 0.73%\n  + Pepper – 0.56%\n  + Coconuts, Brazil Nuts, and Cashews – 1.49%\n  + Processed Crustaceans – 0.86%\n  + Fuel Wood – 0.66%\n- Xu hướng chính: Năm 2010, xuất khẩu tập trung vào dầu thô, nông sản (gạo, cà phê, hạt điều, thủy sản), giày dép, dệt may, đồ nội thất, và một số sản phẩm điện tử/máy móc còn nhỏ lẻ.\n\nB. Giỏ hàng xuất khẩu, 2022 (Tổng: 399 tỷ US$):\n- Các nhóm màu:\n  + Xanh dương: hàng điện tử, máy móc (Broadcasting Equipment, Telephones, Integrated Circuits, Office Machine Parts, Insulated Wire, Semiconductor Devices, Video Recording Equipment, Video Displays, Computers)\n  + Xanh lá cây: dệt may, giày dép (Textile Footwear, Leather Footwear, Knit Sweaters, Non-Knit Men's Suits, Knit T-shirts, Non-Knit Women's Suits)\n  + Vàng: nông sản (Rice, Coffee)\n  + Nâu/đỏ: nhiên liệu (Fuel Wood)\n  + Xám: đồ nội thất (Other Furniture, Seats, Trunks and Cases)\n  + Tím: trang sức (Jewellery)\n- Các giá trị lớn nhất (ghi số trên hình):\n  + Broadcasting Equipment – 14.7%\n  + Telephones – 6.11%\n  + Integrated Circuits – 4.24%\n  + Office Machine Parts – 4.19%\n  + Textile Footwear – 3.31%\n  + Leather Footwear – 2.06%\n  + Other Furniture – 2.29%\n  + Insulated Wire – 1.66%\n  + Semiconductor Devices – 1.76%\n  + Video Recording Equipment – 1.37%\n  + Video Displays – 1.32%\n  + Computers – 1.71%\n  + Knit Sweaters – 1.21%\n  + Non-Knit Men's Suits – 0.99%\n  + Knit T-shirts – 0.68%\n  + Non-Knit Women's Suits – 0.91%\n  + Seats – 1.21%\n  + Trunks and Cases – 0.94%\n  + Fish Fillets – 0.91%\n  + Fuel Wood – 0.93%\n  + Coffee – 0.74%\n  + Rice – 0.8%\n  + Rubber Tires – 0.6%\n  + Jewellery – 0.51%\n- Xu hướng chính: Năm 2022, xuất khẩu chuyển mạnh sang các sản phẩm điện tử, máy móc (chiếm gần 50% tổng kim ngạch), trong đó lớn nhất là thiết bị truyền phát (Broadcasting Equipment), điện thoại, linh kiện điện tử, máy tính. Tỷ trọng các mặt hàng nông sản, nhiên liệu, dệt may, giày dép giảm mạnh so với 2010.\n- Chú giải màu: Xanh dương là điện tử và máy móc; xanh lá cây là dệt may, da giày và các mặt hàng nông sản thực phẩm; nâu là xăng dầu khoáng sản; thiết bị âm thanh hình ảnh gồm thiết bị truyền phát, TV, máy ảnh truyền hình, máy ảnh số, máy ghi hình video.",
+   "source_note": "Nguồn: OEC dựa vào Comtrade, Bộ dữ liệu BACI.\nGhi chú: Giỏ hàng xuất khẩu được trình bày theo mã HX1992 cấp độ 4 ký tự, tương ứng với 1.000 loại sản phẩm. Tỷ lệ phần trăm tương ứng với tỷ trọng trên tổng giá trị thương mại của một sản phẩm cụ thể. Mã màu thể hiện nhóm loại sản phẩm: màu xanh dương là hàng điện tử và máy móc; màu xanh lá cây là dệt, giày da và may mặc khác; xanh lá cây nhạt và vàng là hàng nông sản thực phẩm; nâu là xăng dầu khoáng sản. Thiết bị âm thanh hình ảnh bao gồm thiết bị truyền phát như đài, TV, máy ảnh truyền hình, máy ảnh số, và máy ghi hình video."
+  }
+ ]
+}

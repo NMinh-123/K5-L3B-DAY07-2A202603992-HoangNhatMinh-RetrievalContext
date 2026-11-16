@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3335,
+  "completion_tokens": 704,
+  "total_tokens": 4039,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "service_ttft_ms": 1818,
+   "user_visible_ttft_ms": 1173,
+   "pre_inference_ms": 645,
+   "service_tbt_ms": 9,
+   "service_ttlt_ms": 8210,
+   "engine_ttft_ms": 651,
+   "engine_ttlt_ms": 7048,
+   "engine_tbt_ms": 9
+  }
+ },
+ "latency_s": 11.5,
+ "items": [
+  {
+   "label": null,
+   "kind": "table",
+   "title": "Quá trình | Đo lường | Mô tả đo lường | Chỉ số kết quả | Giá trị Việt Nam | Năm giá trị Việt Nam | Tiêu thụ | Mức mục tiêu | Tăng | Độ co giãn tăng trưởng TFP (%/%) | Độ đàn hồi l / Y (%/%)",
+   "panels": null,
+   "content": "Bảng gồm các cột:\n- Quá trình\n- Đo lường\n- Mô tả đo lường\n- Chỉ số kết quả\n- Giá trị Việt Nam\n- Năm giá trị Việt Nam\n- Tiêu thụ\n- Mức mục tiêu\n- Tăng\n- Độ co giãn tăng trưởng TFP (%/%)\n- Độ đàn hồi l / Y (%/%)\n\nDữ liệu bảng:\n| Quá trình | Đo lường | Mô tả đo lường | Chỉ số kết quả | Giá trị Việt Nam | Năm giá trị Việt Nam | Tiêu thụ | Mức mục tiêu | Tăng | Độ co giãn tăng trưởng TFP (%/%) | Độ đàn hồi l / Y (%/%) |\n|-----------|----------|----------------|----------------|------------------|----------------------|----------|--------------|------|-------------------------------|-----------------------|\n| 5. Từ nền giáo dục cơ bản vững chắc đến kỹ năng lao động cao hơn | 5.1 | tài chính mà sinh viên phải đối mặt giáo dục lên trình độ cao hơn 900.000 việc làm kỹ thuật mới sẽ cần được lấp đầy vào năm 2030, điều này sẽ đòi hỏi thêm 430.000 sinh viên tốt nghiệp hàng năm. Chi phí học phí cao và rào cản tài chính đang tạo ra rào cản để theo đuổi các chương trình STEM chất lượng | số (%) (tích lũy) | 10.25 | 2019 | KOR | 2015 | 28.68 | 18.43 | 0,06 |\n\nCác giá trị:\n- Giá trị Việt Nam: 10.25\n- Năm giá trị Việt Nam: 2019\n- Tiêu thụ: KOR\n- Mức mục tiêu: 2015\n- Tăng: 28.68\n- Độ co giãn tăng trưởng TFP (%/%): 18.43\n- Độ đàn hồi l / Y (%/%): 0,06",
+   "source_note": "Ghi chú: Toàn bộ các độ co giãn bán cáo có ý nghĩa thống kê ở mức 10% và được tính qua hồi quy hiệu ứng cố định giữa các quốc gia với các biến giả về năm và mức thu nhập. Dữ liệu lấy từ WDI bao gồm mọi quốc gia ngoại trừ những kỹ năng mà các quốc gia thu nhập thấp bị loại ra do các quốc gia thu nhập thấp có tỷ lệ hoàn thành cấp học sau phổ thông ở mức thấp hơn nhiều so vứoi Việt Nam. Lợi ích tăng đầu tư của Gói chính sách 3 và 4 được ngoại suy dựa trên Gói chính sách 2."
+  }
+ ]
+}

@@ -1,0 +1,345 @@
+[
+  {
+    "id": "d01",
+    "split": "dev",
+    "question": "Người bệnh viêm não do HSV không suy giảm miễn dịch cần dùng acyclovir tĩnh mạch trong bao lâu?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 15,
+        "evidence": "điều trị acyclovir tĩnh mạch trong 10-14 ngày đối với người bệnh viêm não do HSV không suy giảm miễn dịch."
+      }
+    ],
+    "expected_answer": "10–14 ngày."
+  },
+  {
+    "id": "d02",
+    "split": "dev",
+    "question": "Phần lớn các ca viêm não Herpes là do loại virus nào gây ra?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 13,
+        "evidence": "Căn nguyên gây bệnh là virus Herpes simplex (HSV) typ 1 (> 95% số ca bệnh) và typ 2 (< 5% số ca bệnh)."
+      }
+    ],
+    "expected_answer": "HSV typ 1 (> 95% số ca); typ 2 chiếm < 5%."
+  },
+  {
+    "id": "d03",
+    "split": "dev",
+    "question": "Viêm màng não do phế cầu phải điều trị kháng sinh lâu hơn do não mô cầu bao nhiêu ngày?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 20,
+        "evidence": "Thời gian điều trị Não mô cầu là 7 ngày, Hib là 10 ngày, phế cầu là 14 ngày"
+      }
+    ],
+    "expected_answer": "Phế cầu 14 ngày, não mô cầu 7 ngày (lâu hơn 7 ngày); Hib 10 ngày."
+  },
+  {
+    "id": "d04",
+    "split": "dev",
+    "question": "Ở người trưởng thành, những vi khuẩn nào hay gây viêm màng não mủ tại Việt Nam?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 17,
+        "evidence": "ở người trưởng thành là liên cầu (đặc biệt là Streptococcus suis), phế cầu và não mô cầu."
+      }
+    ],
+    "expected_answer": "Liên cầu (đặc biệt Streptococcus suis), phế cầu và não mô cầu."
+  },
+  {
+    "id": "d05",
+    "split": "dev",
+    "question": "Tỷ lệ lây nhiễm của bệnh thủy đậu ở người chưa có miễn dịch là bao nhiêu?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 22,
+        "evidence": "Thủy đậu là bệnh dễ lây truyền; tỷ lệ lây nhiễm lên đến 90% ở những người chưa có miễn dịch."
+      }
+    ],
+    "expected_answer": "Lên đến 90%."
+  },
+  {
+    "id": "d06",
+    "split": "dev",
+    "question": "Khi có biến chứng viêm não, thuốc kháng virus tĩnh mạch được dùng với liều nào và trong bao nhiêu ngày?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 24,
+        "evidence": "liều 10-12,5 mg/kg, 8 giờ một lần, để làm giảm các biến chứng nội tạng. Thời gian điều trị là 7 ngày."
+      }
+    ],
+    "expected_answer": "Acyclovir tĩnh mạch 10–12,5 mg/kg mỗi 8 giờ, trong 7 ngày.",
+    "filter": {
+      "disease": "thuy_dau"
+    }
+  },
+  {
+    "id": "d07",
+    "split": "dev",
+    "question": "Liều globulin miễn dịch uốn ván từ người (HTIG) để trung hòa độc tố là bao nhiêu?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 29,
+        "evidence": "Globulin miễn dịch uốn ván từ người (HTIG) liều 3000 - 6000 đơn vị tiêm bắp"
+      }
+    ],
+    "expected_answer": "3000–6000 đơn vị, tiêm bắp."
+  },
+  {
+    "id": "d08",
+    "split": "dev",
+    "question": "Kháng sinh diệt vi khuẩn được dùng trong bao lâu và có những thuốc thay thế nào?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 29,
+        "evidence": "erythromycin, penicillin V hoặc clindamycin là những thay thế của metronidazol và penicillin G; thời gian điều trị 7 - 10 ngày."
+      }
+    ],
+    "expected_answer": "7–10 ngày; erythromycin, penicillin V hoặc clindamycin thay thế metronidazol và penicillin G.",
+    "filter": {
+      "disease": "uon_van"
+    }
+  },
+  {
+    "id": "d09",
+    "split": "dev",
+    "question": "Dấu hiệu sớm nhất của uốn ván ở trẻ sơ sinh là gì?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 28,
+        "evidence": "Triệu chứng đầu tiên là bỏ bú, khóc nhỏ tiếng, sau đó, khít hàm, không bú được, cứng cơ toàn thân, và co giật."
+      }
+    ],
+    "expected_answer": "Bỏ bú, khóc nhỏ tiếng; sau đó khít hàm, không bú được, cứng cơ toàn thân và co giật."
+  },
+  {
+    "id": "d10",
+    "split": "dev",
+    "question": "Phác đồ điều trị thay thế (second line) cho sốt rét kháng thuốc gồm những thuốc nào?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 36,
+        "evidence": "Quinin 30 mg/kg/ngày x 7 ngày + doxycyclin 3 mg/kg/ngày x 7 ngày."
+      }
+    ],
+    "expected_answer": "Quinin 30 mg/kg/ngày x 7 ngày + doxycyclin 3 mg/kg/ngày x 7 ngày."
+  },
+  {
+    "id": "d11",
+    "split": "dev",
+    "question": "Phụ nữ có thai bị sốt rét kháng thuốc thì phác đồ thay thế thay doxycyclin bằng thuốc gì?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 36,
+        "evidence": "Quinin 30 mg/kg/ngày x 7 ngày + clindamycin 15 mg/kg/ngày x 7 ngày cho phụ nữ có thai"
+      }
+    ],
+    "expected_answer": "Quinin 30 mg/kg/ngày x 7 ngày + clindamycin 15 mg/kg/ngày x 7 ngày."
+  },
+  {
+    "id": "d12",
+    "split": "dev",
+    "question": "Vi khuẩn thương hàn hiện đã đề kháng với những kháng sinh nào?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 41,
+        "evidence": "Các kháng sinh vi khuẩn thương hàn đã kháng lại: ampicillin, amoxicillin, chloramphenicol, co-trimoxazol."
+      }
+    ],
+    "expected_answer": "Ampicillin, amoxicillin, chloramphenicol, co-trimoxazol."
+  },
+  {
+    "id": "d13",
+    "split": "dev",
+    "question": "Liều ciprofloxacin hoặc ofloxacin trong điều trị thương hàn là bao nhiêu?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 41,
+        "evidence": "Ciprofloxacin hoặc ofloxacin: 15 mg/kg/ngày, có thể lên tới 20 mg/kg/ngày."
+      }
+    ],
+    "expected_answer": "15 mg/kg/ngày, có thể lên tới 20 mg/kg/ngày."
+  },
+  {
+    "id": "d14",
+    "split": "dev",
+    "question": "Thời gian điều trị kháng sinh là bao nhiêu ngày?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 46,
+        "evidence": "Levofloxacin 500 mg x 1 lần/ngày Thời gian điều trị: 5 ngày."
+      }
+    ],
+    "expected_answer": "5 ngày (phác đồ fluoroquinolon).",
+    "filter": {
+      "disease": "ly_truc_khuan"
+    }
+  },
+  {
+    "id": "d15",
+    "split": "dev",
+    "question": "Nội soi trực tràng ở người bệnh lỵ do Shigella thường thấy tổn thương như thế nào?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 45,
+        "evidence": "Hình ảnh viêm lan tỏa cấp tính niêm mạc, có nhiều vết loét nông đường kính 3-7 mm, có thể xuất huyết chỗ loét."
+      }
+    ],
+    "expected_answer": "Viêm lan tỏa cấp tính niêm mạc, nhiều vết loét nông đường kính 3–7 mm, có thể xuất huyết chỗ loét."
+  },
+  {
+    "id": "d16",
+    "split": "dev",
+    "question": "Liều oseltamivir để điều trị cúm cho người lớn là bao nhiêu?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 51,
+        "evidence": "Người lớn và trẻ em > 13 tuổi: 75 mg x 2 lần/ngày."
+      }
+    ],
+    "expected_answer": "75 mg x 2 lần/ngày (người lớn và trẻ > 13 tuổi); dự phòng là 75 mg x 1 lần/ngày."
+  },
+  {
+    "id": "d17",
+    "split": "dev",
+    "question": "Thuốc kháng virus được dùng trong bao nhiêu ngày và liều tính theo gì?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 51,
+        "evidence": "Liều lượng oseltamivir được tính theo lứa tuổi và cân nặng. Thời gian điều trị là 5 ngày."
+      }
+    ],
+    "expected_answer": "5 ngày; liều oseltamivir tính theo tuổi và cân nặng.",
+    "filter": {
+      "disease": "cum_mua"
+    }
+  },
+  {
+    "id": "d18",
+    "split": "dev",
+    "question": "Viêm màng não tăng bạch cầu ái toan do nhiễm trùng thường liên quan đến những ký sinh trùng nào?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 55,
+        "evidence": "VMN tăng BC ái toan nhiễm trùng thường liên quan đến nhiễm ấu trùng của các loài giun sán như giun phổi chuột Angiostrongilus cantonensis, giun đũa chó Toxocara canis, giun gai Gnathostoma spinigerum"
+      }
+    ],
+    "expected_answer": "Ấu trùng giun sán: giun phổi chuột Angiostrongylus cantonensis, giun đũa chó Toxocara canis, giun gai Gnathostoma spinigerum…"
+  },
+  {
+    "id": "d19",
+    "split": "dev",
+    "question": "Tiêu chảy do độc tố tụ cầu khởi phát sau bao lâu và có gây sốt không?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 74,
+        "evidence": "Tiêu chảy do độc tố tụ cầu: thời gian ủ bệnh ngắn 1-6 giờ, buồn nôn, nôn, tiêu chảy nhiều nước nhưng không sốt."
+      }
+    ],
+    "expected_answer": "Ủ bệnh ngắn 1–6 giờ; buồn nôn, nôn, tiêu chảy nhiều nước nhưng không sốt."
+  },
+  {
+    "id": "t01",
+    "split": "test",
+    "question": "Từ lúc bị nhiễm đến khi phát bệnh sốt mò thường mất bao lâu?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 60,
+        "evidence": "Thời gian ủ bệnh của sốt mò kéo dài từ 6 ngày đến 21 ngày (trung bình từ 9 đến 12 ngày)."
+      }
+    ],
+    "expected_answer": "6–21 ngày, trung bình 9–12 ngày."
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "question": "Tác nhân gây bệnh sốt mò là vi khuẩn gì?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 60,
+        "evidence": "Tác nhân gây sốt mò là Orientia tsutsugamushi, một loại vi khuẩn Gram (-) thuộc họ Rickettsiacea."
+      }
+    ],
+    "expected_answer": "Orientia tsutsugamushi, vi khuẩn Gram (-) họ Rickettsiacea."
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "question": "Phác đồ doxycyclin được dùng với liều nào và kéo dài bao nhiêu ngày?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 63,
+        "evidence": "Doxycyclin: liều 0,1 g x 2 viên uống chia 2 lần/ngày trong 5 ngày."
+      }
+    ],
+    "expected_answer": "0,1 g x 2 viên/ngày chia 2 lần, trong 5 ngày.",
+    "filter": {
+      "disease": "sot_mo"
+    }
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "question": "Phụ nữ có thai hoặc trẻ dưới 10 tuổi bị sốt mò nên dùng kháng sinh nào?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 63,
+        "evidence": "Azithromycin 500 mg uống một lần/ngày x 1-3 ngày; chỉ định cho phụ nữ có thai, trẻ dưới 10 tuổi"
+      }
+    ],
+    "expected_answer": "Azithromycin 500 mg uống 1 lần/ngày x 1–3 ngày."
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "question": "Thời gian điều trị kháng sinh là bao nhiêu ngày và có thể dùng kháng sinh thay thế nào?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 71,
+        "evidence": "Kháng sinh thay thế hiện nay là gentamycin, fluoroquinolones, doxycyclin. - Thời gian điều trị là 10 ngày."
+      }
+    ],
+    "expected_answer": "10 ngày; thay thế bằng gentamycin, fluoroquinolones, doxycyclin.",
+    "filter": {
+      "disease": "dich_hach"
+    }
+  },
+  {
+    "id": "t06",
+    "split": "test",
+    "question": "Sau khi nhiễm vi khuẩn dịch hạch, bao lâu thì người bệnh có triệu chứng?",
+    "gold": [
+      {
+        "source_id": "byt-5642-2015-truyennhiem",
+        "page": 69,
+        "evidence": "thời gian ủ bệnh thường ngắn, từ 1-6 ngày tùy từng thể."
+      }
+    ],
+    "expected_answer": "Ủ bệnh ngắn, 1–6 ngày tùy thể."
+  }
+]

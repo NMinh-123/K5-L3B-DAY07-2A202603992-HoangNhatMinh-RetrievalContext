@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3927,
+  "completion_tokens": 1208,
+  "total_tokens": 5135,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "service_ttft_ms": 1370,
+   "user_visible_ttft_ms": 985,
+   "pre_inference_ms": 385,
+   "service_tbt_ms": 8,
+   "service_ttlt_ms": 10844,
+   "engine_ttft_ms": 514,
+   "engine_ttlt_ms": 9994,
+   "engine_tbt_ms": 8
+  }
+ },
+ "latency_s": 14.3,
+ "items": [
+  {
+   "label": null,
+   "kind": "table",
+   "title": "Danh sách các sản phẩm xuất khẩu có giá trị cao của Việt Nam, kèm các chỉ số về đối tác, tỷ lệ, HHI, độ phức tạp",
+   "panels": null,
+   "content": "Bảng gồm các cột: #, Mã HS17, Mô tả sản phẩm, Lĩnh vực, Giá trị xuất khẩu (triệu USD), Đối tác lớn nhất, Tỷ lệ của đối tác lớn nhất, Chỉ số HHI, Độ tập nội vi, Độ phức tạp. Dữ liệu chi tiết:\n\n| #  | Mã HS17 | Mô tả sản phẩm                                                                                                   | Lĩnh vực           | Giá trị xuất khẩu (triệu USD) | Đối tác lớn nhất | Tỷ lệ của đối tác lớn nhất | Chỉ số HHI | Độ tập nội vi | Độ phức tạp |\n|----|---------|------------------------------------------------------------------------------------------------------------------|--------------------|-------------------------------|------------------|---------------------------|------------|--------------|-------------|\n| 13 | 902710  | Dụng cụ và bộ máy; Thiết bị phân tích khí hoặc khói, để phân tích vật lý hoặc hóa học                         | Dụng cụ quang học  | 127                          | Hàn Quốc         | 71%                      | 0.52       | 0.11         | 1.14        |\n| 14 | 720421  | Chất thải sắt và phế liệu; của thép không gỉ                                                                  | Kim loại           | 99                           | Ấn Độ            | 78%                      | 0.63       | 0.45         | 1.44        |\n| 15 | 903300  | Máy móc và thiết bị, dụng cụ hoặc thiết bị thuộc chương 90; Các bộ phận và phụ kiện N.E.C. IN Chương 90        | Dụng cụ quang học  | 89                           | Hồng Kông, Trung Quốc | 75%                 | 0.58       | 0.1          | 1.13        |\n| 16 | 700992  | Gương thủy tinh; có khung, không bao gồm gương chiếu hậu cho xe                                               | Đá / Thủy tinh     | 75                           | Mỹ               | 76%                      | 0.59       | 0.08         | 1.02        |\n| 17 | 852349  | Dụng cụ quang học; được ghi lại, không bao gồm các sản phẩm thuộc Chương 37                                   | Máy móc / Điện     | 69                           | Thái Lan         | 97%                      | 0.94       | 0.11         | 1.24        |\n| 18 | 610444  | Váy cho phụ nữ hoặc trẻ em gái, bằng sợi nhân tạo, dệt kim hoặc móc                                           | Dệt                | 66                           | Mỹ               | 77%                      | 0.59       | 0.09         | 1.23        |\n| 19 | 760200  | Nhôm; chất thải và phế liệu                                                                                   | Kim loại           | 55                           | Hàn Quốc         | 78%                      | 0.65       | 0.33         | 1.64        |\n| 20 | 620920  | Hàng may mặc và phụ kiện quần áo; trẻ sơ sinh bằng bông (không dệt kim hoặc móc)                              | Dệt                | 49                           | Mỹ               | 80%                      | 0.64       | 0.07         | 1.07        |\n| 21 | 490900  | Bưu thiếp in hoặc minh họa; Thiệp in mang lời chào cá nhân, tin nhắn hoặc thông báo, có hoặc không minh họa...| Gỗ & Sản phẩm gỗ   | 43                           | Mỹ               | 87%                      | 0.77       | 0.1          | 1.14        |\n| 22 | 740321  | Hợp kim cơ sở đồng-kẽm (đồng thau) chưa rèn                                                                   | Kim loại           | 38                           | Trung Quốc       | 100%                     | 1          | 0.27         | 1.04        |\n| 23 | 620111  | Áo cho nam hoặc trẻ em nam, áo khoác, áo mưa, áo khoác xe, áo choàng và các vật phẩm tương tự, bằng len hoặc...| Dệt                | 27                           | Hàn Quốc         | 76%                      | 0.59       | 0.09         | 1.44        |\n| 24 | 950590  | Các sản phẩm về lễ hội, lễ hội hóa trang hoặc các đồ giải trí khác bao gồm những trò chơi mới và ảo thuật...   | Khác               | 26                           | Mỹ               | 72%                      | 0.52       | 0.15         | 1.15        |\n| 25 | 610452  | Váy cho phụ nữ hoặc trẻ em gái, bằng bông, dệt kim hoặc móc                                                   | Dệt                | 18                           | Mỹ               | 82%                      | 0.68       | 0.08         | 1.04        |",
+   "source_note": null
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 2938,
+  "completion_tokens": 669,
+  "total_tokens": 3607,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 8,
+   "engine_ttft_ms": 295,
+   "engine_ttlt_ms": 5331,
+   "pre_inference_ms": 485,
+   "service_tbt_ms": 8,
+   "service_ttft_ms": 1095,
+   "service_ttlt_ms": 6121,
+   "user_visible_ttft_ms": 610
+  }
+ },
+ "latency_s": 18.4,
+ "items": [
+  {
+   "label": "Hình 37",
+   "kind": "line_chart",
+   "title": "Khoảng cách nhập học trung học giữa các nhóm thu nhập đã thu hẹp theo thời gian nhưng lại mở rộng ra ở cấp sau phổ thông ...",
+   "panels": null,
+   "content": "Biểu đồ đường thể hiện tỷ lệ tiếp cận giáo dục theo cấp học và nhóm bách nhị phân, giữa 2006 và 2018. Trục tung: Tỷ lệ tiếp cận (đơn vị: %), nhãn từ 0 đến 100. Trục hoành: Nhóm phân vị về chi tiêu, nhãn từ 0 đến 100. Chú giải màu:\n- Đường xanh đậm liền: Giáo dục cơ bản 2006\n- Đường xanh nhạt liền: Giáo dục sau phổ thông 2006\n- Đường cam đậm liền: Trung học phổ thông 2018\n- Đường xanh đậm đứt: Giáo dục cơ bản 2018\n- Đường xanh nhạt đứt: Giáo dục sau phổ thông 2018\n\nCác giá trị in số trên hình:\n- Trục tung: 0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100\n- Trục hoành: 0, 20, 40, 60, 80, 100\n\nXu hướng chính:\n- Tỷ lệ tiếp cận giáo dục cơ bản (2006 và 2018) luôn cao, gần 100% ở mọi nhóm chi tiêu.\n- Tỷ lệ tiếp cận trung học phổ thông và giáo dục sau phổ thông thấp hơn, đặc biệt ở nhóm chi tiêu thấp.\n- Khoảng cách giữa nhóm nghèo nhất và giàu nhất về tỷ lệ nhập học trung học phổ thông và sau phổ thông lớn hơn so với giáo dục cơ bản.\n- Tỷ lệ tiếp cận giáo dục sau phổ thông năm 2018 tăng so với 2006 nhưng vẫn có khoảng cách lớn giữa các nhóm chi tiêu.",
+   "source_note": "Nguồn: Tính toán của Ngân hàng Thế giới (2020c) sử dụng số liệu khảo sát tiêu chuẩn sống hộ gia đình Việt Nam (VHLSS) 2006 và 2018 về trình độ của thành viên và chi tiêu tiêu dùng của hộ gia đình\nGhi chú: Tỷ lệ tiếp cận cho mỗi cấp học được xác định là tỷ lệ các cá nhân trong nhóm tuổi tham chiếu đã từng được tiếp cận một cấp học cụ thể. Nhóm tuổi tham chiếu là các nhóm tuổi 6-14 với giáo dục cơ bản (lớp 1-9), nhóm tuổi 15-17 với giáo dục trung học (lớp 10-12), và nhóm tuổi 18-24 cho cấp giáo dục sau phổ thông (sau trung học phổ thông). Biểu đồ trên thể hiện số trung bình sử dụng được làm rầm bằng đa thức bậc hai"
+  }
+ ]
+}

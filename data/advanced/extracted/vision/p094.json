@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3769,
+  "completion_tokens": 889,
+  "total_tokens": 4658,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "service_ttft_ms": 2004,
+   "user_visible_ttft_ms": 1530,
+   "pre_inference_ms": 475,
+   "service_tbt_ms": 8,
+   "service_ttlt_ms": 9085,
+   "engine_ttft_ms": 650,
+   "engine_ttlt_ms": 7737,
+   "engine_tbt_ms": 8
+  }
+ },
+ "latency_s": 12.2,
+ "items": [
+  {
+   "label": null,
+   "kind": "table",
+   "title": "Gói chính sách và khuyến nghị chính sách",
+   "panels": null,
+   "content": "Bảng gồm 3 cột:\n| Gói chính sách | Khuyến nghị chính sách | Khung thời gian (NH, TH) |\n|----------------|------------------------|--------------------------|\n| Gói chính sách 5: Từ chế tạo chế biến thâm thải các-bon chuyển sang xuất khẩu các mặt hàng giảm thải các-bon và đảm bảo khả năng chống chịu | Xây dựng chương trình đầu tư về khả năng chống chịu ven biển cho các trung tâm đô thị, khu công nghiệp và hạ tầng kết nối chủ chốt qua: (i) giảm nhẹ rủi ro liên quan đến ngập lụt bằng cách nâng cấp tài sản đường bộ và điện lực trọng yếu theo các tiêu chuẩn thiết kế chống chịu khí hậu; (ii) ban hành các cơ chế tài chính cho phép triển khai trước, trong và sau thiên tai nhằm phòng vệ tài chính cho các doanh nghiệp và kết chuyển vốn đầu tư cho các công trình hạ tầng đảm bảo khả năng chống chịu; và (iii) các doanh nghiệp nên đánh giá có hệ thống về nguy cơ dễ tổn thương của môi trường kinh doanh của họ với thiên tai và cân nhắc các địa bàn thay thế nếu nguy cơ dễ tổn thương - khí hậu đặc biệt lớn. | TH |\n| Các chính sách Tăng trưởng dựa trên các chuỗi giá trị toàn cầu (GVC) và tạo việc làm theo hướng bao trùm hơn | Nâng cao khả năng dịch chuyển của lao động họ có thể tận dụng các cơ hội mới qua: (i) Hỗ trợ hướng nghiệp và tìm kiếm việc làm, đặc biệt cho sinh viên và người lao động có hoàn cảnh dễ bị tổn thương; (ii) sử dụng hiệu quả quỹ bảo hiểm thất nghiệp để hỗ trợ người lao động nâng cao kỹ năng qua công việc hoặc chuyển đổi sang các cơ hội việc làm mới; (iii) mở rộng các chính sách thị trường lao động chủ động, về hệ thống đào tạo giáo dục nghề (VET) và tìm kiếm việc làm; và (iv) nâng cao tự chủ và năng lực của các tổ chức đào tạo nghề để chuẩn bị cho người lao động đáp ứng với nhu cầu của doanh nghiệp. Những chính sách chính nhằm thúc đẩy gián tiếp khả năng dịch chuyển của lao động gồm: (v) mở rộng hệ thống chăm sóc trẻ em trong khả năng chi trả, tăng cường hệ thống chăm sóc người cao tuổi và chăm sóc dài hạn; và (vi) tăng cường năng lực và tài chính của địa phương xoay quanh cải cách hộ khẩu. | NH/TH |\n| (trống) | Xây dựng mạng lưới an sinh xã hội cho các đối tượng bị mất việc làm trong quá trình phát triển kinh tế qua: (i) mở rộng các Chương trình thị trường lao động, không chỉ chú trọng đến bảo hiểm thất nghiệp, mà còn cả các dịch vụ tìm kiếm và kết nối việc làm, đào tạo cho người tìm việc; (ii) xây dựng hệ thống thông tin thị trường lao động nhằm cung cấp thông tin cho các hoạt động đào tạo và khớp nối việc làm của các cơ quan dịch vụ việc làm của nhà nước, hệ thống giáo dục và dạy nghề (VET); và (iii) nâng cao khả năng kết nối của các tổ chức giáo dục và dạy nghề (VET) với các tổ chức sử dụng lao động. | TH |\n| (trống) | Đảm bảo nâng cao kỹ năng đem lại lợi ích cho mọi người qua: (i) thu hẹp khoảng cách chênh lệch về phát triển vốn nhân lực trọn vòng đời, bao gồm tập trung vào các trường hợp bị suy dinh dưỡng và giáo dục từ sớm (ECED), tỷ lệ bỏ học trung học ở trẻ em nghèo, khả năng chi trả và tiếp cận giáo dục sau phổ thông; và (ii) khuyến khích nhiều nữ giới tham gia vào các lĩnh vực STEM. | TH |",
+   "source_note": null
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3630,
+  "completion_tokens": 1074,
+  "total_tokens": 4704,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "service_ttft_ms": 1568,
+   "user_visible_ttft_ms": 1125,
+   "pre_inference_ms": 443,
+   "service_tbt_ms": 7,
+   "service_ttlt_ms": 9556,
+   "engine_ttft_ms": 649,
+   "engine_ttlt_ms": 8637,
+   "engine_tbt_ms": 7
+  }
+ },
+ "latency_s": 14.6,
+ "items": [
+  {
+   "label": "Hình 35",
+   "kind": "bar_chart",
+   "title": "A. Giá điện bình quân (US¢ / kWh)",
+   "panels": null,
+   "content": "Biểu đồ thanh ngang so sánh giá điện bình quân (US¢/kWh) giữa các quốc gia/khu vực. Trục ngang là giá điện bình quân (US¢/kWh), trục dọc là tên quốc gia/khu vực. Giá trị cụ thể từng quốc gia:\n- Singapore: 19,5 US¢/kWh\n- Philippines: 16,5 US¢/kWh\n- Thái Lan: 10,7 US¢/kWh\n- Indonesia: 10,0 US¢/kWh\n- Malaysia: 9,7 US¢/kWh\n- Hàn Quốc: 9,0 US¢/kWh\n- Trung Quốc: 8,4 US¢/kWh\n- Việt Nam: 8,1 US¢/kWh\n- Bangladesh: 8,0 US¢/kWh\n- Thổ Nhĩ Kỳ: 7,1 US¢/kWh\n- Mexico: 5,2 US¢/kWh\nChú giải màu: không có. Xu hướng: Việt Nam có giá điện bình quân thấp hơn phần lớn các nước trong khu vực, chỉ cao hơn Bangladesh, Thổ Nhĩ Kỳ và Mexico.",
+   "source_note": "Nguồn: EVN, Giá Xăng Toàn cầu, Đánh giá Dân số Thế giới. Ghi chú: Dữ liệu năm 2023 hoặc mới nhất. Giá bán điện bình quân gia quyền cho hộ gia đình và doanh nghiệp"
+  },
+  {
+   "label": "Hình 35",
+   "kind": "stacked_bar",
+   "title": "B. Giá bán điện so với giá thành đầy đủ",
+   "panels": null,
+   "content": "Biểu đồ cột chồng theo năm, trục ngang là năm (2010–2022), trục dọc là US$ (cents/kWh). Các thành phần màu:\n- Xanh đậm: Chi phí sản xuất/mua điện của EVN\n- Cam: Chi phí phân phối và bán lẻ\n- Xanh nhạt: Chi phí truyền tải\n- Xanh lá: Chi phí tổng hợp\n- Đường ngang: Giá bán điện bình quân (được gán bằng số ở đỉnh cột)\nCác giá trị cụ thể từng năm:\n2010:\n- Chi phí sản xuất/mua điện của EVN: 4,79\n- Giá bán điện bình quân: 5,55\n2011:\n- Chi phí sản xuất/mua điện của EVN: 4,78\n- Giá bán điện bình quân: 5,93\n2012:\n- Chi phí sản xuất/mua điện của EVN: 4,87\n- Giá bán điện bình quân: 6,54\n2013:\n- Chi phí sản xuất/mua điện của EVN: 5,4\n- Giá bán điện bình quân: 7,14\n2014:\n- Chi phí sản xuất/mua điện của EVN: 5,61\n- Giá bán điện bình quân: 7,32\n2015:\n- Chi phí sản xuất/mua điện của EVN: 5,64\n- Giá bán điện bình quân: 7,43\n2016:\n- Chi phí sản xuất/mua điện của EVN: 5,68\n- Giá bán điện bình quân: 7,46\n2017:\n- Chi phí sản xuất/mua điện của EVN: 5,57\n- Giá bán điện bình quân: 7,43\n2018:\n- Chi phí sản xuất/mua điện của EVN: 5,77\n- Giá bán điện bình quân: 7,31\n2019:\n- Chi phí sản xuất/mua điện của EVN: 6,36\n- Giá bán điện bình quân: 7,52\n2020:\n- Chi phí sản xuất/mua điện của EVN: 6,17\n- Giá bán điện bình quân: 7,83\n2021:\n- Chi phí sản xuất/mua điện của EVN: 6,57\n- Giá bán điện bình quân: 8,09\n2022:\n- Chi phí sản xuất/mua điện của EVN: 7,25\n- Giá bán điện bình quân: 8,04\nXu hướng: Giá bán điện bình quân luôn cao hơn chi phí sản xuất/mua điện của EVN, nhưng không phản ánh đầy đủ các chi phí truyền tải, phân phối và bán lẻ. Giá bán điện tăng đều qua các năm.",
+   "source_note": "Nguồn: Ước tính của NHTG, Báo cáo tài chính của EVN theo chuẩn mức IFRS, Bộ Công thương, NHNN"
+  }
+ ]
+}

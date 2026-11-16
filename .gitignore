@@ -5,7 +5,12 @@ __pycache__/
 .env.*
 !.env.example
 .codex-log/
+.claude/
 
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Advanced challenge source PDF: not committed, download from the official link
+data/advanced/raw/
+data/advanced/extracted/pages/

@@ -1,0 +1,227 @@
+[
+  {
+    "id": "d01",
+    "split": "dev",
+    "question": "Người bệnh viêm não do HSV không suy giảm miễn dịch cần dùng acyclovir tĩnh mạch trong bao lâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d02",
+    "split": "dev",
+    "question": "Phần lớn các ca viêm não Herpes là do loại virus nào gây ra?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d03",
+    "split": "dev",
+    "question": "Viêm màng não do phế cầu phải điều trị kháng sinh lâu hơn do não mô cầu bao nhiêu ngày?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d04",
+    "split": "dev",
+    "question": "Ở người trưởng thành, những vi khuẩn nào hay gây viêm màng não mủ tại Việt Nam?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d05",
+    "split": "dev",
+    "question": "Tỷ lệ lây nhiễm của bệnh thủy đậu ở người chưa có miễn dịch là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d06",
+    "split": "dev",
+    "question": "Khi có biến chứng viêm não, thuốc kháng virus tĩnh mạch được dùng với liều nào và trong bao nhiêu ngày?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "disease": "thuy_dau"
+    }
+  },
+  {
+    "id": "d07",
+    "split": "dev",
+    "question": "Liều globulin miễn dịch uốn ván từ người (HTIG) để trung hòa độc tố là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d08",
+    "split": "dev",
+    "question": "Kháng sinh diệt vi khuẩn được dùng trong bao lâu và có những thuốc thay thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "disease": "uon_van"
+    }
+  },
+  {
+    "id": "d09",
+    "split": "dev",
+    "question": "Dấu hiệu sớm nhất của uốn ván ở trẻ sơ sinh là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d10",
+    "split": "dev",
+    "question": "Phác đồ điều trị thay thế (second line) cho sốt rét kháng thuốc gồm những thuốc nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d11",
+    "split": "dev",
+    "question": "Phụ nữ có thai bị sốt rét kháng thuốc thì phác đồ thay thế thay doxycyclin bằng thuốc gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d12",
+    "split": "dev",
+    "question": "Vi khuẩn thương hàn hiện đã đề kháng với những kháng sinh nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d13",
+    "split": "dev",
+    "question": "Liều ciprofloxacin hoặc ofloxacin trong điều trị thương hàn là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d14",
+    "split": "dev",
+    "question": "Thời gian điều trị kháng sinh là bao nhiêu ngày?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "disease": "ly_truc_khuan"
+    }
+  },
+  {
+    "id": "d15",
+    "split": "dev",
+    "question": "Nội soi trực tràng ở người bệnh lỵ do Shigella thường thấy tổn thương như thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d16",
+    "split": "dev",
+    "question": "Liều oseltamivir để điều trị cúm cho người lớn là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d17",
+    "split": "dev",
+    "question": "Thuốc kháng virus được dùng trong bao nhiêu ngày và liều tính theo gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "disease": "cum_mua"
+    }
+  },
+  {
+    "id": "d18",
+    "split": "dev",
+    "question": "Viêm màng não tăng bạch cầu ái toan do nhiễm trùng thường liên quan đến những ký sinh trùng nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d19",
+    "split": "dev",
+    "question": "Tiêu chảy do độc tố tụ cầu khởi phát sau bao lâu và có gây sốt không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t01",
+    "split": "test",
+    "question": "Từ lúc bị nhiễm đến khi phát bệnh sốt mò thường mất bao lâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "question": "Tác nhân gây bệnh sốt mò là vi khuẩn gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "question": "Phác đồ doxycyclin được dùng với liều nào và kéo dài bao nhiêu ngày?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "disease": "sot_mo"
+    }
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "question": "Phụ nữ có thai hoặc trẻ dưới 10 tuổi bị sốt mò nên dùng kháng sinh nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "question": "Thời gian điều trị kháng sinh là bao nhiêu ngày và có thể dùng kháng sinh thay thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "disease": "dich_hach"
+    }
+  },
+  {
+    "id": "t06",
+    "split": "test",
+    "question": "Sau khi nhiễm vi khuẩn dịch hạch, bao lâu thì người bệnh có triệu chứng?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "du01",
+    "split": "dev",
+    "question": "Phác đồ điều trị sốt xuất huyết Dengue cho người lớn gồm những thuốc gì?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Dengue không nằm trong 14 bệnh của QĐ 5642. Từ 'Dengue' chỉ xuất hiện ở trang 40 (chẩn đoán phân biệt thương hàn) và trang 62 (chẩn đoán phân biệt sốt mò); không có phác đồ điều trị."
+  },
+  {
+    "id": "du02",
+    "split": "dev",
+    "question": "Chi phí điều trị trung bình cho một người bệnh cúm mùa phải nhập viện là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Mục cúm mùa (trang 49–53) chỉ nêu chẩn đoán, điều trị và phòng bệnh; tài liệu không có số liệu chi phí hay viện phí."
+  },
+  {
+    "id": "tu01",
+    "split": "test",
+    "question": "Tỷ lệ tử vong của bệnh sốt mò ở Việt Nam là bao nhiêu phần trăm?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Mục sốt mò (trang 60–63) chỉ nói bệnh có thể dẫn tới tử vong nếu không điều trị, không nêu tỷ lệ. Con số phần trăm duy nhất ở trang 61 là 40% người bệnh có gan to, lách to."
+  },
+  {
+    "id": "tu02",
+    "split": "test",
+    "question": "Vaccin phòng dịch hạch được tiêm mấy mũi và các mũi cách nhau bao lâu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Mục dịch hạch (trang 69–72) chỉ nhắc 'chưa bao giờ tiêm phòng vaccin dịch hạch' ở trang 70 trong tiêu chuẩn xét nghiệm; mục Phòng ngừa (trang 72) chỉ nêu kiểm soát chuột, bọ chét và doxycyclin dự phòng, không có lịch tiêm."
+  }
+]

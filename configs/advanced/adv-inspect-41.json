@@ -1,0 +1,3 @@
+{"name": "adv-inspect-41", "description": "Như adv-inspect nhưng gpt-4.1 điều phối (lập kế hoạch tìm, tổng hợp, citation).",
+ "retriever": "hybrid", "top_k": 4, "max_searches": 4, "max_inspects": 2, "max_turns": 10, "budget_chars": 9000,
+ "model": "gpt-4.1", "inspect_model": "gpt-4.1", "temperature": 0.0}

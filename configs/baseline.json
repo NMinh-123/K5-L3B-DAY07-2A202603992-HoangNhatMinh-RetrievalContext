@@ -1,0 +1,13 @@
+{
+  "name": "baseline",
+  "description": "Dense E5 trên index D Day 6, không filter, top-3 mỗi lượt, tối đa 3 lượt tìm, context 4000 ký tự.",
+  "retriever": "dense",
+  "index": "D",
+  "use_filter": false,
+  "top_k": 3,
+  "max_searches": 3,
+  "max_turns": 6,
+  "budget_chars": 4000,
+  "model": "gpt-4.1-mini",
+  "temperature": 0.0
+}

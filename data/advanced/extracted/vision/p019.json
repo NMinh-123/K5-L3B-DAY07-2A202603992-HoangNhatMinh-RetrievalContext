@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3334,
+  "completion_tokens": 843,
+  "total_tokens": 4177,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 8,
+   "engine_ttft_ms": 212,
+   "engine_ttlt_ms": 6964,
+   "pre_inference_ms": 406,
+   "service_tbt_ms": 8,
+   "service_ttft_ms": 828,
+   "service_ttlt_ms": 7563,
+   "user_visible_ttft_ms": 422
+  }
+ },
+ "latency_s": 12.2,
+ "items": [
+  {
+   "label": null,
+   "kind": "table",
+   "title": "Gói chính sách và khuyến nghị chính sách",
+   "panels": null,
+   "content": "| Gói chính sách | Khuyến nghị chính sách | Khung thời gian (NH, TH) |\n|----------------|------------------------|--------------------------|\n| Gói chính sách 3: Từ lắp ráp khâu cuối thâm dụng lao động chuyển sang các hoạt động thâm dụng công nghệ và kỹ năng đem lại giá trị cao | Hạ thấp rào cản thương mại dịch vụ ở những lĩnh vực dịch vụ xương sống như viễn thông, tài chính và vận tải qua: (i) xử lý những quy định viễn thông gây hạn chế nhằm đẩy mạnh cạnh tranh; (ii) nới lỏng những quy định về tỷ giá ngoại hối trong tài chính, nhằm nâng cao khả năng tiếp cận vốn và cơ hội phối hợp với các nhà đầu tư và ngân hàng nước ngoài cho khu vực ngân hàng của Việt Nam; (iii) loại bỏ những quy định mang tính phân biệt với các doanh nghiệp dịch vụ vận tải nước ngoài có thể làm tăng chi phí vận tải để giảm chi phí; và (iv) hạ thấp rào cản trong các dịch vụ pháp lý nhằm thúc đẩy hợp tác giữa các chuyên gia hành nghề pháp lý của Việt Nam và nước ngoài.\nNgăn ngừa xung đột lợi ích và đảm bảo đối xử công bằng giữa doanh nghiệp nhà nước (DNNN) và khu vực tư nhân qua: thiết lập cơ quan quản lý chuyên ngành độc lập cho một số lĩnh vực dịch vụ quan trọng như viễn thông, bưu chính và vận tải.\nHợp lý hóa quy định về lưu chuyển dữ liệu qua biên giới qua: sửa đổi quy định về lưu trữ dữ liệu trong nước và yêu cầu về thiết lập sự hiện diện của doanh nghiệp nước ngoài đang cung cấp các dịch vụ trực tuyến.\nThực thi khung pháp lý toàn diện về tài sản trí tuệ (IP) qua: tăng cường các cơ quan thực thi hiệu lực của Việt Nam, khi các cơ quan này đang gặp khó khăn trong việc thích ứng với các quy định mới, khiến cho các doanh nghiệp phải tìm kiếm các chiến lược phòng vệ thay thế, như dựa vào điều khoản hợp đồng và theo dõi thị trường. | NH, TH |\n| Gói chính sách 4: Từ giáo dục cơ bản vững vàng chuyển sang hình thành lực lượng lao động có kỹ năng cao | Xây dựng lực lượng lao động công nghệ cao qua: (i) xây dựng chương trình và đội ngũ giảng viên đào tạo nhằm cải thiện đào tạo kỹ năng và giáo dục cho phù hợp với nhu cầu doanh nghiệp; (ii) ban hành các cơ chế khuyến khích có mục tiêu bằng tài chính và phi tài chính (học bổng) cho sinh viên có tiềm năng; và (iii) đầu tư nâng cấp cơ sở vật chất đào tạo và nghiên cứu và phát triển trong các tổ chức giáo dục đại học lĩnh vực STEM và các viện nghiên cứu.\nÁp dụng cách tiếp cận dựa trên năng lực và theo cơ chế thị trường trong giáo dục đại học qua: (i) thiết lập các hội đồng kỹ năng theo lĩnh vực, có sự tham gia của đơn vị sử dụng lao động khu vực tư nhân và các tổ chức đào tạo để đảm bảo các sản phẩm giáo dục đáp ứng được nhu cầu luôn thay đổi của đơn vị sử dụng lao động, chuẩn bị cho người lao động sẵn sàng với kỹ năng và việc làm mới phát sinh; và (ii) triển khai cách tiếp cận dựa trên bằng chứng và hướng đến kết quả, theo cách sử dụng dữ liệu và các vòng lặp ý kiến phản hồi nhằm liên tục cải thiện về kết quả, đảm bảo thích ứng với những diễn biến trên thị trường lao động. | NH/TH |",
+   "source_note": null
+  }
+ ]
+}

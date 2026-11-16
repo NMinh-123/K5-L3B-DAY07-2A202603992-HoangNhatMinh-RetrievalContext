@@ -1,0 +1,9 @@
+# Same pins as Day 6 so query embeddings match the stored vectors.
+qdrant-client==1.20.0
+sentence-transformers==6.2.0
+torch==2.14.1
+transformers==5.22.1
+# HTTP client for the OpenAI-compatible chat endpoint (src/agent.py).
+httpx==0.28.1
+# PDF text, layout and page rendering for the advanced challenge (src/advanced/extract.py).
+pymupdf==2.1

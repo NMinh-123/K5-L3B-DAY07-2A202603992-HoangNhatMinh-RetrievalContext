@@ -1,0 +1,48 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 2695,
+  "completion_tokens": 1198,
+  "total_tokens": 3893,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "service_ttft_ms": 1520,
+   "user_visible_ttft_ms": 1128,
+   "pre_inference_ms": 392,
+   "service_tbt_ms": 8,
+   "service_ttlt_ms": 11150,
+   "engine_ttft_ms": 642,
+   "engine_ttlt_ms": 10281,
+   "engine_tbt_ms": 8
+  }
+ },
+ "latency_s": 16.3,
+ "items": [
+  {
+   "label": "Hình 30",
+   "kind": "line_chart",
+   "title": "Mức lương cho lao động có trình độ sau phổ thông có tăng nhưng chậm hơn so với lương cho người có trình độ thấp hơn ...",
+   "panels": [
+    {
+     "panel": "A",
+     "title": "Thay đổi cộng dồn về lương thực hàng tháng"
+    },
+    {
+     "panel": "B",
+     "title": "Mức lương trội cho trình độ sau phổ thông so với trình độ phổ thông trung học"
+    }
+   ],
+   "content": "A. Thay đổi cộng dồn về lương thực hàng tháng\n- Trục tung: Tăng lương thực hàng tháng (2002=1)\n- Trục hoành: Năm (2002, 2010, 2022)\n- Chú giải màu:\n  + Cam: Tiểu học\n  + Xanh nhạt: Trung học phổ thông\n  + Xanh đậm: Trung học cơ sở\n  + Đen: Cao đẳng giáo dục kỹ thuật dạy nghề\n  + Vàng: Đại học\n- Giá trị in số:\n  + (99,622) 0.0\n  + (99,606) 0.5\n  + (99,591) 1.0\n  + (99,575) 1.5\n  + (99,560) 2.0\n  + (99,544) 2.5\n  + (99,529) 3.0\n  + (99,513) 3.5\n  + (99,498) 4.0\n- Nhãn chuỗi:\n  + (119,469) Trung học phổ thông\n  + (217,469) Cao đẳng giáo dục\n  + (217,478) kỹ thuật dạy nghề\n  + (119,479) Đại học\n- Xu hướng chính: Lương thực hàng tháng tăng theo thời gian cho mọi trình độ, nhưng tốc độ tăng của nhóm có trình độ sau phổ thông (cao đẳng, đại học) chậm hơn so với nhóm có trình độ thấp hơn (tiểu học, trung học phổ thông).\n\nB. Mức lương trội cho trình độ sau phổ thông so với trình độ phổ thông trung học\n- Trục tung: Lợi xuất của bằng đại học/cao đẳng\n- Trục hoành: Năm (2007–2022)\n- Chú giải màu:\n  + Xanh đậm: Cao đẳng giáo dục kỹ thuật dạy nghề\n  + Xanh nhạt: Đại học\n  + Đường đứt đoạn xanh đậm: Cao đẳng giáo dục kỹ thuật dạy nghề - 95% CI\n  + Đường đứt đoạn xanh nhạt: Đại học - 95% CI\n- Giá trị in số:\n  + (338,623) 0.0\n  + (338,608) 0.1\n  + (338,593) 0.1\n  + (338,578) 0.2\n  + (338,563) 0.2\n  + (338,547) 0.3\n  + (338,532) 0.3\n  + (338,517) 0.4\n  + (338,502) 0.4\n  + (338,487) 0.5\n  + (350,634) 2007\n  + (362,634) 2010\n  + (375,634) 2011\n  + (387,634) 2012\n  + (399,634) 2013\n  + (411,634) 2014\n  + (423,634) 2015\n  + (436,634) 2016\n  + (448,634) 2017\n  + (460,634) 2018\n  + (472,634) 2019\n  + (484,634) 2020\n  + (497,634) 2021\n  + (509,634) 2022\n- Nhãn chuỗi:\n  + (323,494) Lợi xuất của bằng đại học / cao đẳng\n  + (351,467) kỹ thuật dạy nghề\n  + (351,477) Đại học\n  + (441,467) kỹ thuật dạy nghề - 95% CI\n  + (441,477) Đại học - 95% CI\n- Xu hướng chính: Mức lương trội cho trình độ sau phổ thông so với trung học phổ thông đã giảm dần qua thời gian, từ khoảng 0.38 năm 2013 xuống còn khoảng 0.10 năm 2022. Khoảng cách lương trội giữa các nhóm trình độ cũng thu hẹp lại.\n",
+   "source_note": "Nguồn: Tính toán của cán bộ Ngân hàng Thế giới sử dụng số liệu VHLSS (panel A); Tính toán của cán bộ Ngân hàng Thế giới sử dụng số liệu LFS (panel B). Ghi chú: Hệ số cho biến giả trình độ đại học và cao đẳng nghề và kỹ thuật trong hồi quy Mincer về log (lương) dựa trên kinh nghiệm, kinh nghiệm bình phương và các biến giả về trình độ khác (bỏ qua trung học phổ thông), kiểm soát về giới, thành thị và địa phương"
+  }
+ ]
+}

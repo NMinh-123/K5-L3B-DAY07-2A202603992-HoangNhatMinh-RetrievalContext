@@ -1,0 +1,11 @@
+{
+  "collection": "day7_advanced",
+  "points": 523,
+  "chunks": 523,
+  "visual_chunks": 161,
+  "truncated_over_512_tokens": 6,
+  "embed_seconds": 136.3,
+  "model": "intfloat/multilingual-e5-large",
+  "revision": "3d7cfbdacd47fdda877c5cd8a79fbcc4f2a574f3",
+  "max_chars_visual_part": 1500
+}

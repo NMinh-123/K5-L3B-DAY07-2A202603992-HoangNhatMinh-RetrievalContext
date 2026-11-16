@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 2609,
+  "completion_tokens": 934,
+  "total_tokens": 3543,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 10,
+   "engine_ttft_ms": 730,
+   "engine_ttlt_ms": 9994,
+   "pre_inference_ms": 372,
+   "service_tbt_ms": 10,
+   "service_ttft_ms": 1634,
+   "service_ttlt_ms": 10892,
+   "user_visible_ttft_ms": 1263
+  }
+ },
+ "latency_s": 15.3,
+ "items": [
+  {
+   "label": "Hình 18",
+   "kind": "bar_chart",
+   "title": "Áp dụng rô-bốt đem lại lợi ích nghiêng về phía lao động có trình độ học vấn cao hơn",
+   "panels": null,
+   "content": "Biểu đồ cột thể hiện tác động ước tính của quá trình áp dụng rô-bốt đối với việc làm và mức lương ở các quận huyện theo trình độ học vấn. Có hai nhóm cột: Tổng việc làm (log) và Mức lương theo giờ (log). \n\nTrục tung: Ước tính điểm (p.p.), giá trị từ -0.10 đến 0.20. \n\nCác hạng mục trên trục hoành (theo từng nhóm):\n- Tổng việc làm (log):\n  + Trình độ tiểu học trở xuống: khoảng 0.00 (đọc từ trục)\n  + Trình độ trung học: khoảng 0.10 (đọc từ trục)\n  + Trình độ sau phổ thông: khoảng 0.15 (đọc từ trục)\n- Mức lương theo giờ (log):\n  + Trình độ tiểu học trở xuống: khoảng -0.05 (đọc từ trục)\n  + Trình độ trung học: khoảng 0.05 (đọc từ trục)\n  + Trình độ sau phổ thông: khoảng 0.10 (đọc từ trục)\n\nChú giải màu:\n- Xanh đậm: Tổng việc làm (log)\n- Xanh nhạt: Mức lương theo giờ (log)\n\nXu hướng chính: Tác động của áp dụng rô-bốt đối với tổng việc làm và mức lương đều tăng dần theo trình độ học vấn, cao nhất ở nhóm 'sau phổ thông'. Đối với nhóm 'tiểu học trở xuống', tác động lên mức lương là âm (giảm), còn tổng việc làm gần như không đổi.",
+   "source_note": "Nguồn: Ước tính của Ngân hàng Thế giới báo cáo tại Ngân hàng Thế giới (2024b), dựa trên dữ liệu của Liên đoàn Rô-bốt Quốc tế (IFR), Khảo sát lực lượng lao động ở VIệt Nam (2011-2020).\nGhi chú: 2SLS ước tính tác động của việc tiếp cận rô-bốt đến kết quả thị trường lao động địa phương ở Việt Nam trong giai đoạn 2014-2020. Mức độ tiếp cận rô-bốt được đo bằng tương tác giữa cơ cấu lao động năm 2011 theo ngành ở từng huyện và mức độ áp dụng rô-bốt theo năm-ngành tại Việt Nam; và công thức này được kết hợp với 'mức độ tiếp cận rô-bốt toàn cầu' sử dụng số liệu áp dụng rô-bốt bình quân theo năm - ngành ở 54 quốc gia. Kỹ năng thấp: trình độ tiểu học (trở xuống); kỹ năng trung bình: trình độ trung học phổ thông; Kỹ năng cao: trình độ đại học, cao đẳng, đại học. Mọi hồi quy đều tính theo trong số dân số năm 2011 (năm ban đầu), kiểm soát cho các quận huyện, tiểu vùng x hiệu ứng cố định theo năm, đặc điểm dân số ban đầu của các quận huyện (log dân số); tỷ lệ di thành thị; tỷ lệ nhập cư; tỷ lệ dân số có trình độ tiểu học, trung học và sau phổ thông; tỷ lệ dân số có độ tuổi dưới 21-25 và trên 56; tỷ lệ nữ; tỷ lệ tham gia công nghiệp ban đầu của các huyện (việc làm ở các lĩnh vực cơ bản, chế tạo chế biến, dịch vụ, tỷ lệ nữ có việc làm các thể chế biến), và đặc điểm kinh tế của các quận huyện ban đầu (tỷ lệ có việc làm, tỷ lệ thất nghiệp, tỷ lệ lao động phi chính thức, tỷ lệ lao động hưởng lương, tỷ lệ tự sản xuất kinh doanh, tỷ lệ lao động di trú, huy cơ lập đi lập lại công việc, lương bình quân theo giới, log thu nhập bình quân của lao động, log tổng thu nhập của lao động)."
+  }
+ ]
+}

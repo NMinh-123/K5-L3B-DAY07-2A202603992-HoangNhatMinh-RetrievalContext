@@ -1,0 +1,47 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3475,
+  "completion_tokens": 815,
+  "total_tokens": 4290,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 10,
+   "engine_ttft_ms": 1011,
+   "engine_ttlt_ms": 9270,
+   "pre_inference_ms": 434,
+   "service_tbt_ms": 10,
+   "service_ttft_ms": 1965,
+   "service_ttlt_ms": 10219,
+   "user_visible_ttft_ms": 1531
+  }
+ },
+ "latency_s": 13.7,
+ "items": [
+  {
+   "label": "Hình B1.3",
+   "kind": "bar_chart",
+   "title": "Dư địa để nâng cao giá trị gia tăng của Việt Nam trong lĩnh vực bán dẫn",
+   "panels": null,
+   "content": "Biểu đồ cột thể hiện 'Kim ngạch xuất khẩu ròng vi mạch bán dẫn (tỷ USD)' theo các quốc gia: Đài Loan, Hàn Quốc, Malaysia, Philippines, Nhật Bản, Hoa Kỳ, Singapore, Mexico, Ấn Độ, Việt Nam, Trung Quốc. Có ba chuỗi năm: 2002 (xanh dương nhạt), 2012 (xanh dương đậm), 2022 (đỏ). \n- Trục tung: giá trị từ -200 đến 200 (tỷ USD), bước nhảy 100.\n- Trục hoành: tên quốc gia.\n- Chú giải: 2002 (xanh dương nhạt), 2012 (xanh dương đậm), 2022 (đỏ).\n- Giá trị in số trên hình:\n  - Việt Nam – 2022: -25 tỷ USD\n- Xu hướng chính: Đài Loan, Hàn Quốc có xuất khẩu ròng dương lớn, đặc biệt Đài Loan năm 2022 vượt 100 tỷ USD (khoảng 170 tỷ, đọc từ trục). Việt Nam và Trung Quốc có xuất khẩu ròng âm lớn, Việt Nam năm 2022 là -25 tỷ USD (in số), Trung Quốc còn âm hơn (khoảng -180 tỷ, đọc từ trục). Các nước khác như Malaysia, Philippines, Nhật Bản, Hoa Kỳ, Singapore, Mexico, Ấn Độ có giá trị nhỏ hơn nhiều, dao động quanh 0 đến vài chục tỷ USD.",
+   "source_note": "Nguồn: Reuters, Cộng đồng Microchip Việt Nam, Báo cáo CoAsia SEMI Việt Nam"
+  },
+  {
+   "label": "Hình B1.4",
+   "kind": "bar_chart",
+   "title": "Nhu cầu kỹ sư thiết kế vi mạch dự kiến cao hơn nhiều so với nguồn cung kỹ năng",
+   "panels": null,
+   "content": "Biểu đồ cột nhóm thể hiện số lượng kỹ sư thiết kế vi mạch (xanh dương) và nhu cầu dự kiến (vàng) qua các năm: 2005, 2010, 2014, 2020, 2023, 2030. \n- Trục tung: số lượng (người), từ 0 đến 200.000, bước nhảy 100.000.\n- Trục hoành: năm.\n- Chú giải: Số lượng kỹ sư thiết kế vi mạch (xanh dương), Nhu cầu dự kiến (vàng).\n- Giá trị in số trên hình:\n  - 2005: 200 (xanh dương)\n  - 2010: 1.700 (xanh dương)\n  - 2014: 2.100 (xanh dương)\n  - 2020: 4.200 (xanh dương)\n  - 2023: 5.575 (xanh dương)\n  - 2030: 15.000 (vàng, nhu cầu dự kiến)\n- Xu hướng chính: Số lượng kỹ sư thiết kế vi mạch tăng dần qua các năm nhưng vẫn thấp hơn rất nhiều so với nhu cầu dự kiến năm 2030 (15.000).",
+   "source_note": "Nguồn: Reuters, Cộng đồng Microchip Việt Nam, Báo cáo CoAsia SEMI Việt Nam"
+  }
+ ]
+}

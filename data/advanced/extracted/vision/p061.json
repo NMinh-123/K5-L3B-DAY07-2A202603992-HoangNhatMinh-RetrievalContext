@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3162,
+  "completion_tokens": 568,
+  "total_tokens": 3730,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 10,
+   "engine_ttft_ms": 557,
+   "engine_ttlt_ms": 6340,
+   "pre_inference_ms": 332,
+   "service_tbt_ms": 10,
+   "service_ttft_ms": 1530,
+   "service_ttlt_ms": 7307,
+   "user_visible_ttft_ms": 1199
+  }
+ },
+ "latency_s": 21.1,
+ "items": [
+  {
+   "label": "Hình 25",
+   "kind": "bar_chart",
+   "title": "Giảm chi phí thương mại của các biện pháp phi thuế quan (NTM) theo các hiệp định thương mại ưu đãi (PTA), tính theo giá trị tương đương thuế quan (AVE) quá khứ và tương lai (%)",
+   "panels": null,
+   "content": "Biểu đồ cột nhóm thể hiện mức giảm chi phí thương mại (trục tung: %, từ 0 đến -30) cho các ngành hàng khác nhau, chia thành hai giai đoạn: 1993-2023 (màu xanh đậm) và 2024- (màu xanh nhạt). Trục hoành liệt kê các ngành: Sản phẩm thịt, Thực phẩm và đồ uống, Cây trồng, Dược phẩm cơ bản, Xe cơ giới và phụ tùng, Giao thông đường bộ, Các dịch vụ du lịch, Xây dựng, Dệt, Giao thông đường thủy, Thiết bị giao thông vận tải khác, Kho bãi và logistics, Total, Điện và máy móc, Hóa chất, cao su, nhựa, Khoáng chất phi kim, Kim loại, May mặc và giày da, Sản phẩm động vật, Sản phẩm gỗ và giấy. Chú giải: 1993-2023 (màu xanh đậm), 2024- (màu xanh nhạt). Các giá trị in số trên hình: không có số cụ thể trên đầu cột, chỉ có các mức trục tung: 0, -5, -10, -15, -20, -25, -30. Xu hướng chính: Hầu hết các ngành đều có mức giảm chi phí thương mại đáng kể, lớn nhất ở Sản phẩm thịt (gần -30%), Thực phẩm và đồ uống, Cây trồng, Dược phẩm cơ bản (khoảng -20% đến -25%), các ngành khác giảm ít hơn, một số ngành như Sản phẩm gỗ và giấy, Sản phẩm động vật, May mặc và giày da giảm rất ít (gần 0%). Tổng hợp (Total) giảm khoảng -15%. Giai đoạn 2024- tiếp tục có mức giảm bổ sung so với 1993-2023 ở hầu hết các ngành.",
+   "source_note": "Nguồn: Tính toán của Ngân hàng Thế giới\nGhi chú: Mức giảm chi phí thương mại theo trọng số thương mại dựa trên mô hình hồi quy trọng lực thương mại"
+  }
+ ]
+}

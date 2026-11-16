@@ -1,0 +1,48 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 2923,
+  "completion_tokens": 913,
+  "total_tokens": 3836,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "service_ttft_ms": 2092,
+   "user_visible_ttft_ms": 1563,
+   "pre_inference_ms": 529,
+   "service_tbt_ms": 9,
+   "service_ttlt_ms": 10320,
+   "engine_ttft_ms": 659,
+   "engine_ttlt_ms": 8893,
+   "engine_tbt_ms": 9
+  }
+ },
+ "latency_s": 14.4,
+ "items": [
+  {
+   "label": "Hình 36",
+   "kind": "bar_chart",
+   "title": "Thương mại về hàng hóa môi trường và các biện pháp phi thuế quan",
+   "panels": [
+    {
+     "panel": "A",
+     "title": "Xuất khẩu và nhập khẩu hàng hóa môi trường (% xuất khẩu và nhập khẩu hàng hóa)"
+    },
+    {
+     "panel": "B",
+     "title": "Các biện pháp phi thuế quan áp cho hàng hóa môi trường"
+    }
+   ],
+   "content": "Biểu đồ A:\n- Trục tung: % xuất khẩu và nhập khẩu hàng hóa (từ 0% đến 8%)\n- Trục hoành: Các quốc gia (Bangladesh, Indonesia, Philippines, Việt Nam, Thái Lan, Thổ Nhĩ Kỳ, Trung Quốc, Malaysia, Hàn Quốc, Singapore, Mexico)\n- Chú giải: Màu xanh dương – Xuất khẩu; Màu xanh nhạt – Nhập khẩu\n- Giá trị in số:\n  Bangladesh – Xuất khẩu: 0% ; Nhập khẩu: 1%\n  Indonesia – Xuất khẩu: 2% ; Nhập khẩu: 3%\n  Philippines – Xuất khẩu: 3% ; Nhập khẩu: 4%\n  Việt Nam – Xuất khẩu: 5% ; Nhập khẩu: 6%\n  Thái Lan – Xuất khẩu: 6% ; Nhập khẩu: 7%\n  Thổ Nhĩ Kỳ – Xuất khẩu: 4% ; Nhập khẩu: 5%\n  Trung Quốc – Xuất khẩu: 5% ; Nhập khẩu: 6%\n  Malaysia – Xuất khẩu: 6% ; Nhập khẩu: 7%\n  Hàn Quốc – Xuất khẩu: 7% ; Nhập khẩu: 8%\n  Singapore – Xuất khẩu: 8% ; Nhập khẩu: 7%\n  Mexico – Xuất khẩu: 3% ; Nhập khẩu: 4%\n- Xu hướng: Singapore và Hàn Quốc có tỷ lệ xuất khẩu hàng hóa môi trường cao nhất (8% và 7%), Việt Nam ở mức trung bình (5% xuất khẩu, 6% nhập khẩu).\n\nBiểu đồ B:\n- Trục tung: Số lượng biện pháp phi thuế quan (0 đến 4.000)\n- Trục hoành: Các quốc gia (Philippines, Việt Nam, Nhật Bản, Indonesia, Malaysia)\n- Chú giải:\n  Màu xanh dương: Biện pháp gây ảnh hưởng đến cạnh tranh\n  Màu xanh nhạt: Rào cản kỹ thuật với thương mại (TBT)\n  Màu vàng: Cấp phép và kiểm soát chất lượng không tự động\n  Màu cam: Biện pháp liên quan đến xuất khẩu\n  Màu đỏ: Giám định hàng hóa trước khi xếp hàng\n  Màu xanh lá: Biện pháp kiểm soát giá\n  Màu tím: Biện pháp tài chính\n- Giá trị in số:\n  Philippines: Tổng khoảng 4.000 (đọc từ trục), các đoạn màu không in số cụ thể\n  Việt Nam: Tổng khoảng 3.000 (đọc từ trục), các đoạn màu không in số cụ thể\n  Nhật Bản: Tổng khoảng 2.000 (đọc từ trục), các đoạn màu không in số cụ thể\n  Indonesia: Tổng khoảng 1.000 (đọc từ trục), các đoạn màu không in số cụ thể\n  Malaysia: Tổng khoảng 1.000 (đọc từ trục), các đoạn màu không in số cụ thể\n- Xu hướng: Philippines và Việt Nam có số lượng biện pháp phi thuế quan áp cho hàng hóa môi trường cao nhất, trong đó rào cản kỹ thuật với thương mại (TBT) là đáng kể.",
+   "source_note": "Nguồn: Dữ liệu ánh xạ của WITS (biểu đồ bên trái). sơ đồ tiếp cận thị trường CNTT&TT (biểu đồ bên phải)"
+  }
+ ]
+}

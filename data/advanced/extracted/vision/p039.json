@@ -1,0 +1,48 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3436,
+  "completion_tokens": 1454,
+  "total_tokens": 4890,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 11,
+   "engine_ttft_ms": 278,
+   "engine_ttlt_ms": 16013,
+   "pre_inference_ms": 408,
+   "service_tbt_ms": 11,
+   "service_ttft_ms": 995,
+   "service_ttlt_ms": 16724,
+   "user_visible_ttft_ms": 587
+  }
+ },
+ "latency_s": 20.3,
+ "items": [
+  {
+   "label": "Hình B1.2",
+   "kind": "infographic",
+   "title": "Ngành vi mạch bán dẫn đang lớn mạnh ở Việt Nam",
+   "panels": [
+    {
+     "panel": "A",
+     "title": "Việt Nam là quốc gia xuất khẩu vi mạch bán dẫn thứ 10 trên toàn cầu\nTỷ trọng xuất khẩu vi mạch bán dẫn và mạch tích hợp toàn cầu năm 2021 (%)"
+    },
+    {
+     "panel": "B",
+     "title": "Việt Nam là quốc gia xuất khẩu vi mạch bán dẫn lớn thứ ba sang Hoa Kỳ\n10 quốc gia xuất khẩu vi mạch bán dẫn hàng đầu sang Hoa Kỳ (triệu US$)"
+    }
+   ],
+   "content": "Panel A (biểu đồ tròn):\n- Tên trục: không có trục, các lát biểu đồ tròn thể hiện tỷ trọng xuất khẩu vi mạch bán dẫn và mạch tích hợp toàn cầu năm 2021 (%).\n- Chú giải (màu -> chuỗi):\n  + Đỏ: Việt Nam\n  + Xanh đậm: Trung Quốc, Đài Loan, Hàn Quốc, Hoa Kỳ, Nhật Bản, Đức, Malaysia, Singapore, Philippines\n  + Xám: Các nước còn lại trên thế giới\n- Mọi giá trị in số trên hình:\n  + Trung Quốc: $206.9B (22%)\n  + Đài Loan: $182.2B (19%)\n  + Hàn Quốc: $120.5B (13%)\n  + Hoa Kỳ: $57.2B (6%)\n  + Nhật Bản: $47.1B (5%)\n  + Đức: $23.7B (4%)\n  + Malaysia: $80.4B (8%)\n  + Singapore: $52.6B (5%)\n  + Philippines: $29.9B (3%)\n  + Việt Nam: $22.5B (2%)\n  + Các nước còn lại trên thế giới: $96.1B (10%)\n- Xu hướng chính: Trung Quốc, Đài Loan và Hàn Quốc chiếm tỷ trọng lớn nhất về xuất khẩu vi mạch bán dẫn và mạch tích hợp toàn cầu năm 2021. Việt Nam đứng thứ 10 với 2% thị phần toàn cầu.\n\nPanel B (biểu đồ cột ngang):\n- Tên trục tung: Tên quốc gia (Malaysia, Đài Loan, Việt Nam, Thái Lan, Hàn Quốc, Trung Quốc, Nhật Bản, Philippines, Cambodia, Ấn Độ)\n- Tên trục hoành: Giá trị xuất khẩu vi mạch bán dẫn sang Hoa Kỳ (triệu US$), các mốc: 0, 500, 1.000, 1.500\n- Chú giải (màu -> chuỗi):\n  + Xanh dương nhạt: Tháng 2/2022\n  + Xanh dương đậm: Tháng 2/2023\n- Mọi giá trị in số trên hình:\n  + Việt Nam: +75% (tăng trưởng xuất khẩu sang Hoa Kỳ từ tháng 2/2022 đến tháng 2/2023)\n  + Không có số cụ thể cho từng quốc gia, chỉ có các vạch mốc trục hoành (0, 500, 1.000, 1.500 triệu US$)\n- Xu hướng chính: Malaysia, Đài Loan và Việt Nam là ba quốc gia xuất khẩu vi mạch bán dẫn lớn nhất sang Hoa Kỳ, trong đó Việt Nam có mức tăng trưởng xuất khẩu sang Hoa Kỳ rất mạnh (+75%) từ tháng 2/2022 đến tháng 2/2023.\n\nCác dòng chữ lấy từ lớp text của PDF trong vùng hình/bảng:\n- (153,123) Hình B1.2: Ngành vi mạch bán dẫn đang lớn mạnh ở Việt Nam\n- (109,148) Việt Nam là quốc gia xuất khẩu vi mạch bán\n- (148,158) dẫn thứ 10 trên toàn cầu\n- (108,172) Tỷ trọng xuất khẩu vi mạch bán dẫn và mạch\n- (134,183) tích hợp toàn cầu năm 2021 (%)\n- (323,148) Việt Nam là quốc gia xuất khẩu vi mạch bán dẫn\n- (373,158) lớn thứ ba sang Hoa Kỳ\n- (323,172) 10 quốc gia xuất khẩu vi mạch bán dẫn hàng đầu\n- (373,183) sang Hoa Kỳ (triệu US$)\n- (366,208) Tháng 2/2022\n- (433,208) Tháng 2/2023\n- (355,361) 0\n- (391,361) 500\n- (427,361) 1.000\n- (499,361) 1.500\n- (327,235) Malaysia\n- (327,247) Đài Loan\n- (326,259) Việt Nam\n- (328,272) Thái Lan\n- (324,284) Hàn Quốc\n- (318,296) Trung Quốc\n- (326,309) Nhật Bản\n- (321,321) Philippines\n- (323,333) Cambodia\n- (336,346) Ấn Độ\n- (448,261) +75%\n- (256,214) Trung Quốc\n- (252,221) $206.9B (22%)\n- (153,202) Các nước còn lại trên thế giới\n- (173,209) $96.1B (10%)\n- (116,227) Đức\n- (106,234) $23.7B (4%)\n- (107,246) Phi-líp-pin,\n- (105,253) $29.9B (3%)\n- (107,265) Nhật Bản\n- (103,272) $47.1B (5%)\n- (110,287) Hoa Kỳ\n- (103,294) $57.2B (6%)\n- (106,324) Ma-lay-\n- (319,389) Nguồn: Cục Điều tra Dân số Hoa Kỳ\n- (102,389) Nguồn: Quan trắc độ phức tạp kinh tế",
+   "source_note": "Nguồn: Quan trắc độ phức tạp kinh tế      Nguồn: Cục Điều tra Dân số Hoa Kỳ"
+  }
+ ]
+}

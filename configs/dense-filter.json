@@ -1,0 +1,13 @@
+{
+  "name": "dense-filter",
+  "description": "Dense + filter disease do người dùng cung cấp. Giả thuyết: câu mơ hồ không nêu bệnh (d08, d14) bị kéo sang bệnh khác; filter loại các chunk sai bệnh. Tách riêng tác động của filter.",
+  "retriever": "dense",
+  "index": "D",
+  "use_filter": true,
+  "top_k": 3,
+  "max_searches": 3,
+  "max_turns": 6,
+  "budget_chars": 4000,
+  "model": "gpt-4.1-mini",
+  "temperature": 0.0
+}

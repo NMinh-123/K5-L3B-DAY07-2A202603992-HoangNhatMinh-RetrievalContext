@@ -1,0 +1,13 @@
+{
+  "name": "hybrid",
+  "description": "Hybrid RRF (dense E5 + BM25 unigram/bigram), không filter. Giả thuyết: BM25 bắt được từ khóa hiếm như tên thuốc, liều mg/kg (d13) và tên vi khuẩn (d04) mà dense bỏ sót.",
+  "retriever": "hybrid",
+  "index": "D",
+  "use_filter": false,
+  "top_k": 3,
+  "max_searches": 3,
+  "max_turns": 6,
+  "budget_chars": 4000,
+  "model": "gpt-4.1-mini",
+  "temperature": 0.0
+}

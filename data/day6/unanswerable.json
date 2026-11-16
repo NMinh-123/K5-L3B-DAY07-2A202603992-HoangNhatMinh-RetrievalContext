@@ -1,0 +1,38 @@
+[
+  {
+    "id": "du01",
+    "split": "dev",
+    "question": "Phác đồ điều trị sốt xuất huyết Dengue cho người lớn gồm những thuốc gì?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Dengue không nằm trong 14 bệnh của QĐ 5642. Từ 'Dengue' chỉ xuất hiện ở trang 40 (chẩn đoán phân biệt thương hàn) và trang 62 (chẩn đoán phân biệt sốt mò); không có phác đồ điều trị.",
+    "absence_check": "Tìm 'dengue' và 'sốt xuất huyết' trên toàn văn 66 trang (results/pages.jsonl của Day 6): chỉ trúng trang 40 và 62, cả hai trong mục chẩn đoán phân biệt."
+  },
+  {
+    "id": "du02",
+    "split": "dev",
+    "question": "Chi phí điều trị trung bình cho một người bệnh cúm mùa phải nhập viện là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Mục cúm mùa (trang 49–53) chỉ nêu chẩn đoán, điều trị và phòng bệnh; tài liệu không có số liệu chi phí hay viện phí.",
+    "absence_check": "Tìm 'chi phí', 'viện phí', 'bảo hiểm', 'VNĐ' trên toàn văn: không trúng trang nào. 'triệu' ở trang 50–52 chỉ thuộc từ 'triệu chứng'."
+  },
+  {
+    "id": "tu01",
+    "split": "test",
+    "question": "Tỷ lệ tử vong của bệnh sốt mò ở Việt Nam là bao nhiêu phần trăm?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Mục sốt mò (trang 60–63) chỉ nói bệnh có thể dẫn tới tử vong nếu không điều trị, không nêu tỷ lệ. Con số phần trăm duy nhất ở trang 61 là 40% người bệnh có gan to, lách to.",
+    "absence_check": "Đọc trang 60–63 và tìm ký tự '%' và 'tử vong': chỉ có câu mô tả nguy cơ tử vong và tỷ lệ gan lách to 40%."
+  },
+  {
+    "id": "tu02",
+    "split": "test",
+    "question": "Vaccin phòng dịch hạch được tiêm mấy mũi và các mũi cách nhau bao lâu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Mục dịch hạch (trang 69–72) chỉ nhắc 'chưa bao giờ tiêm phòng vaccin dịch hạch' ở trang 70 trong tiêu chuẩn xét nghiệm; mục Phòng ngừa (trang 72) chỉ nêu kiểm soát chuột, bọ chét và doxycyclin dự phòng, không có lịch tiêm.",
+    "absence_check": "Tìm 'vaccin' trên trang 69–72: chỉ trúng trang 70 (tiêu chuẩn huyết thanh học). Đọc mục 6. PHÒNG NGỪA trang 72."
+  }
+]

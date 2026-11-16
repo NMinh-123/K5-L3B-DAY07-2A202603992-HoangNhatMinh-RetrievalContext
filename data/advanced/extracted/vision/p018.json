@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3736,
+  "completion_tokens": 850,
+  "total_tokens": 4586,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 10,
+   "engine_ttft_ms": 787,
+   "engine_ttlt_ms": 9237,
+   "pre_inference_ms": 371,
+   "service_tbt_ms": 10,
+   "service_ttft_ms": 1725,
+   "service_ttlt_ms": 10170,
+   "user_visible_ttft_ms": 1354
+  }
+ },
+ "latency_s": 13.2,
+ "items": [
+  {
+   "label": "Bảng 0.1",
+   "kind": "table",
+   "title": "Các gói chính sách",
+   "panels": null,
+   "content": "| Gói chính sách | Khuyến nghị chính sách | Khung thời gian (NH, TH) |\n|----------------|------------------------|--------------------------|\n| **Gói chính sách 1:** Từ hạ thuế quan sang hội nhập thương mại sâu (trong khu vực) | **Hạ thấp rào cản chính sách phi thuế quan trong thương mại qua:** (i) đẩy mạnh tuân thủ các tiêu chuẩn khu vực và quốc tế; (ii) hài hòa trong quản lý biên giới; (iii) giảm giới hạn về tỷ lệ sở hữu của nước ngoài.<br>**Nâng cao khả năng kết nối khu vực qua:** (i) giảm rào cản chính sách đối với lưu chuyển thương mại và đầu tư trong khu vực; (ii) tăng cường kết nối số và kết nối cơ sở vật chất nhằm giảm chi phí, trong phạm vi Đông Nam Á cũng với Trung Quốc và Nam Á.<br>**Định hình nghị trình hội nhập toàn cầu qua:** chủ động phối hợp với các đối tác quốc tế trong ASEAN, RCEP, CPTPP và các khuôn khổ khác, nhằm tăng cường chiều sâu các cam kết xoay quanh những nghị trình chính như thương mại số, hài hòa tiêu chuẩn, thương mại điện và khả năng kết nối. | TH<br>TH<br>TH |\n| **Gói chính sách 2:** Từ nền kinh tế kép sang hội nhập các chuỗi giá trị trong nước | **Tiếp tục tăng cường môi trường kinh doanh.** Cục Kiểm soát Thủ tục Hành chính (APCA) trực thuộc Văn phòng Chính phủ (VPCP) cần phối hợp với các bộ ngành nhằm xây dựng chương trình và kế hoạch hành động chi tiết về số hóa. Trong đó bao gồm loại bỏ yêu cầu hồ sơ giấy và cải thiện chất lượng của cơ chế chia sẻ dữ liệu (liên thông trong chính phủ) thông qua các mẫu đơn trên nền web thống nhất. Hơn nữa, cần cải thiện cơ chế cấp phép và thanh kiểm tra qua áp dụng cách tiếp cận dựa trên rủi ro.<br>**Kết nối doanh nghiệp đa quốc gia với doanh nghiệp trong nước qua:** (i) khai thác các cơ quan xúc tiến đầu tư (XTĐT) nhằm tăng cường kết nối giữa các doanh nghiệp cung ứng trong nước có nhiều tiềm năng với các nhà đầu tư nước ngoài mới và hiện nay; (ii) tổ chức các sự kiện \"gặp gỡ bên mua\" hoặc diễn đàn nhà cung cấp để giúp các đơn vị cung ứng tiềm năng hiểu rõ hơn về các tiêu chuẩn chất lượng, chi phí và giao hàng (QCD) cũng như khoảng cách về công nghệ và kỹ năng; (iii) công bố các cơ sở dữ liệu \"sống\" trực tuyến có chất lượng và danh bạ các đơn vị cung ứng trong nước bằng tiếng Anh để giảm thiểu chi phí tìm kiếm cho các doanh nghiệp nước ngoài; (iv) và thiết lập Chương trình phát triển nhà cung ứng (SDP), nhằm nâng cao năng lực và khả năng kết nối của các doanh nghiệp trong nước, bao gồm những biện pháp hỗ trợ theo chiều ngang theo nhu cầu và các biện pháp theo ngành dọc ở các lĩnh vực cụ thể.<br>**Triển khai các cơ chế tài chính chuỗi cung ứng (SCF) giữa doanh nghiệp FDI và doanh nghiệp trong nước,** nhằm tối ưu hóa vốn lưu động bằng cách chuyển doanh số phải thu và hàng tồn kho thành tiền và tiếp nhận nguồn tài chính chi phí thấp, qua đó giúp bình ổn giao dịch thương mại giữa các doanh nghiệp FDI và các nhà cung cấp trong nước của họ. | NH/TH<br>NH/TH<br>TH |",
+   "source_note": null
+  }
+ ]
+}

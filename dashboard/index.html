@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Day 7 Agentic RAG</title>
+<style>
+:root {
+  color-scheme: light;
+  --surface-0: #f4f3f0; --surface-1: #fcfcfb; --surface-2: #efeeea; --border: #dddcd6;
+  --text-primary: #0b0b0b; --text-secondary: #52514e; --text-muted: #7b7a75;
+  --grid: #e6e5e0; --axis: #b9b8b1;
+  --series-1: #2a78d6; --series-2: #eb6834; --series-3: #1baf7a;
+  --good: #1a7f3c; --bad: #c4332f; --warn: #a86b00;
+  --accent: #2a78d6;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --surface-0: #121211; --surface-1: #1a1a19; --surface-2: #242422; --border: #34342f;
+    --text-primary: #f0efec; --text-secondary: #c3c2b7; --text-muted: #8f8e86;
+    --grid: #2c2c29; --axis: #55544e;
+    --series-1: #3987e5; --series-2: #d95926; --series-3: #199e70;
+    --good: #4cc27a; --bad: #ef6b67; --warn: #e2a33a; --accent: #3987e5;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface-0: #121211; --surface-1: #1a1a19; --surface-2: #242422; --border: #34342f;
+  --text-primary: #f0efec; --text-secondary: #c3c2b7; --text-muted: #8f8e86;
+  --grid: #2c2c29; --axis: #55544e;
+  --series-1: #3987e5; --series-2: #d95926; --series-3: #199e70;
+  --good: #4cc27a; --bad: #ef6b67; --warn: #e2a33a; --accent: #3987e5;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--surface-0); color: var(--text-primary);
+  font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+header { padding: 28px 16px 8px; max-width: 1180px; margin: 0 auto; }
+h1 { font-size: 26px; margin: 0 0 4px; letter-spacing: -0.01em; }
+.sub { color: var(--text-secondary); margin: 0; }
+main { max-width: 1180px; margin: 0 auto; padding: 8px 16px 48px; }
+.tabs { display: flex; gap: 6px; margin: 18px 0 8px; flex-wrap: wrap; }
+.tab { border: 1px solid var(--border); background: var(--surface-1); color: var(--text-secondary);
+  padding: 8px 16px; border-radius: 999px; cursor: pointer; font: inherit; }
+.tab[aria-selected="true"] { background: var(--text-primary); color: var(--surface-1); border-color: var(--text-primary); }
+.theme { margin-left: auto; }
+section.panel { display: none; } section.panel.active { display: block; }
+.grid { display: grid; gap: 14px; grid-template-columns: repeat(12, 1fr); }
+.card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; padding: 18px; grid-column: span 12; min-width: 0; }
+.span6 { grid-column: span 6; } .span4 { grid-column: span 4; } .span3 { grid-column: span 3; } .span8 { grid-column: span 8; }
+@media (max-width: 860px) { .span6, .span4, .span3, .span8 { grid-column: span 12; } }
+.card h2 { font-size: 16px; margin: 0 0 2px; } .card .note { color: var(--text-muted); font-size: 13px; margin: 0 0 12px; }
+.tile .k { color: var(--text-secondary); font-size: 13px; } .tile .v { font-size: 30px; font-weight: 650; letter-spacing: -0.02em; }
+.tile .d { color: var(--text-muted); font-size: 12.5px; }
+.flow { display: flex; flex-wrap: wrap; gap: 8px; align-items: stretch; }
+.step { flex: 1 1 150px; background: var(--surface-2); border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; position: relative; }
+.step b { display: block; font-size: 13.5px; } .step span { color: var(--text-secondary); font-size: 12.5px; }
+.step:not(:last-child)::after { content: "→"; position: absolute; right: -11px; top: 50%; transform: translateY(-50%); color: var(--text-muted); }
+@media (max-width: 860px) { .step:not(:last-child)::after { content: ""; } }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px; color: var(--text-secondary); margin-bottom: 8px; }
+.sw { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+svg text { fill: var(--text-secondary); font-size: 12px; } svg .val { fill: var(--text-primary); font-size: 11.5px; }
+.tip { position: fixed; pointer-events: none; background: var(--surface-1); border: 1px solid var(--border);
+  border-radius: 8px; padding: 8px 10px; font-size: 12.5px; box-shadow: 0 4px 18px rgba(0,0,0,.12); display: none; z-index: 10; max-width: 280px; }
+.tablewrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+th { color: var(--text-secondary); font-weight: 600; white-space: nowrap; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.sel td { background: var(--surface-2); }
+.badge { display: inline-block; font-size: 12px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--border); white-space: nowrap; }
+.ok { color: var(--good); } .bad { color: var(--bad); } .warn { color: var(--warn); }
+details { border-bottom: 1px solid var(--grid); padding: 8px 0; } summary { cursor: pointer; }
+.cases summary { display: flex; gap: 10px; align-items: baseline; list-style: none; }
+.cases summary::-webkit-details-marker { display: none; }
+.cases .qid { font-family: ui-monospace, Menlo, monospace; font-size: 12.5px; color: var(--text-muted); min-width: 44px; }
+.cases .ans { color: var(--text-secondary); font-size: 13.5px; margin: 6px 0 0 54px; }
+.cases code { font-size: 12px; color: var(--text-muted); word-break: break-all; }
+.toggle { font: inherit; font-size: 12.5px; background: none; border: 1px solid var(--border); color: var(--text-secondary); border-radius: 6px; padding: 2px 8px; cursor: pointer; float: right; }
+.empty { color: var(--text-muted); font-style: italic; }
+select { font: inherit; background: var(--surface-1); color: var(--text-primary); border: 1px solid var(--border); border-radius: 6px; padding: 4px 8px; }
+a { color: var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Day 7 · Agentic RAG</h1>
+  <p class="sub">Hoàng Nhật Minh · 2A202603992 — agent truy xuất có nguồn trên kho Day 6 và thử thách nâng cao đa phương thức.</p>
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" aria-selected="true" data-tab="basic">Phần cơ bản</button>
+    <button class="tab" role="tab" aria-selected="false" data-tab="advanced">Thử thách nâng cao</button>
+    <button class="tab theme" id="theme" title="Đổi giao diện sáng/tối">◐ Giao diện</button>
+  </div>
+</header>
+<main>
+  <section class="panel active" id="basic"></section>
+  <section class="panel" id="advanced"></section>
+</main>
+<div class="tip" id="tip"></div>
+<script>
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+const pct = f => f && f[1] ? Math.round(100 * f[0] / f[1]) : null;
+const fr = f => f ? `${f[0]}/${f[1]}` : "—";
+const SER = ["var(--series-1)", "var(--series-2)", "var(--series-3)"];
+const tip = $("#tip");
+function showTip(e, html) { tip.innerHTML = html; tip.style.display = "block";
+  const x = Math.min(e.clientX + 14, innerWidth - tip.offsetWidth - 8); tip.style.left = x + "px"; tip.style.top = (e.clientY + 14) + "px"; }
+function hideTip() { tip.style.display = "none"; }
+
+/* Horizontal grouped bars, values as fractions [n, N] shown in percent. */
+function hbars(el, rows, series, { max = 100, unit = "%", rowLabel = r => r.label } = {}) {
+  if (!el.clientWidth) return;   // hidden tab: drawn again when shown
+  const W = el.clientWidth, L = Math.min(150, W * 0.3), R = 46, bh = 12, gap = 4, group = series.length * (bh + gap) + 14;
+  const H = rows.length * group + 26, iw = W - L - R;
+  const x = v => L + (v / max) * iw;
+  let s = `<svg width="100%" height="${H}" viewBox="0 0 ${W} ${H}" role="img">`;
+  for (let t = 0; t <= max; t += max / 4) s += `<line x1="${x(t)}" x2="${x(t)}" y1="0" y2="${H - 20}" stroke="var(--grid)"/><text x="${x(t)}" y="${H - 6}" text-anchor="middle">${t}${unit}</text>`;
+  rows.forEach((r, i) => {
+    const y0 = i * group + 6;
+    s += `<text x="${L - 10}" y="${y0 + (series.length * (bh + gap)) / 2 + 2}" text-anchor="end">${esc(rowLabel(r))}</text>`;
+    series.forEach((se, j) => {
+      const f = se.get(r), v = Array.isArray(f) ? pct(f) : f;
+      if (v == null) return;
+      const y = y0 + j * (bh + gap), w = Math.max(x(v) - L, 2);
+      const lab = Array.isArray(f) ? `${fr(f)} (${v}%)` : `${v}${unit}`;
+      s += `<g class="hit" data-tip="${esc(`<b>${rowLabel(r)}</b><br>${se.name}: ${lab}`)}">
+        <rect x="${L}" y="${y - 2}" width="${iw}" height="${bh + 4}" fill="transparent"/>
+        <path d="M${L},${y} h${w - 4} q4,0 4,4 v${bh - 8} q0,4 -4,4 h${-(w - 4)} z" fill="${SER[j]}"/>
+        <text class="val" x="${L + w + 6}" y="${y + bh - 2}">${Array.isArray(f) ? fr(f) : v + unit}</text></g>`;
+    });
+  });
+  el.innerHTML = s + "</svg>";
+  el.querySelectorAll(".hit").forEach(g => { g.onmousemove = e => showTip(e, g.dataset.tip); g.onmouseleave = hideTip; });
+}
+function legend(series) { return `<div class="legend">${series.map((s, j) => `<span><i class="sw" style="background:${SER[j]}"></i>${s.name}</span>`).join("")}</div>`; }
+function chartCard(cls, title, note, id, series) {
+  return `<div class="card ${cls}"><h2>${title}</h2><p class="note">${note}</p>${series && series.length > 1 ? legend(series) : ""}<div id="${id}"></div></div>`;
+}
+function tile(cls, k, v, d) { return `<div class="card tile ${cls}"><div class="k">${k}</div><div class="v">${v}</div><div class="d">${d}</div></div>`; }
+
+function renderBasic(B) {
+  const el = $("#basic");
+  const sel = B.agents.test.find(r => r.config === B.selected), base = B.agents.test.find(r => r.config === "baseline");
+  const R3 = [{ name: "Hit@1", get: r => r.hit1 }, { name: "Evidence Hit@3", get: r => r.hit3 }, { name: "Context Evidence", get: r => r.ctx }];
+  el.innerHTML = `<div class="grid">
+    ${tile("span3", "Corpus (Day 6, index D)", B.corpus.chunks + " chunk", B.corpus.pages + " trang · QĐ 5642/QĐ-BYT")}
+    ${tile("span3", "Benchmark", (B.benchmark.dev.answerable + B.benchmark.dev.unanswerable + B.benchmark.test.answerable + B.benchmark.test.unanswerable) + " câu",
+        `dev ${B.benchmark.dev.answerable}+${B.benchmark.dev.unanswerable} · test ${B.benchmark.test.answerable}+${B.benchmark.test.unanswerable} (có đáp án + thiếu bằng chứng)`)}
+    ${tile("span3", "Cấu hình chốt trên dev", esc(B.selected || "—"), "Hybrid RRF + filter disease, chốt trước khi chạy test")}
+    ${tile("span3", "Context Evidence trên test", sel ? fr(sel.ctx) : "—", base ? `baseline ${fr(base.ctx)} (1 lỗi nhà cung cấp)` : "")}
+    <div class="card"><h2>Pipeline</h2><p class="note">Gold chỉ được đọc sau khi chạy để chấm; agent chỉ nhận câu hỏi (và filter người dùng cung cấp).</p>
+      <div class="flow">
+        <div class="step"><b>Qdrant Day 6</b><span>233 chunk · E5-large 1024 chiều</span></div>
+        <div class="step"><b>Retriever</b><span>TF-IDF · BM25 · Dense · Hybrid RRF ± filter</span></div>
+        <div class="step"><b>Agent gpt-4.1-mini</b><span>search · answer · abstain, ≤3 lượt tìm</span></div>
+        <div class="step"><b>Context 4000 ký tự</b><span>khử trùng ID, giữ nguồn và trang</span></div>
+        <div class="step"><b>Citation [id]</b><span>phải có trong context, sửa 1 lần</span></div>
+      </div></div>
+    ${chartCard("span8", "Retrieval trên dev (19 câu có đáp án)", "Câu hỏi gốc, top-3, context 4000 ký tự. Rê chuột để xem n/N.", "c-retr", R3)}
+    ${chartCard("span4", "Ảnh hưởng của context budget", "Dense, dev: Evidence Hit@3 giữ 17/19, nhưng chunk dài bị loại khỏi context khi budget nhỏ.", "c-budget", [{ name: "Context Evidence" }])}
+    <div class="card"><h2>Agent trên dev — so sánh cấu hình</h2><p class="note">Tiêu chí chọn ghi trước trong configs/SELECTION.md: (1) trả lời và có evidence, (2) từ chối đúng, (3) Context Evidence, (4) thời gian, chi phí. baseline-v0 là lần chạy trước khi sửa thông báo lỗi citation.</p>
+      <div class="tablewrap"><table><thead><tr><th>Cấu hình</th><th class="num">Trả lời + có evidence</th><th class="num">Context Evidence</th><th class="num">Từ chối đúng</th><th class="num">Trung vị (s)</th><th class="num">Chi phí ($)</th></tr></thead>
+      <tbody>${B.agents.dev.map(r => `<tr class="${r.config === B.selected ? "sel" : ""}"><td>${esc(r.config)}${r.config === B.selected ? ' <span class="badge">đã chọn</span>' : ""}</td>
+        <td class="num">${fr(r.answered_with_evidence)}</td><td class="num">${fr(r.ctx)}</td><td class="num">${fr(r.abstain_ok)}</td>
+        <td class="num">${r.median_s ?? "—"}</td><td class="num">${r.cost?.toFixed(4) ?? "—"}</td></tr>`).join("")}</tbody></table></div></div>
+    <div class="card"><h2>Test — baseline và cấu hình đã chọn</h2><p class="note">Nhãn câu trả lời, citation và context do Claude soạn nháp, cần người chấm xác nhận. Điểm câu trả lời: baseline loại t04 (lỗi bộ lọc nội dung), nên trên 5 câu chung cả hai đều 8/10.</p>
+      <div class="tablewrap"><table><thead><tr><th>Cấu hình</th><th class="num">Điểm 0/1/2</th><th class="num">TB /2</th><th class="num">Citation hợp lệ</th><th class="num">Context 0/1/2</th><th class="num">Context Evidence</th><th class="num">Từ chối đúng</th><th class="num">Lỗi</th></tr></thead>
+      <tbody>${B.agents.test.map(r => `<tr class="${r.config === B.selected ? "sel" : ""}"><td>${esc(r.config)}</td>
+        <td class="num">${r.grounded ? `${r.grounded["0"]} / ${r.grounded["1"]} / ${r.grounded["2"]}` : "—"}</td>
+        <td class="num">${r.grounded?.mean?.toFixed(2) ?? "—"}</td><td class="num">${fr(r.citation)}</td>
+        <td class="num">${r.context_grades ? ["0","1","2"].map(k => r.context_grades[k] || 0).join(" / ") : "—"}</td>
+        <td class="num">${fr(r.ctx)}</td><td class="num">${fr(r.abstain_ok)}</td><td class="num">${r.errors}</td></tr>`).join("")}</tbody></table></div></div>
+    <div class="card"><h2>Từng câu test <select id="b-cfg">${B.agents.test.map(r => `<option ${r.config === B.selected ? "selected" : ""}>${esc(r.config)}</option>`).join("")}</select></h2>
+      <p class="note">Bấm vào câu để xem câu trả lời, citation và ghi chú chấm.</p><div class="cases" id="b-cases"></div></div>
+  </div>`;
+  hbars($("#c-retr"), B.retrieval_dev, R3);
+  hbars($("#c-budget"), B.budget, [{ name: "Context Evidence", get: r => r.ctx }], { rowLabel: r => r.budget + " ký tự" });
+  const drawCases = () => {
+    const r = B.agents.test.find(x => x.config === $("#b-cfg").value);
+    $("#b-cases").innerHTML = r.cases_detail.map(c => {
+      const verdict = c.status === "error" ? '<span class="badge warn">⚠ lỗi</span>'
+        : c.abst != null ? (c.abst ? '<span class="badge ok">✓ từ chối đúng</span>' : '<span class="badge bad">✗</span>')
+        : c.grade != null ? `<span class="badge ${c.grade === 2 ? "ok" : c.grade === 1 ? "warn" : "bad"}">${c.grade === 2 ? "✓" : c.grade === 1 ? "◐" : "✗"} điểm ${c.grade}</span>` : "";
+      return `<details><summary><span class="qid">${c.id}</span>${verdict}<span>${esc(c.q)}</span></summary>
+        <div class="ans">${esc(c.answer)}<br>${c.citations.map(x => `<code>[${esc(x)}]</code>`).join(" ")}${c.note ? `<br><span class="note">Chấm: ${esc(c.note)}</span>` : ""}</div></details>`;
+    }).join("");
+  };
+  $("#b-cfg").onchange = drawCases; drawCases();
+}
+
+function renderAdvanced(A) {
+  const el = $("#advanced");
+  const G = { table: "Bảng", image: "Ảnh, sơ đồ", chart: "Biểu đồ", multihop: "Multi-hop", text: "Text", unanswerable: "Thiếu bằng chứng" };
+  const kinds = Object.entries(A.visual_kinds).map(([k, v]) => ({ label: k, v }));
+  const kmax = Math.max(...kinds.map(k => k.v), 1);
+  const comp = Object.entries(A.benchmark_composition).map(([g, v]) => ({ label: G[g] || g, dev: v.dev, test: v.test }));
+  const dev = A.agents.dev || [], test = A.agents.test || [];
+  const R3 = [{ name: "Hit@1", get: r => r.hit1 }, { name: "Evidence Hit@3", get: r => r.hit3 }, { name: "Context đủ evidence (top-4)", get: r => r.ctx }];
+  el.innerHTML = `<div class="grid">
+    ${tile("span3", "Tài liệu", A.document.pages + " trang", `${esc(A.document.publisher)} · ${esc(A.document.license)}`)}
+    ${tile("span3", "Chunk đã index", A.index.chunks ?? "—", `${(A.index.chunks || 0) - (A.index.visual_chunks || 0)} text · ${A.index.visual_chunks ?? "—"} phần hình/bảng`)}
+    ${tile("span3", "Hình/bảng trích bằng vision", Object.values(A.visual_kinds).reduce((a, b) => a + b, 0), `${A.number_match_flagged} mục khớp số < 80% với lớp text, cần kiểm tra`)}
+    ${tile("span3", "Ngưỡng đạt bonus", "≥ 90%", "test 30 câu → cần ít nhất 27/30")}
+    <div class="card"><h2>Pipeline đa phương thức</h2><p class="note">${esc(A.document.title)} — <a href="${A.document.url}" target="_blank" rel="noopener">nguồn gốc</a></p>
+      <div class="flow">
+        <div class="step"><b>PyMuPDF</b><span>text theo đoạn, giữ trang và mục</span></div>
+        <div class="step"><b>Vision gpt-4.1</b><span>mỗi hình/bảng → mô tả + nhãn lớp text, ảnh trang lưu lại</span></div>
+        <div class="step"><b>Kiểm tra số</b><span>so số đã trích với lớp text PDF</span></div>
+        <div class="step"><b>Index</b><span>E5 + Qdrant <code>day7_advanced</code> · BM25 · RRF</span></div>
+        <div class="step"><b>Agent</b><span>search · <b>inspect_figure</b> (đọc lại ảnh theo câu hỏi) · answer · abstain</span></div>
+      </div></div>
+    ${chartCard("span6", "Loại hình/bảng đã trích xuất", "Số mục theo loại do vision phân loại.", "c-kinds", [{ name: "Số mục" }])}
+    <div class="card span6"><h2>Benchmark theo nhóm</h2><p class="note">Mỗi câu thuộc đúng một nhóm chính; chia dev/test trước khi chạy.</p>
+      <div class="tablewrap"><table><thead><tr><th>Nhóm</th><th class="num">Dev</th><th class="num">Test</th><th class="num">Test tối thiểu</th></tr></thead><tbody>
+      ${comp.map(c => `<tr><td>${c.label}</td><td class="num">${c.dev}</td><td class="num">${c.test}</td><td class="num">${{ "Bảng": 6, "Ảnh, sơ đồ": 5, "Biểu đồ": 5, "Multi-hop": 4, "Text": 4, "Thiếu bằng chứng": 6 }[c.label] ?? ""}</td></tr>`).join("")}
+      </tbody></table></div></div>
+    ${chartCard("", "Retrieval trên dev (15 câu có đáp án)", "Câu hỏi gốc. Multi-hop chỉ tính đủ khi mọi evidence nằm trong top-4.", "c-aretr", R3)}
+    <div class="card"><h2>Agent trên dev — tỷ lệ đạt</h2><p class="note">Đạt = đủ dữ kiện chính và citation trỏ đúng trang gold; câu thiếu bằng chứng phải từ chối. Câu trượt sẽ được đọc lại trước khi chọn cấu hình.</p>
+      ${dev.length ? `<div class="tablewrap"><table><thead><tr><th>Cấu hình</th><th class="num">Đạt</th>${Object.keys(G).map(g => `<th class="num">${G[g]}</th>`).join("")}<th class="num">Lỗi</th><th class="num">Trung vị (s)</th><th class="num">Chi phí ($)</th></tr></thead><tbody>
+      ${dev.map(r => `<tr class="${r.config === A.selected ? "sel" : ""}"><td title="${esc(r.description)}">${esc(r.config)}</td><td class="num"><b>${fr(r.auto_pass)}</b> (${pct(r.auto_pass)}%)</td>
+        ${Object.keys(G).map(g => `<td class="num">${fr(r.by_group[g])}</td>`).join("")}<td class="num">${r.errors}</td><td class="num">${r.median_s ?? "—"}</td><td class="num">${r.cost ?? "—"}</td></tr>`).join("")}
+      </tbody></table></div>` : '<p class="empty">Chưa có kết quả — đang chạy.</p>'}</div>
+    <div class="card"><h2>Test — cấu hình đã chọn (chấm tay từng câu)</h2><p class="note">Chạy một lần sau khi chốt ${esc(A.selected || "")} trên dev. Ngưỡng bonus: ≥ 27/30.</p>
+      ${test.length ? `<div class="tablewrap"><table><thead><tr><th>Cấu hình</th><th class="num">Đạt (chấm tay)</th>${Object.keys(G).map(g => `<th class="num">${G[g]}</th>`).join("")}<th class="num">Chi phí ($)</th><th>Bonus</th></tr></thead><tbody>
+      ${test.map(r => `<tr class="sel"><td>${esc(r.config)}</td><td class="num"><b>${fr(r.human_pass)}</b> (${pct(r.human_pass)}%)</td>
+        ${Object.keys(G).map(g => `<td class="num">${fr(r.human_by_group[g])}</td>`).join("")}<td class="num">${r.cost ?? "—"}</td>
+        <td>${r.human_pass && r.human_pass[0] >= 27 ? '<span class="badge ok">✓ đạt</span>' : '<span class="badge bad">✗ chưa đạt</span>'}</td></tr>`).join("")}
+      </tbody></table></div>` : '<p class="empty">Chưa chạy test.</p>'}</div>
+    <div class="card"><h2>Từng câu ${dev.length ? `<select id="a-cfg">${[...dev.map(r => ["dev", r.config]), ...test.map(r => ["test", r.config])].map(([s, c]) => `<option value="${s}|${c}">${s} · ${esc(c)}</option>`).join("")}</select>` : ""}</h2>
+      <p class="note">Nhãn tự động là nháp; số lần đọc lại hình hiển thị ở mỗi câu.</p><div class="cases" id="a-cases">${dev.length ? "" : '<p class="empty">Chưa có kết quả.</p>'}</div></div>
+  </div>`;
+  hbars($("#c-kinds"), kinds, [{ name: "Số mục", get: r => r.v }], { max: Math.ceil(kmax / 5) * 5, unit: "" });
+  if (A.retrieval_dev.length) hbars($("#c-aretr"), A.retrieval_dev, R3); else $("#c-aretr").innerHTML = '<p class="empty">Chưa có kết quả.</p>';
+  const s = $("#a-cfg");
+  if (s) {
+    const draw = () => {
+      const [split, cfg] = s.value.split("|"), r = (A.agents[split] || []).find(x => x.config === cfg);
+      $("#a-cases").innerHTML = r.cases_detail.map(c => `<details><summary><span class="qid">${c.id}</span>
+        <span class="badge ${c.status === "error" ? "warn" : c.pass ? "ok" : "bad"}">${c.status === "error" ? "⚠ lỗi" : c.pass ? "✓ đạt" : "✗ trượt"}</span>
+        <span class="badge">${G[c.group] || c.group}</span><span>${esc(c.q)}</span></summary>
+        <div class="ans">${esc(c.answer)}<br>${c.citations.map(x => `<code>[${esc(x)}]</code>`).join(" ")}
+        ${c.review ? `<br><span class="note">Chấm tay: ${esc(c.review)}</span>` : c.missing?.length ? `<br><span class="note">Thiếu dữ kiện: ${c.missing.map(esc).join(", ")}</span>` : ""}
+        <br><span class="note">Đọc lại hình: ${c.inspects} lần</span></div></details>`).join("");
+    };
+    s.onchange = draw; draw();
+  }
+}
+
+let DATA;
+function render() { renderBasic(DATA.basic); renderAdvanced(DATA.advanced); }
+document.querySelectorAll(".tab[data-tab]").forEach(b => b.onclick = () => {
+  document.querySelectorAll(".tab[data-tab]").forEach(x => x.setAttribute("aria-selected", x === b));
+  document.querySelectorAll("section.panel").forEach(p => p.classList.toggle("active", p.id === b.dataset.tab));
+  render();
+});
+$("#theme").onclick = () => {
+  const r = document.documentElement, dark = r.dataset.theme ? r.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+  r.dataset.theme = dark ? "light" : "dark";
+};
+addEventListener("resize", () => DATA && render());
+fetch("data.json", { cache: "no-store" }).then(r => r.json()).then(d => { DATA = d; render(); })
+  .catch(e => { $("#basic").innerHTML = `<p class="empty">Không đọc được data.json: ${esc(e)}. Chạy python3 dashboard/build_data.py rồi tải lại.</p>`; });
+</script>
+</body>
+</html>

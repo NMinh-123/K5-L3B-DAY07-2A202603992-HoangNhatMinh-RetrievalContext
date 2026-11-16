@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 2625,
+  "completion_tokens": 931,
+  "total_tokens": 3556,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "service_ttft_ms": 2057,
+   "user_visible_ttft_ms": 1528,
+   "pre_inference_ms": 528,
+   "service_tbt_ms": 8,
+   "service_ttlt_ms": 9857,
+   "engine_ttft_ms": 635,
+   "engine_ttlt_ms": 8444,
+   "engine_tbt_ms": 8
+  }
+ },
+ "latency_s": 17.8,
+ "items": [
+  {
+   "label": "Hình 26",
+   "kind": "bar_chart",
+   "title": "Tỷ lệ các doanh nghiệp có liên kết với các chuỗi giá trị toàn cầu (GVC), Việt Nam và một số quốc gia so sánh",
+   "panels": "Không có biểu đồ con.",
+   "content": "Biểu đồ gồm hai phần: \n1. Tỷ lệ doanh nghiệp có kết nối GVC (%) tại Việt Nam theo quy mô doanh nghiệp và theo năm:\n- Trục tung: Tỷ lệ doanh nghiệp có kết nối GVC (%), từ 0 đến 35%.\n- Trục hoành (phần 1): Quy mô doanh nghiệp (Nhỏ, Vừa, Lớn) và Năm (2009, 2015, 2023).\n- Giá trị in số:\n  + Nhỏ – 12%\n  + Vừa – 20%\n  + Lớn – 62%\n  + 2009 – 35%\n  + 2015 – 20%\n  + 2023 – 18%\n- Chú giải màu: Không ghi rõ trên hình, nhưng màu xanh nhạt cho các năm, xanh đậm cho quy mô doanh nghiệp.\n- Xu hướng: Tỷ lệ doanh nghiệp lớn có kết nối GVC cao hơn nhiều so với doanh nghiệp nhỏ và vừa. Tỷ lệ kết nối GVC của doanh nghiệp Việt Nam giảm theo thời gian (2009: 35%, 2015: 20%, 2023: 18%).\n\n2. Tỷ lệ doanh nghiệp có kết nối GVC (%) tại một số quốc gia:\n- Trục tung: Tỷ lệ doanh nghiệp có kết nối GVC (%), từ 0 đến 35%.\n- Trục hoành (phần 2): Cambodia 2023, Thổ Nhĩ Kỳ 2019, Malaysia 2019, Việt Nam 2023, Indonesia 2023.\n- Giá trị in số:\n  + Cambodia 2023 – 31\n  + Thổ Nhĩ Kỳ 2019 – 24\n  + Malaysia 2019 – 19\n  + Việt Nam 2023 – 18\n  + Indonesia 2023 – 15\n- Chú giải màu: Không ghi rõ trên hình, nhưng màu xanh đậm cho các quốc gia.\n- Xu hướng: Cambodia có tỷ lệ doanh nghiệp kết nối GVC cao nhất (31%), tiếp đến là Thổ Nhĩ Kỳ (24%), Malaysia (19%), Việt Nam (18%), Indonesia (15%).\n\nCác nhãn trên hình:\n- (352,139) Tỷ lệ doanh nghiệp có kết nối GVC  (%)\n- (340,306) Cambodia\n- (379,306) Thổ Nhĩ Kỳ\n- (421,306) Malaysia\n- (455,306) Việt Nam\n- (490,306) Indonesia\n- (98,304) Nhỏ\n- (135,304) Vừa\n- (170,304) Lớn\n- (204,304) 2009\n- (240,304) 2015\n- (276,304) 2023\n- (109,314) Quy mô doanh nghiệp\n- (240,314) Năm\n\nCác số trên hình:\n- (356,164) 31\n- (392,195) 24\n- (428,214) 19\n- (464,216) 18\n- (500,230) 15\n- (98,273) 12%\n- (134,259) 20%\n- (170,194) 62%\n- (206,236) 35%\n- (242,260) 20%\n- (278,263) 18%\n\nXu hướng chính: Doanh nghiệp lớn có tỷ lệ kết nối GVC cao nhất. Tỷ lệ kết nối GVC của doanh nghiệp Việt Nam giảm theo thời gian. Cambodia có tỷ lệ kết nối GVC cao nhất trong các quốc gia so sánh.",
+   "source_note": "Nguồn: Tính toán của Ngân hàng Thế giới.\nDữ liệu: Khảo sát doanh nghiệp năm 2023 của Ngân hàng Thế giới."
+  }
+ ]
+}

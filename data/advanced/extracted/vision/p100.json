@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 4282,
+  "completion_tokens": 1063,
+  "total_tokens": 5345,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "service_ttft_ms": 1823,
+   "user_visible_ttft_ms": 1396,
+   "pre_inference_ms": 428,
+   "service_tbt_ms": 9,
+   "service_ttlt_ms": 11467,
+   "engine_ttft_ms": 652,
+   "engine_ttlt_ms": 10301,
+   "engine_tbt_ms": 9
+  }
+ },
+ "latency_s": 14.5,
+ "items": [
+  {
+   "label": "Bảng A.1",
+   "kind": "table",
+   "title": "Danh sách các sản phẩm nhập khẩu có nguy cơ dễ tổn thương cao nhất",
+   "panels": null,
+   "content": "Bảng gồm 13 dòng, 9 cột:\n\n| # | Mã HS17 | Mô tả sản phẩm | Lĩnh vực | Giá trị nhập khẩu (triệu USD) | Quốc gia cung ứng lớn nhất | Tỷ lệ quốc gia cung ứng lớn nhất | Chỉ số HHI | Độ chính tâm ngoại vi | Độ phức tạp |\n|---|---------|----------------|----------|-------------------------------|----------------------------|-------------------------------|-----------|----------------------|--------------|\n| 1 | 901380  | Thiết bị, thiết bị và dụng cụ quang học; N.E.C. trong nhóm số 9013 (bao gồm cả thiết bị tinh thể lỏng) | Thiết bị quang học | 2.427 | Trung Quốc | 77% | 0,64 | 2,21 | 1,1 |\n| 2 | 850440  | Bộ chuyển đổi tĩnh điện | Máy móc / Điện | 1.040 | Trung Quốc | 80% | 0,64 | 1,96 | 1,05 |\n| 3 | 847130  | Máy xử lý dữ liệu tự động; Di động, nặng không quá 10kg, bao gồm ít nhất một bộ xử lý trung tâm, bàn phím và màn hình | Máy móc / Điện | 1.028 | Trung Quốc | 86% | 0,75 | 1,54 | 1,04 |\n| 4 | 950300  | Xe ba bánh, xe tay ga, xe đạp và đồ chơi có bánh xe tương tự; xe ngựa búp bê; Búp bê; khác Đồ chơi; mô hình giảm kích thước (quy mô) và các mô hình giải trí tương tự) | Khác | 771 | Trung Quốc | 97% | 0,95 | 4,37 | 1,25 |\n| 5 | 854442  | Dây dẫn điện cách điện; Đối với điện áp không quá 1000 | Máy móc / Điện | 770 | Trung Quốc | 78% | 0,62 | 1,75 | 1,04 |\n| 6 | 851890  | Micrô, tai nghe, tai nghe, thiết bị khuếch đại; Các bộ phận của thiết bị thuộc nhóm 8518 | Máy móc / Điện | 607 | Trung Quốc | 86% | 0,74 | 1,6 | 1,12 |\n| 7 | 830242  | Giá đỡ, phụ kiện và các mặt hàng tương tự; Thích hợp cho đồ nội thất bằng kim loại cơ bản | Kim loại | 412 | Trung Quốc | 95% | 0,9 | 2,66 | 1,03 |\n| 8 | 940190  | Ghế ngồi; Các bộ phận | Đồ đạc | 390 | Trung Quốc | 80% | 0,65 | 1,72 | 1,31 |\n| 9 | 850511  | Nam châm; nam châm vĩnh cửu và các vật phẩm dự định trở thành nam châm vĩnh cửu sau khi từ hóa, bằng kim loại | Máy móc / Điện | 342 | Trung Quốc | 91% | 0,84 | 1,66 | 1,12 |\n| 10 | 850131  | Động cơ điện và máy phát điện; DC, công suất không quá 750W | Máy móc / Điện | 310 | Trung Quốc | 67% | 0,51 | 1,76 | 1,06 |\n| 11 | 847160  | Đơn vị máy xử lý dữ liệu tự động; đơn vị đầu vào hoặc đầu ra, có hoặc không chứa các đơn vị lưu trữ trong cùng một vỏ | Kim loại | 286 | Trung Quốc | 79% | 0,63 | 1,49 | 1,15 |\n| 12 | 851829  | Loa; không được gắn trong vỏ của chúng | Máy móc / Điện | 269 | Trung Quốc | 83% | 0,69 | 1,59 | 1,02 |\n| 13 | 901910  | Thiết bị trị liệu cơ học; thiết bị mát-xa và thiết bị kiểm tra tâm lý | Thiết bị quang học | 172 | Trung Quốc | 93% | 0,87 | 2,59 | 1,09 |",
+   "source_note": null
+  }
+ ]
+}

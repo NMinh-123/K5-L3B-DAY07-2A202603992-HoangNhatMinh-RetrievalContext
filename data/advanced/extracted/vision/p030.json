@@ -1,0 +1,47 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3269,
+  "completion_tokens": 1209,
+  "total_tokens": 4478,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 11,
+   "engine_ttft_ms": 269,
+   "engine_ttlt_ms": 13149,
+   "pre_inference_ms": 504,
+   "service_tbt_ms": 11,
+   "service_ttft_ms": 1070,
+   "service_ttlt_ms": 13945,
+   "user_visible_ttft_ms": 566
+  }
+ },
+ "latency_s": 19.5,
+ "items": [
+  {
+   "label": "Hình 6",
+   "kind": "line_chart",
+   "title": "Tăng trưởng xuất khẩu cao nhờ vào số lượng chưa phải chất lượng hàng xuất khẩu ...",
+   "panels": "A. Khối lượng xuất khẩu và giá trị đơn vị (chỉ số 2000=100)",
+   "content": "Biểu đồ đường với hai chuỗi: 'Khối lượng' và 'Đơn vị giá trị'.\n- Trục tung trái: 0, 200, 400, 600, 800, 1.000 (không ghi đơn vị, là chỉ số, gốc 2000=100)\n- Trục hoành: các năm từ 2000 đến 2020, nhãn từng năm: 2000, 2001, 2002, ..., 2020.\n- Chú giải: 'Khối lượng' (màu xanh dương đậm), 'Đơn vị giá trị' (màu xanh nhạt).\n- Giá trị in số trên hình:\n  + Khối lượng – 2000: 100 (mặc định, gốc chỉ số)\n  + Khối lượng – 2020: khoảng 950 (đọc từ trục, không in số)\n  + Đơn vị giá trị – 2000: 100 (mặc định, gốc chỉ số)\n  + Đơn vị giá trị – 2020: khoảng 200 (đọc từ trục, không in số)\n- Xu hướng chính: Khối lượng xuất khẩu tăng rất mạnh từ 2000 đến 2020 (gần gấp 10 lần), trong khi đơn vị giá trị chỉ tăng gấp đôi, cho thấy tăng trưởng xuất khẩu chủ yếu nhờ số lượng chứ chưa phải do tăng chất lượng hàng hóa.",
+   "source_note": "Nguồn: WDI, UNCTAD, và tính toán của cán bộ/ngân hàng Thế giới\nGhi chú: Chỉ số giá trị đơn vị xuất khẩu lấy từ cơ sở dữ liệu thương mại của UNCTAD, sử dụng dữ liệu qua báo cáo của cơ quan thống kê các quốc gia dựa trên dữ liệu thương mại hàng hóa xuất khẩu. Thay đổi trong các chỉ số giá trị đơn vị xuất khẩu phản ánh thay đổi về giá và thành phần. Giá trị đơn vị cao hơn nhìn chung được cho là chỉ báo cho thấy chất lượng sản phẩm cao hơn (tham khảo Bykova, Ghodsi và Stehrer 2018)."
+  },
+  {
+   "label": "Hình 6",
+   "kind": "line_chart",
+   "title": "... khi hàm lượng giá trị gia tăng tương đối thấp của hàng xuất khẩu tính trên đầu người",
+   "panels": "B. Hàm lượng giá trị gia tăng trong nước trong hàng xuất khẩu, tính trên đầu người (USD), 1995-2020",
+   "content": "Biểu đồ đường với 8 chuỗi quốc gia: Bangladesh, Indonesia, Mexico, Malaysia, Philippines, Thái Lan, Trung Quốc, Hàn Quốc.\n- Trục tung trái: 0, 2.000, 4.000, 6.000, 8.000, 10.000 (đơn vị: USD/người)\n- Trục hoành: các năm từ 1995 đến 2020, nhãn từng năm: 1995, 1997, 1999, 2001, 2003, 2005, 2007, 2009, 2011, 2013, 2015, 2017, 2019, 2020.\n- Chú giải màu:\n  + Bangladesh (màu cam nhạt)\n  + Indonesia (màu đỏ nhạt)\n  + Mexico (màu xanh lá nhạt)\n  + Malaysia (màu xanh dương nhạt)\n  + Philippines (màu tím nhạt)\n  + Thái Lan (màu xanh dương đậm)\n  + Trung Quốc (màu xanh lam đậm)\n  + Hàn Quốc (màu xanh nước biển đậm)\n- Giá trị in số trên hình:\n  + Hàn Quốc – 2020: khoảng 10.000 (đọc từ trục, không in số)\n  + Trung Quốc – 2020: khoảng 2.500 (đọc từ trục, không in số)\n  + Việt Nam không có trong chú giải, không chắc chuỗi nào là Việt Nam\n- Xu hướng chính: Hàn Quốc có giá trị gia tăng trong nước trên đầu người cao nhất và tăng mạnh qua các năm, tiếp đến là Malaysia, Thái Lan, Trung Quốc. Các nước còn lại có giá trị thấp hơn nhiều và tăng chậm hơn. Việt Nam không có trong chú giải, không chắc chuỗi nào là Việt Nam.",
+   "source_note": "Nguồn: WDI, UNCTAD, và tính toán của cán bộ/ngân hàng Thế giới\nGhi chú: Chỉ số giá trị đơn vị xuất khẩu lấy từ cơ sở dữ liệu thương mại của UNCTAD, sử dụng dữ liệu qua báo cáo của cơ quan thống kê các quốc gia dựa trên dữ liệu thương mại hàng hóa xuất khẩu. Thay đổi trong các chỉ số giá trị đơn vị xuất khẩu phản ánh thay đổi về giá và thành phần. Giá trị đơn vị cao hơn nhìn chung được cho là chỉ báo cho thấy chất lượng sản phẩm cao hơn (tham khảo Bykova, Ghodsi và Stehrer 2018)."
+  }
+ ]
+}

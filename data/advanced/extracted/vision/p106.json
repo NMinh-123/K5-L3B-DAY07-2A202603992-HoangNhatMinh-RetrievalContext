@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 4115,
+  "completion_tokens": 894,
+  "total_tokens": 5009,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "service_ttft_ms": 1586,
+   "user_visible_ttft_ms": 1121,
+   "pre_inference_ms": 465,
+   "service_tbt_ms": 9,
+   "service_ttlt_ms": 9392,
+   "engine_ttft_ms": 651,
+   "engine_ttlt_ms": 8466,
+   "engine_tbt_ms": 9
+  }
+ },
+ "latency_s": 13.3,
+ "items": [
+  {
+   "label": "Bảng A2.2",
+   "kind": "table",
+   "title": "Bảng A2.2 Lập sơ đồ những cải cách hướng tới tăng trưởng năng suất và đầu tư",
+   "panels": null,
+   "content": "Bảng gồm các cột: Quá trình | Đo lường | Mô tả đo lường | Chỉ số kết quả | Giá trị Việt Nam | Năm giá trị Việt Nam | Tiêu thụ | Mức mục tiêu | Tăng | Độ co giãn tăng trưởng TFP (%/%) | Độ đàn hồi l / Y (%/%).\n\n| Quá trình | Đo lường | Mô tả đo lường | Chỉ số kết quả | Giá trị Việt Nam | Năm giá trị Việt Nam | Tiêu thụ | Mức mục tiêu | Tăng | Độ co giãn tăng trưởng TFP (%/%) | Độ đàn hồi l / Y (%/%) |\n|---|---|---|---|---|---|---|---|---|---|---|\n| 1. Di chuyển từ lắp ráp cuối cùng tới lĩnh vực sản xuất và dịch vụ công nghệ cao | 1.1 | Tận dụng FDI trong sản xuất và dịch vụ công nghệ cao để áp dụng công nghệ và nâng cấp kỹ năng trong các lĩnh vực then chốt như điện tử tiêu dùng và dịch vụ kỹ thuật số. Việc bổ sung được thúc đẩy bởi sự đổi mới (ví dụ: thiết kế hỗ trợ máy tính, in 3D, theo dõi sản phẩm và tự động hóa quy trình làm việc). | Chỉ số giá trị đơn vị xuất (2015=10) | 106.78 | 2021 | Trung Quốc | 148 | 41.22 | 0.0065 | 0.02 |\n| | 1.2 | Cải thiện môi trường pháp lý cho thương mại kỹ thuật số trong các lĩnh vực chính bao gồm quản trị dữ liệu, quy định viễn thông, tạo thuận lợi thương mại, hợp đồng từ xa và sở hữu trí tuệ. | Xếp hạng thương mại CPIA (l = thấp, đến 6 = cao) | 4 | 2015 | Thứ tư | 5 | 1 | 1.71 | |\n| | 1.3 | Mở rộng xuất khẩu các dịch vụ như R&D, hậu cần, tiếp thị, quản lý CNTT và Hỗ trợ văn phòng. | Thương mại dịch vụ (% GDP) | 9.4 | 2022 | KOR | 15.89 | 6.49 | 0.02 | |\n| 2. Chuyển đổi từ nền kinh tế kép sang chuỗi giá trị nội địa tích hợp để tăng năng suất | 2.1 | Tăng chi tiêu công cho R&D và giáo dục để tăng cường sự tham gia của các công ty trong nước vào GVC bằng cách giảm công nghệ và năng lực (bao gồm cả kỹ thuật, kỹ thuật và kỹ năng quản lý) khoảng cách với các công ty nước ngoài năng suất cao hơn và tăng khả năng hấp thụ của các công ty địa phương | Chi phí Nghiên cứu và phát triển (% GDP) | 0.43 | 2021 | Trung Quốc | 2.4 | 1.97 | 0.06 | 0.27 |\n| | 2.3 | Đẩy nhanh các sáng kiến Chính phủ điện tử nhằm thúc đẩy tính minh bạch và giảm tham nhũng thông qua việc số hóa các dịch vụ công khi các doanh nghiệp có liên kết GVC vẫn phải đối mặt với rủi ro cao hơn hối lộ, có thể làm tăng chi phí giao dịch và giảm khả năng cạnh tranh xuất khẩu | Tính minh bạch, trách nhiệm giải trình và tham nhũng của CPIA trong công chúng Xếp hạng ngành (1 = Thấp đến 6 = cao) | 3 | 2015 | Thứ tư | 4.5 | 1.5 | 3.75 | |",
+   "source_note": null
+  }
+ ]
+}

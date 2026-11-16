@@ -1,0 +1,47 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 2681,
+  "completion_tokens": 1044,
+  "total_tokens": 3725,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "service_ttft_ms": 1886,
+   "user_visible_ttft_ms": 1507,
+   "pre_inference_ms": 379,
+   "service_tbt_ms": 8,
+   "service_ttlt_ms": 10531,
+   "engine_ttft_ms": 636,
+   "engine_ttlt_ms": 9283,
+   "engine_tbt_ms": 8
+  }
+ },
+ "latency_s": 17.8,
+ "items": [
+  {
+   "label": "Hình 20",
+   "kind": "bar_chart",
+   "title": "Tăng trưởng của Việt Nam vẫn dựa vào tích lũy tư bản\nA. Yếu tố đóng góp tăng trưởng, 2010-2022",
+   "panels": null,
+   "content": "Biểu đồ cột thể hiện các yếu tố đóng góp vào tăng trưởng GDP của Việt Nam qua ba giai đoạn: 2010-14, 2015-19, 2020-22. Có bốn chuỗi: Đầu tư vốn (màu đỏ), Lực lượng lao động (màu vàng), Vốn nhân lực (màu xanh dương), TFP (màu xanh nhạt).\n\nCác giá trị in số trên hình:\n- 2010-14:\n  - Đầu tư vốn: 4.4\n  - Lực lượng lao động: 0.8\n  - Vốn nhân lực: 0.5\n  - TFP: 5.9\n- 2015-19:\n  - Đầu tư vốn: 4.3\n  - Lực lượng lao động: 1.5\n  - Vốn nhân lực: 0.6\n  - TFP: 6.8\n- 2020-22:\n  - Đầu tư vốn: 4.8\n  - Lực lượng lao động: 0.1\n  - Vốn nhân lực: 0.4\n  - TFP: -0.9\n\nXu hướng chính: Đầu tư vốn luôn là yếu tố đóng góp lớn nhất, nhưng TFP giảm mạnh và âm trong giai đoạn 2020-22. Lực lượng lao động và vốn nhân lực đóng góp nhỏ và giảm dần.",
+   "source_note": "Nguồn: Tính toán của cán bộ Ngân hàng Thế giới, sử dụng cơ sở dữ liệu TED. Các yếu tố đóng góp cho tăng trưởng dựa trên tăng trưởng GDP. Dữ liệu năm 2022 lấy dự báo của TET. TFP là năng suất tổng các yếu tố."
+  },
+  {
+   "label": "Hình 20",
+   "kind": "line_chart",
+   "title": "Tăng trưởng của Việt Nam vẫn dựa vào tích lũy tư bản\nB. Dự báo tăng trưởng dài hạn",
+   "panels": null,
+   "content": "Biểu đồ đường thể hiện dự báo GDP theo đầu người (2022 USD) của Việt Nam từ 2025 đến 2045 với ba chuỗi:\n- Kịch bản cơ sở (màu xanh nhạt)\n- Kịch bản cải cách cơ cấu toàn diện (màu xanh đậm)\n- Ngưỡng thu nhập cao (đường ngang màu xám)\n\nTrục tung: GDP theo đầu người (2022 USD), các mốc: 2.000, 4.000, 6.000, 8.000, 10.000, 12.000, 14.000, 16.000, 18.000\nTrục hoành: Năm, các mốc: 2025, 2030, 2035, 2040, 2045\n\nCác giá trị in số trên hình:\n- Kịch bản cải cách cơ cấu toàn diện:\n  - 2025: 4,500\n  - 2045: 15,000\n- Kịch bản cơ sở:\n  - 2045: 11,500\n\nĐường ngang ngưỡng thu nhập cao: 15,000 (in số)\n\nXu hướng chính: Kịch bản cải cách cơ cấu toàn diện giúp GDP đầu người tăng nhanh hơn, đạt ngưỡng thu nhập cao vào năm 2045. Kịch bản cơ sở tăng chậm hơn, không đạt ngưỡng này.",
+   "source_note": "Nguồn: Tính toán của cán bộ Ngân hàng Thế giới.\nGhi chú: Dự báo tăng trưởng dựa trên mô hình Solow-Swan hiệu chỉnh. Kịch bản nặng tâm vị thế trong GVC là kịch bản cải cách bao gồm mọi cải cách được bàn trong báo cáo này. Tham khảo chi tiết tại phụ chương kỹ thuật. Các giá trị dự báo biểu thị bằng đồng USD năm 2022. Ngưỡng thu nhập cao dựa trên nguồn GNI đầu người bằng 13.485 USD của Ngân hàng Thế giới, hoặc cao hơn vào năm 2022, và tỷ lệ GNI/GDP ở mức 0,93 là mức bình quân của Việt Nam giai đoạn 2012-2019. Vùng màu thể hiện việc tỉ không chắc chắn trong lập mô hình về tăng trưởng tương lai qua cải cách cơ cấu."
+  }
+ ]
+}

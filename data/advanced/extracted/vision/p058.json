@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3456,
+  "completion_tokens": 1058,
+  "total_tokens": 4514,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 8,
+   "engine_ttft_ms": 327,
+   "engine_ttlt_ms": 9127,
+   "pre_inference_ms": 550,
+   "service_tbt_ms": 8,
+   "service_ttft_ms": 1350,
+   "service_ttlt_ms": 10130,
+   "user_visible_ttft_ms": 800
+  }
+ },
+ "latency_s": 21.0,
+ "items": [
+  {
+   "label": null,
+   "kind": "bubble_chart",
+   "title": "15 sản phẩm sau khi tích lũy năng lực công nghệ",
+   "panels": "",
+   "content": "Biểu đồ bong bóng thể hiện mối quan hệ giữa số lượng đối thủ cạnh tranh toàn cầu (trục dọc, không ghi đơn vị) và tăng trưởng nhu cầu toàn cầu (%) giai đoạn 2018-2021 (trục ngang, đơn vị %). Kích thước hình cầu thể hiện quy mô thị trường toàn cầu tính cho nhập khẩu toàn cầu. Chú giải: Hình cầu màu đỏ đại diện cho từng sản phẩm, nhãn sản phẩm là mã HS và mô tả ngắn. Các sản phẩm gồm:\n- HS 4016: Cao su lưu hóa khác cao su cứng, chưa phân loại – Số lượng đối thủ cạnh tranh toàn cầu: khoảng 15 (đọc từ trục), Tăng trưởng nhu cầu toàn cầu: khoảng -6% (đọc từ trục)\n- HS 6002: Vải; đan hoặc móc, v.v. chứa trọng lượng sợi đàn hồi hoặc chỉ cao su từ 5% trở lên – Số lượng đối thủ cạnh tranh toàn cầu: khoảng 15 (đọc từ trục), Tăng trưởng nhu cầu toàn cầu: khoảng -4% (đọc từ trục)\n- HS 2825: Hy-đra-zin và hy-dro-xy-la-min và các loại muối phi hưu cơ của chúng, v.v. – Số lượng đối thủ cạnh tranh toàn cầu: khoảng 10 (đọc từ trục), Tăng trưởng nhu cầu toàn cầu: khoảng -2% (đọc từ trục)\n- HS 8204: Dụng cụ, cầm tay; cờ lê, mỏ lết tay, v.v. – Số lượng đối thủ cạnh tranh toàn cầu: khoảng 10 (đọc từ trục), Tăng trưởng nhu cầu toàn cầu: khoảng 2% (đọc từ trục)\n- HS 7317: Đinh, đinh mũ, đinh rệp, đinh sọc rằn, ghim v.v. – Số lượng đối thủ cạnh tranh toàn cầu: khoảng 10 (đọc từ trục), Tăng trưởng nhu cầu toàn cầu: khoảng 6% (đọc từ trục)\n- HS 8467: Dụng cụ, cầm tay, dùng hơi hoặc thủy lực, v.v. – Số lượng đối thủ cạnh tranh toàn cầu: khoảng 10 (đọc từ trục), Tăng trưởng nhu cầu toàn cầu: khoảng 8% (đọc từ trục)\n- HS 7208: Sắt hoặc thép phi hợp kim – Số lượng đối thủ cạnh tranh toàn cầu: khoảng 20 (đọc từ trục), Tăng trưởng nhu cầu toàn cầu: khoảng 0% (đọc từ trục)\n- HS 8443: Máy in ấn – Số lượng đối thủ cạnh tranh toàn cầu: khoảng 25 (đọc từ trục), Tăng trưởng nhu cầu toàn cầu: khoảng -8% (đọc từ trục)\n- HS 8502: Bộ tạo điện và máy biến tần – Số lượng đối thủ cạnh tranh toàn cầu: khoảng 10 (đọc từ trục), Tăng trưởng nhu cầu toàn cầu: khoảng -2% (đọc từ trục)\n- HS 4006: Cao su tổng hợp hoặc nhân tạo làm từ dầu thô, v.v. – Số lượng đối thủ cạnh tranh toàn cầu: khoảng 15 (đọc từ trục), Tăng trưởng nhu cầu toàn cầu: khoảng -6% (đọc từ trục)\n- HS 8414: Bơm khí hoặc chân không, quạt và máy nén không khí hoặc khí khác, v.v. – Số lượng đối thủ cạnh tranh toàn cầu: khoảng 15 (đọc từ trục), Tăng trưởng nhu cầu toàn cầu: khoảng 4% (đọc từ trục)\n\nXu hướng chính: Các sản phẩm có số lượng đối thủ cạnh tranh toàn cầu từ 10 đến 25, tăng trưởng nhu cầu toàn cầu dao động từ -8% đến 8%. Một số sản phẩm có tăng trưởng âm, một số có tăng trưởng dương. Kích thước hình cầu khác nhau, thể hiện quy mô thị trường toàn cầu nhập khẩu của từng sản phẩm.",
+   "source_note": "Nguồn: Tính toán của cán bộ Ngân hàng Thế giới sử dụng dữ liệu thương mại mã HS 4 ký tự của WITS, dựa trên Reed (sắp ban hành), Reed và Nyawo (sắp ban hành) và Ngân hàng Thế giới (2024). Ghi chú: Toàn bộ các chỉ tiêu là của năm 2021, trừ khi được nêu rõ"
+  }
+ ]
+}

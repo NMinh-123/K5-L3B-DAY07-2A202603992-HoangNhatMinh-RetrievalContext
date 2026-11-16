@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 3350,
+  "completion_tokens": 1016,
+  "total_tokens": 4366,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 10,
+   "engine_ttft_ms": 595,
+   "engine_ttlt_ms": 10898,
+   "pre_inference_ms": 276,
+   "service_tbt_ms": 10,
+   "service_ttft_ms": 1762,
+   "service_ttlt_ms": 12059,
+   "user_visible_ttft_ms": 1486
+  }
+ },
+ "latency_s": 105.6,
+ "items": [
+  {
+   "label": null,
+   "kind": "table",
+   "title": null,
+   "panels": null,
+   "content": "| Ngành/Lĩnh vực                        | PTA sâu trung bình | PTA có chiều sâu | PTA có chiều sâu và AVE | AVE (%)  | AVE cho PA có chiều sâu (%) |\n|----------------------------------------|-------------------|------------------|-------------------------|----------|-----------------------------|\n| Hóa chất, sao su, nhựa                 | 0,022             | 0,494            | 1,248                   | -8,3%    | -13,6%                      |\n| Dược phẩm cơ bản                       | 0,024             | 0,531            | 1,369                   | -20,3%   | -32,4%                      |\n| Khoáng sản phi kim                     | 0,021             | 0,467            | 1,381                   | -6,7%    | -12,9%                      |\n| Kim loại                               | 0,014             | 0,316            | 0,951                   | -6,0%    | -11,8%                      |\n| Máy móc và thiết bị điện               | 0,040             | 0,872            | 1,595                   | -9,3%    | -11,2%                      |\n| Xe cơ giới và phụ tùng                 | 0,049             | 1,069            | 2,311                   | -16,9%   | -23,4%                      |\n| Thiết bị vận tải khác                   | 0,022             | 0,475            | 0,795                   | -11,3%   | -12,5%                      |\n| Hàng chế tạo chế biến khác             |                   |                  | 0,701                   |          | -17,1%                      |\n| Dịch vụ                                |                   |                  |                         |          |                             |\n| Tiện ích công cộng                     |                   |                  | 0,713                   |          | -22,1%                      |\n| Xây dựng                               | 0,368             | 0,368            | 0,749                   | -14,5%   | -27,4%                      |\n| Thương mại                             |                   |                  | 0,984                   |          | -39,2%                      |\n| Dịch vụ du lịch                        | 0,448             | 0,448            | 1,181                   | -17,2%   | -39,2%                      |\n| Vận tải đường bộ                       | 0,600             | 0,600            | 1,242                   | -17,4%   | -32,7%                      |\n| Vận tải đường thủy                     | 0,439             | 0,439            | 0,338                   | -13,7%   | -10,7%                      |\n| Vận tải hàng không                     |                   |                  | 0,814                   |          | -29,9%                      |\n| Kho bãi và logistics                   | 0,387             | 0,387            | 0,849                   | -11,5%   | -23,4%                      |\n| Truyền thông                           |                   |                  | 0,737                   |          | -20,2%                      |\n| Dịch vụ tài chính và bảo hiểm          |                   |                  | 1,189                   |          | -31,2%                      |\n| Dịch vụ phục vụ doanh nghiệp           |                   |                  | 1,199                   |          | -35,9%                      |\n| Quản lý nhà nước và dịch vụ sự nghiệp  | 0,256             | 0,256            | 0,985                   | -9,0%    | -30,5%                      |",
+   "source_note": "Ghi chú: a) Các hệ số có ý nghĩa ở mức 10% trở xuống, sai số chuẩn được bẫy (200 lần lặp). b) PTA sâu trung bình là hệ số PTA được đánh giá có chiều sâu trung bình của các hiệp định thương mại ưu đãi (PTA) với điểm số về chiều sâu là 22. c) PTA có chiều sâu là AVE cho PA có chiều sâu với điểm về chiều sâu bằng 33. d) AVE thể hiện bằng điểm phần trăm. Như vậy giảm v.d. -10% tương đương với giảm 10 điểm phần trăm thuế quan (v.d. từ 20% xuống 10%)."
+  }
+ ]
+}

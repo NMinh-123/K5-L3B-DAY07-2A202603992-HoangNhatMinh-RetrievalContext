@@ -1,0 +1,39 @@
+{
+ "model": "gpt-4.1",
+ "usage": {
+  "prompt_tokens": 2721,
+  "completion_tokens": 793,
+  "total_tokens": 3514,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "audio_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "audio_tokens": 0,
+   "accepted_prediction_tokens": 0,
+   "rejected_prediction_tokens": 0
+  },
+  "latency_checkpoint": {
+   "engine_tbt_ms": 10,
+   "engine_ttft_ms": 586,
+   "engine_ttlt_ms": 8460,
+   "pre_inference_ms": 396,
+   "service_tbt_ms": 10,
+   "service_ttft_ms": 1947,
+   "service_ttlt_ms": 9815,
+   "user_visible_ttft_ms": 1551
+  }
+ },
+ "latency_s": 12.7,
+ "items": [
+  {
+   "label": "Hình 1",
+   "kind": "scatter",
+   "title": "Thương mại toàn cầu đóng vai trò hết sức quan trọng trong nền kinh tế Việt Nam",
+   "panels": null,
+   "content": "Biểu đồ gồm 6 nhóm chỉ số (theo chiều ngang, mỗi nhóm là một trục dọc):\n1. Tổng xuất khẩu (% GDP)\n2. Việc làm trong xuất khẩu (% tổng việc làm)\n3. Giá trị gia tăng trong nước của xuất khẩu (% GDP)\n4. Vốn đầu tư trực tiếp nước ngoài (FDI) (% tổng đầu tư toàn xã hội)\n5. Khí thải CO₂ liên quan đến xuất khẩu (% tổng lượng khí thải)\n\nTrục tung: Tỷ lệ phần trăm, từ -40% đến 100%, chia vạch 20%.\n\nChú giải màu:\n- Đỏ: Việt Nam\n- Cam: Malaysia\n- Xám: Thái Lan\n- Xanh dương: Hàn Quốc\n- Xanh nhạt: Philippines\n- Tím: Indonesia\n- Vàng: Trung Quốc\n\nCác giá trị có in số trên hình:\n- Tổng xuất khẩu (% GDP):\n  - Việt Nam: 93%\n- Việc làm trong xuất khẩu (% tổng việc làm):\n  - Việt Nam: 54%\n- Giá trị gia tăng trong nước của xuất khẩu (% GDP):\n  - Việt Nam: 49%\n- Vốn đầu tư trực tiếp nước ngoài (FDI) (% tổng đầu tư toàn xã hội):\n  - Việt Nam: 14%\n- Khí thải CO₂ liên quan đến xuất khẩu (% tổng lượng khí thải):\n  - Việt Nam: 36%\n\nCác quốc gia khác xuất hiện trên biểu đồ (theo vị trí điểm, không có số cụ thể in trên hình):\n- Malaysia, Thái Lan, Hàn Quốc, Philippines, Indonesia, Trung Quốc đều có điểm dữ liệu ở mỗi nhóm chỉ số, nhưng không có số cụ thể in trên hình, chỉ có thể đọc giá trị xấp xỉ từ trục (không yêu cầu ở đây).\n\nXu hướng chính: Việt Nam có tỷ lệ tổng xuất khẩu/GDP, việc làm trong xuất khẩu, giá trị gia tăng trong nước của xuất khẩu, vốn FDI và khí thải CO₂ liên quan đến xuất khẩu đều ở mức cao so với các nước so sánh trong khu vực.",
+   "source_note": "Nguồn: Tính toán của cán bộ Ngân hàng Thế giới dựa trên số liệu của WDI, OECD, UNCTAD, Ngân sách Các-bon Toàn cầu.\nGhi chú: Đơn vị trong mỗi bảng được biểu thị trong dấu ngoặc đơn. Tổng xuất khẩu là tổng xuất khẩu hàng hóa và dịch vụ năm 2021. Dòng vốn đầu tư trực tiếp nước ngoài (FDI) được đo lường năm 2022. Việc làm trong xuất khẩu là tỷ trọng việc làm trong nước đóng góp cho cầu nước ngoài cuối cùng, bao gồm việc làm trực tiếp và gián tiếp. Giá trị gia tăng trong nước của hàng xuất khẩu là giá trị gia tăng xuất khẩu được tạo ra ở nền kinh tế trong nước (trực tiếp trong lĩnh vực xuất khẩu) hoặc gián tiếp, theo đo lường năm 2020. Khí thải CO₂ liên quan đến xuất khẩu là tỷ trọng khí thải CO₂ trong tổng xuất khẩu trừ khí thải CO₂ trong tổng nhập khẩu, là tỷ trọng tổng lượng khí CO₂ phát thải của sản xuất, đo lường năm 2021."
+  }
+ ]
+}

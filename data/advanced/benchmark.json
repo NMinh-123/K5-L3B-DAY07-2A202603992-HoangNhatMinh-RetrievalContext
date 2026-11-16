@@ -1,0 +1,969 @@
+[
+ {
+  "id": "ad01",
+  "split": "dev",
+  "group": "table",
+  "answerable": true,
+  "question": "Theo Bảng B3.1 (bảng con trên cùng: xuất khẩu năm 2035), nếu hạ thấp các biện pháp phi thuế quan (NTM), xuất khẩu lĩnh vực tài nguyên năm 2035 thay đổi bao nhiêu phần trăm và bao nhiêu triệu USD so với kịch bản như hiện hành?",
+  "expected_answer": "Giảm 8,2%, tức khoảng -2.356 triệu USD.",
+  "key_facts": [
+   "-8,2%",
+   "-2.356 triệu USD"
+  ],
+  "evidence": [
+   {
+    "page": 63,
+    "label": "Bảng B3.1",
+    "locator": "phần trên (xuất khẩu năm 2035), hàng 'Tài nguyên', cột NTM ở nhóm 'Tỷ lệ % thay đổi' và nhóm 'Thay đổi tính theo triệu USD'",
+    "values": "-8,2% ; -2356"
+   }
+  ],
+  "rationale": "Tra đúng hàng, cột và hai đơn vị (% và triệu USD) của bảng."
+ },
+ {
+  "id": "ad02",
+  "split": "dev",
+  "group": "table",
+  "answerable": true,
+  "question": "Theo Bảng 1, lĩnh vực nông nghiệp thuộc nhóm nào và lao động trong lĩnh vực này có đặc điểm gì về độ tuổi, giới tính, trình độ, thành thị/nông thôn và khu vực?",
+  "expected_answer": "Nông nghiệp thuộc nhóm lĩnh vực có xu hướng không được hưởng lợi (dòng tiêu đề ghi Gói chính sách 4: Năng lượng sạch và xuất khẩu xanh); lao động trẻ tuổi hơn, nữ, kỹ năng thấp, nông thôn, khu vực 2, 3, 4 và 6.",
+  "key_facts": [
+   "không được hưởng lợi",
+   "trẻ tuổi hơn|trẻ hơn",
+   "nữ",
+   "kỹ năng thấp",
+   "nông thôn",
+   "2, 3, 4 và 6|2, 3, 4, 6|2,3,4 và 6"
+  ],
+  "evidence": [
+   {
+    "page": 86,
+    "label": "Bảng 1",
+    "locator": "nhóm cuối 'Các lĩnh vực có xu hướng không được hưởng lợi Gói chính sách 4', hàng 'Nông nghiệp'",
+    "values": "Trẻ tuổi hơn | Nữ | Kỹ năng thấp | Nông thôn | 2, 3, 4 và 6"
+   }
+  ],
+  "rationale": "Đọc nhiều cột trên cùng một hàng và tiêu đề nhóm."
+ },
+ {
+  "id": "ad03",
+  "split": "dev",
+  "group": "table",
+  "answerable": true,
+  "question": "Trong Bảng A2.1 (các tham số kịch bản cơ sở), tỷ lệ chiết khấu là bao nhiêu và căn cứ vào nguồn nào?",
+  "expected_answer": "0,054, căn cứ PWT 10 2019.",
+  "key_facts": [
+   "0,054",
+   "PWT 10 2019"
+  ],
+  "evidence": [
+   {
+    "page": 105,
+    "label": "Bảng A2.1",
+    "locator": "hàng 'Tỷ lệ chiết khấu', cột 'Giá trị' và 'Căn cứ'",
+    "values": "0,054 | PWT 10 2019"
+   }
+  ],
+  "rationale": "Tra một ô và cột nguồn."
+ },
+ {
+  "id": "ad04",
+  "split": "dev",
+  "group": "image",
+  "answerable": true,
+  "question": "Trong sơ đồ các hiệp định thương mại tự do của Việt Nam (Hình 23), Israel được thể hiện thuộc hiệp định nào với Việt Nam?",
+  "expected_answer": "VIFTA (Hiệp định thương mại tự do Việt Nam - Israel).",
+  "key_facts": [
+   "VIFTA"
+  ],
+  "evidence": [
+   {
+    "page": 59,
+    "label": "Hình 23",
+    "locator": "góc dưới phải sơ đồ: cờ Israel dưới nhãn VIFTA",
+    "values": "VIFTA - Israel"
+   }
+  ],
+  "rationale": "Hình 23 là ảnh raster, không có lớp text; phải đọc từ ảnh."
+ },
+ {
+  "id": "ad05",
+  "split": "dev",
+  "group": "image",
+  "answerable": true,
+  "question": "Theo sơ đồ Hình 23, Hàn Quốc có hiệp định song phương nào với Việt Nam, và Hàn Quốc nằm trong khung RCEP hay CPTPP?",
+  "expected_answer": "VKFTA; Hàn Quốc nằm trong khung RCEP, không nằm trong khung CPTPP.",
+  "key_facts": [
+   "VKFTA",
+   "RCEP",
+   "không thuộc CPTPP|không nằm trong khung CPTPP|không nằm trong CPTPP|không thuộc khung CPTPP|ngoài khung CPTPP"
+  ],
+  "evidence": [
+   {
+    "page": 59,
+    "label": "Hình 23",
+    "locator": "bên trái sơ đồ: cờ South Korea trong khung xám VKFTA nối tới Việt Nam, nằm trong viền chấm tím RCEP, ngoài viền đỏ CPTPP",
+    "values": "South Korea: VKFTA, RCEP"
+   }
+  ],
+  "rationale": "Xác định quan hệ thành viên qua các khung lồng nhau."
+ },
+ {
+  "id": "ad06",
+  "split": "dev",
+  "group": "image",
+  "answerable": true,
+  "question": "Theo Hình B1.1, quy trình sản xuất vi mạch bán dẫn tiêu biểu kéo dài bao lâu, và bước 1 là gì, diễn ra ở đâu?",
+  "expected_answer": "Kéo dài 4-6 tháng với 3+ chuyến đi vòng quanh thế giới; bước 1 là thỏi silicon được cắt thành tấm wafer, ở Nhật Bản.",
+  "key_facts": [
+   "4-6 tháng|4 - 6 tháng|4 đến 6 tháng|4–6 tháng",
+   "thỏi silicon được cắt thành tấm wafer|cắt thành tấm wafer|cắt thành wafer",
+   "Nhật Bản"
+  ],
+  "evidence": [
+   {
+    "page": 38,
+    "label": "Hình B1.1",
+    "locator": "tiêu đề hình và nhãn số 1 trên bản đồ (Nhật Bản, đầu chặng 'Nhật Bản sang Mỹ')",
+    "values": "4-6 tháng; 1: Thỏi silicon được cắt thành tấm wafer"
+   }
+  ],
+  "rationale": "Vị trí bước 1 chỉ xác định được trên bản đồ."
+ },
+ {
+  "id": "ad07",
+  "split": "dev",
+  "group": "chart",
+  "answerable": true,
+  "question": "Theo Hình B1.4, số lượng kỹ sư thiết kế vi mạch ở Việt Nam năm 2014 và năm 2023 là bao nhiêu?",
+  "expected_answer": "2.100 kỹ sư năm 2014 và 5.575 kỹ sư năm 2023.",
+  "key_facts": [
+   "2.100",
+   "5.575"
+  ],
+  "evidence": [
+   {
+    "page": 40,
+    "label": "Hình B1.4",
+    "locator": "cột 'Số lượng kỹ sư thiết kế vi mạch' năm 2014 và 2023 (nhãn in trên cột)",
+    "values": "2014: 2.100; 2023: 5.575"
+   }
+  ],
+  "rationale": "Đọc nhãn giá trị theo năm trên biểu đồ cột."
+ },
+ {
+  "id": "ad08",
+  "split": "dev",
+  "group": "chart",
+  "answerable": true,
+  "question": "Theo Hình 20 (biểu đồ B, dự báo tăng trưởng dài hạn), GDP theo đầu người năm 2045 ở kịch bản cơ sở và kịch bản cải cách cơ cấu toàn diện là bao nhiêu?",
+  "expected_answer": "Kịch bản cơ sở khoảng 11.500 USD; kịch bản cải cách cơ cấu toàn diện khoảng 15.000 USD (USD năm 2022).",
+  "key_facts": [
+   "11.500",
+   "15.000",
+   "USD năm 2022|2022 USD|USD 2022|giá năm 2022|USD (2022)|(2022 USD)"
+  ],
+  "evidence": [
+   {
+    "page": 53,
+    "label": "Hình 20",
+    "locator": "biểu đồ B, nhãn cuối hai đường năm 2045",
+    "values": "11,500 (Kịch bản cơ sở); 15,000 (cải cách cơ cấu toàn diện)"
+   }
+  ],
+  "rationale": "Gán đúng giá trị vào đúng đường theo chú giải."
+ },
+ {
+  "id": "ad09",
+  "split": "dev",
+  "group": "chart",
+  "answerable": true,
+  "question": "Theo Hình 35 (biểu đồ A), giá điện bình quân của Thái Lan và Mexico là bao nhiêu?",
+  "expected_answer": "Thái Lan 10,7 và Mexico 5,2 US cent/kWh.",
+  "key_facts": [
+   "10,7",
+   "5,2",
+   "US cent/kWh|US¢/kWh|cent/kWh|cents/kWh|USC$/kWh|usc/kwh|xu Mỹ/kWh"
+  ],
+  "evidence": [
+   {
+    "page": 82,
+    "label": "Hình 35",
+    "locator": "biểu đồ A 'Giá điện bình quân (USC$ / kWh)', thanh Thái Lan và Mexico",
+    "values": "Thái Lan 10,7; Mexico 5,2"
+   }
+  ],
+  "rationale": "Đọc nhãn thanh ngang và đơn vị."
+ },
+ {
+  "id": "ad10",
+  "split": "dev",
+  "group": "chart",
+  "answerable": true,
+  "question": "Theo Hình 25, nhóm hàng nào có mức giảm chi phí thương mại tương đương thuế quan (AVE) lớn nhất khi cộng cả giai đoạn 1993-2023 và 2024-, và nhóm nào giảm ít nhất?",
+  "expected_answer": "Sản phẩm thịt giảm nhiều nhất (gần -30%); sản phẩm gỗ và giấy giảm ít nhất (khoảng -3%).",
+  "key_facts": [
+   "sản phẩm thịt",
+   "sản phẩm gỗ và giấy|gỗ và giấy"
+  ],
+  "evidence": [
+   {
+    "page": 61,
+    "label": "Hình 25",
+    "locator": "cột đầu tiên bên trái (Sản phẩm thịt, đáy gần -30) và cột cuối bên phải (Sản phẩm gỗ và giấy)",
+    "values": "các cột không in số; đọc thứ tự và trục"
+   }
+  ],
+  "rationale": "So sánh độ dài cột chồng, không có nhãn số."
+ },
+ {
+  "id": "ad11",
+  "split": "dev",
+  "group": "multihop",
+  "answerable": true,
+  "question": "Tốc độ tăng trưởng TFP được dùng trong kịch bản cơ sở (Bảng A2.1) là bao nhiêu và căn cứ vào đâu; theo Hình 20 (biểu đồ A), đầu tư vốn đóng góp bao nhiêu vào tăng trưởng giai đoạn 2010-14?",
+  "expected_answer": "Tăng trưởng TFP 0,009 (TED bình quân 10 năm 2010-2022); đầu tư vốn đóng góp 4,4 điểm phần trăm giai đoạn 2010-14.",
+  "key_facts": [
+   "0,009",
+   "TED bình quân 10 năm|TED",
+   "4,4"
+  ],
+  "evidence": [
+   {
+    "page": 105,
+    "label": "Bảng A2.1",
+    "locator": "hàng 'Tăng trưởng TFP'",
+    "values": "0,009 | TED bình quân 10 năm (2010-2022)"
+   },
+   {
+    "page": 53,
+    "label": "Hình 20",
+    "locator": "biểu đồ A, cột 2010-14, đoạn 'Đầu tư vốn'",
+    "values": "4.4"
+   }
+  ],
+  "rationale": "Kết hợp bảng phụ lục và biểu đồ ở hai trang."
+ },
+ {
+  "id": "ad12",
+  "split": "dev",
+  "group": "multihop",
+  "answerable": true,
+  "question": "Năm 2022 Việt Nam đứng thứ mấy thế giới về xuất khẩu bán dẫn và chiếm bao nhiêu phần trăm (so với năm 2012); theo Hình B1.3, kim ngạch xuất khẩu ròng vi mạch bán dẫn của Việt Nam năm 2022 là bao nhiêu?",
+  "expected_answer": "Đứng thứ 10, chiếm 2% giá trị xuất khẩu toàn cầu (so với 0,6% năm 2012); xuất khẩu ròng khoảng -25 tỷ USD năm 2022.",
+  "key_facts": [
+   "thứ 10|thứ mười",
+   "2%",
+   "0,6%",
+   "-25 tỷ USD|-25 tỷ|âm 25 tỷ|25 tỷ USD"
+  ],
+  "evidence": [
+   {
+    "page": 39,
+    "quote": "Việt Nam là quốc gia xuất khẩu bán dẫn đứng thứ 10 trên thế giới trong năm 2022, chiếm 2% giá trị xuất khẩu toàn cầu, so với chỉ 0,6% trước đó 10 năm vào 2012"
+   },
+   {
+    "page": 40,
+    "label": "Hình B1.3",
+    "locator": "cột Việt Nam, nhãn '-25 tỷ USD năm 2022'",
+    "values": "-25 tỷ USD năm 2022"
+   }
+  ],
+  "rationale": "Kết hợp đoạn văn trang 39 và nhãn biểu đồ trang 40."
+ },
+ {
+  "id": "ad13",
+  "split": "dev",
+  "group": "text",
+  "answerable": true,
+  "question": "Năm 2023 Việt Nam là quốc gia xuất khẩu vi mạch bán dẫn lớn thứ mấy sang Hoa Kỳ, với giá trị và tốc độ tăng trưởng bao nhiêu?",
+  "expected_answer": "Lớn thứ ba sang Hoa Kỳ, giá trị 562 triệu USD năm 2023, tăng 75% so với cùng kỳ năm trước.",
+  "key_facts": [
+   "thứ ba|thứ 3",
+   "562 triệu",
+   "75%"
+  ],
+  "evidence": [
+   {
+    "page": 38,
+    "quote": "hiện nay Việt Nam là quốc gia xuất khẩu vi mạch bán dẫn lớn thứ ba sang Hoa Kỳ với giá trị lên đến 562 triệu US$ trong năm 2023, tăng trưởng tới 75% so cùng kỳ năm trước"
+   }
+  ],
+  "rationale": "Ba dữ kiện trong một câu văn."
+ },
+ {
+  "id": "ad14",
+  "split": "dev",
+  "group": "text",
+  "answerable": true,
+  "question": "Kim ngạch nhập khẩu hàng hóa môi trường chiếm bao nhiêu phần trăm tổng kim ngạch nhập khẩu hàng hóa của Việt Nam, và báo cáo so sánh với những nước nào?",
+  "expected_answer": "Chỉ chiếm 3% tổng kim ngạch nhập khẩu hàng hóa, thấp hơn nhiều so với Hàn Quốc hoặc Sing-ga-po.",
+  "key_facts": [
+   "3%",
+   "Hàn Quốc",
+   "Sing-ga-po|Singapore|Xin-ga-po"
+  ],
+  "evidence": [
+   {
+    "page": 82,
+    "quote": "kim ngạch nhập khẩu hàng hóa môi trường của Việt Nam mới chỉ chiếm 3% tổng kim ngạch nhập khẩu hàng hóa, thấp hơn nhiều so với Hàn Quốc hoặc Sing-ga-po"
+   }
+  ],
+  "rationale": "Phân biệt nhập khẩu (3%) với xuất khẩu (2%) trong cùng trang."
+ },
+ {
+  "id": "ad15",
+  "split": "dev",
+  "group": "text",
+  "answerable": true,
+  "question": "Trong thập kỷ qua, số rô-bốt công nghiệp được lắp đặt toàn cầu tăng bình quân bao nhiêu, và châu Á chiếm bao nhiêu phần trăm số rô-bốt mới?",
+  "expected_answer": "Tăng bình quân 18% trong thập kỷ qua; châu Á chiếm 73% rô-bốt mới được triển khai (IFR 2023).",
+  "key_facts": [
+   "18%",
+   "73%"
+  ],
+  "evidence": [
+   {
+    "page": 49,
+    "quote": "Số lượng rô-bốt toàn cầu được lắp đặt trong sản xuất công nghiệp đã tăng trưởng bình quân 18% trong thập kỷ qua. Và châu Á nổi lên trở thành thị trường lớn nhất thế giới với 73% rô-bốt mới được triển khai trong khu vực"
+   }
+  ],
+  "rationale": "Hai số liệu trong đoạn văn."
+ },
+ {
+  "id": "ad16",
+  "split": "dev",
+  "group": "unanswerable",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "question": "Theo Hình 35, giá điện bình quân của Lào là bao nhiêu US cent/kWh?",
+  "absence_reason": "Hình 35A chỉ có Singapore, Philippines, Thái Lan, Indonesia, Malaysia, Hàn Quốc, Trung Quốc, Việt Nam, Bangladesh, Thổ Nhĩ Kỳ, Mexico; không có Lào.",
+  "absence_check": "Đọc Hình 35 trang 82; tìm 'Lào' trên toàn văn: chỉ xuất hiện ở trang 11 (tên giám đốc quốc gia), 13, 48 (danh sách nước Đông Á) và 66 (chương trình GMS), không có giá điện."
+ },
+ {
+  "id": "ad17",
+  "split": "dev",
+  "group": "unanswerable",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "question": "Theo Hình B1.4, số kỹ sư thiết kế vi mạch của Việt Nam năm 2018 là bao nhiêu?",
+  "absence_reason": "Hình B1.4 chỉ có các năm 2005, 2010, 2014, 2020, 2023 và nhu cầu 2030; không có năm 2018 và văn bản không nêu số này.",
+  "absence_check": "Đọc Hình B1.4 trang 40 và đoạn văn trang 40 (chỉ nêu khoảng 5.000 kỹ sư hiện nay)."
+ },
+ {
+  "id": "ad18",
+  "split": "dev",
+  "group": "unanswerable",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "question": "Kim ngạch xuất khẩu vi mạch bán dẫn của Việt Nam sang Hoa Kỳ năm 2024 là bao nhiêu?",
+  "absence_reason": "Tài liệu chỉ có số năm 2023 (562 triệu USD) và tháng 2/2022, 2/2023 trong Hình B1.2; không có năm 2024.",
+  "absence_check": "Đọc trang 38-40 (Hộp 1) và Hình B1.2."
+ },
+ {
+  "id": "at01",
+  "split": "test",
+  "group": "table",
+  "answerable": true,
+  "question": "Theo Bảng B3.1 (bảng con trên cùng: xuất khẩu năm 2035), kịch bản hạ thấp NTM làm xuất khẩu chế tạo chế biến thay đổi bao nhiêu phần trăm và bao nhiêu triệu USD, trên nền xuất khẩu bao nhiêu?",
+  "expected_answer": "Tăng 3,3%, tương đương 12.772 triệu USD, trên nền xuất khẩu năm 2035 là 389.619 triệu USD.",
+  "key_facts": [
+   "3,3%",
+   "12.772|12772",
+   "389.619"
+  ],
+  "evidence": [
+   {
+    "page": 63,
+    "label": "Bảng B3.1",
+    "locator": "phần trên, hàng 'Chế tạo chế biến', cột 'Xuất khẩu năm 2035 (triệu USD)', NTM (%) và NTM (triệu USD)",
+    "values": "389.619 | 3,3% | 12772"
+   }
+  ],
+  "rationale": "Ba ô cùng hàng, hai đơn vị."
+ },
+ {
+  "id": "at02",
+  "split": "test",
+  "group": "table",
+  "answerable": true,
+  "question": "Theo Bảng 1, lao động trong lĩnh vực logistics có đặc điểm gì (độ tuổi, giới tính, trình độ, thành thị/nông thôn, khu vực) và lĩnh vực này thuộc nhóm hưởng lợi của gói chính sách nào?",
+  "expected_answer": "Lớn tuổi hơn, nam, kỹ năng cao/trung bình, thành thị, khu vực 1 và 5 (đồng bằng sông Hồng gồm Hà Nội; Nam bộ gồm TP. Hồ Chí Minh); thuộc nhóm hưởng lợi Gói chính sách 3: Phát triển khu vực dịch vụ.",
+  "key_facts": [
+   "lớn tuổi hơn",
+   "nam",
+   "kỹ năng cao/trung bình|cao/trung bình|kỹ năng cao và trung bình|kỹ năng cao hoặc trung bình",
+   "thành thị",
+   "1 và 5|1, 5",
+   "Gói chính sách 3"
+  ],
+  "evidence": [
+   {
+    "page": 86,
+    "label": "Bảng 1",
+    "locator": "nhóm 'Gói chính sách 3: Phát triển khu vực dịch vụ', hàng 'Logistics'; ghi chú khu vực dưới bảng",
+    "values": "Lớn tuổi hơn | Nam | Kỹ năng cao/trung bình | Thành thị | 1 và 5"
+   }
+  ],
+  "rationale": "Đọc hàng, tiêu đề nhóm và ghi chú giải mã khu vực."
+ },
+ {
+  "id": "at03",
+  "split": "test",
+  "group": "table",
+  "answerable": true,
+  "question": "Theo Bảng 3, với sản phẩm thịt, hệ số trọng lực EU là bao nhiêu và mức giảm chi phí thương mại tương đương thuế quan (AVE) theo PTA sâu là bao nhiêu?",
+  "expected_answer": "Hệ số EU 2,497; AVE theo PTA sâu -34,4% (theo EU -60,1%).",
+  "key_facts": [
+   "2,497",
+   "-34,4%"
+  ],
+  "evidence": [
+   {
+    "page": 112,
+    "label": "Bảng 3",
+    "locator": "hàng 'Sản phẩm thịt', cột Coefficients/EU và Example AVEs/PTA deep",
+    "values": "2,497 | -34,4% (EU AVE -60,1%)"
+   }
+  ],
+  "rationale": "Phân biệt hai nhóm cột cùng tên EU."
+ },
+ {
+  "id": "at04",
+  "split": "test",
+  "group": "table",
+  "answerable": true,
+  "question": "Theo Bảng 3, hệ số PTA med của ngành dệt và ngành may mặc và giày da là bao nhiêu, ngành nào cao hơn và cao hơn bao nhiêu?",
+  "expected_answer": "Dệt 0,678; may mặc và giày da 0,315; dệt cao hơn 0,363.",
+  "key_facts": [
+   "0,678",
+   "0,315",
+   "dệt cao hơn|dệt lớn hơn|ngành dệt có hệ số cao hơn|dệt có hệ số cao hơn",
+   "0,363"
+  ],
+  "evidence": [
+   {
+    "page": 112,
+    "label": "Bảng 3",
+    "locator": "hàng 'Dệt' và 'May mặc và giày da', cột PTA med",
+    "values": "0,678 ; 0,315"
+   }
+  ],
+  "rationale": "So sánh và tính hiệu hai ô.",
+  "calculation": "0,678 - 0,315 = 0,363"
+ },
+ {
+  "id": "at05",
+  "split": "test",
+  "group": "table",
+  "answerable": true,
+  "question": "Trong Bảng A2.1, GDP theo đầu người ban đầu dùng cho mô hình là bao nhiêu và lấy từ nguồn nào?",
+  "expected_answer": "4.164 (USD hiện hành), nguồn WDI 2022.",
+  "key_facts": [
+   "4.164",
+   "WDI 2022"
+  ],
+  "evidence": [
+   {
+    "page": 105,
+    "label": "Bảng A2.1",
+    "locator": "hàng 'GDP theo đầu người ban đầu'",
+    "values": "4.164 | WDI 2022 (USD hiện hành)"
+   }
+  ],
+  "rationale": "Tra ô và nguồn."
+ },
+ {
+  "id": "at06",
+  "split": "test",
+  "group": "table",
+  "answerable": true,
+  "question": "Theo Bảng A2.2, đo lường 2.1 dùng chỉ số kết quả nào, giá trị của Việt Nam năm nào, so với quốc gia chuẩn nào và mức mục tiêu là bao nhiêu?",
+  "expected_answer": "Chi phí nghiên cứu và phát triển (% GDP): Việt Nam 0,43 năm 2021, so với chuẩn Trung Quốc, mức mục tiêu 2,4 (tăng 1,97).",
+  "key_facts": [
+   "R&D|nghiên cứu và phát triển",
+   "0,43",
+   "2021",
+   "Trung Quốc",
+   "2,4"
+  ],
+  "evidence": [
+   {
+    "page": 106,
+    "label": "Bảng A2.2",
+    "locator": "quá trình 2, hàng đo lường 2.1",
+    "values": "Chi phí Nghiên cứu và phát triển (% GDP) | 0.43 | 2021 | Trung Quốc | 2.4 | 1.97"
+   }
+  ],
+  "rationale": "Bảng nhiều cột, ô xuống dòng."
+ },
+ {
+  "id": "at07",
+  "split": "test",
+  "group": "image",
+  "answerable": true,
+  "question": "Theo sơ đồ Hình 23, những quốc gia nào ngoài ASEAN nằm trong cả khung CPTPP và khung RCEP?",
+  "expected_answer": "Nhật Bản, New Zealand và Úc (Australia).",
+  "key_facts": [
+   "Nhật Bản",
+   "New Zealand",
+   "Úc|Australia|Ô-xtrây-li-a"
+  ],
+  "evidence": [
+   {
+    "page": 59,
+    "label": "Hình 23",
+    "locator": "hàng dưới giữa sơ đồ: Japan, New Zealand, Australia nằm trong viền đỏ CPTPP và viền chấm tím RCEP; Peru, Canada, Chile, Mexico nằm ngoài RCEP",
+    "values": "Japan, New Zealand, Australia"
+   }
+  ],
+  "rationale": "Giao của hai khung lồng nhau, đọc từ ảnh raster."
+ },
+ {
+  "id": "at08",
+  "split": "test",
+  "group": "image",
+  "answerable": true,
+  "question": "Theo sơ đồ Hình 23, những quốc gia nào nằm trong khung VEUFTA?",
+  "expected_answer": "Kyrgyzstan, Kazakhstan, Armenia, Belarus và Nga.",
+  "key_facts": [
+   "Kyrgyzstan",
+   "Kazakhstan",
+   "Armenia",
+   "Belarus",
+   "Nga|Russia"
+  ],
+  "evidence": [
+   {
+    "page": 59,
+    "label": "Hình 23",
+    "locator": "khung xanh VEUFTA phía trên bên phải",
+    "values": "Kyrgyzstan, Kazakhstan, Armenia, Belarus, Russia"
+   }
+  ],
+  "rationale": "Liệt kê đủ thành viên của một khung."
+ },
+ {
+  "id": "at09",
+  "split": "test",
+  "group": "image",
+  "answerable": true,
+  "question": "Theo Hình B1.1, ở bước 6 của quy trình sản xuất vi mạch bán dẫn diễn ra việc gì, và sau đó sản phẩm đi theo chặng nào tới bước 7?",
+  "expected_answer": "Bước 6: các nhà sản xuất sản phẩm cuối cùng tích hợp chip vào sản phẩm tiêu dùng (ở Trung Quốc); sau đó theo chặng Trung Quốc sang Mỹ tới bước 7: khách hàng mua sản phẩm cuối cùng.",
+  "key_facts": [
+   "tích hợp chip vào sản phẩm tiêu dùng|tích hợp chip",
+   "Trung Quốc sang Mỹ|Trung Quốc sang Hoa Kỳ|Trung Quốc đến Mỹ",
+   "khách hàng mua sản phẩm cuối cùng|khách hàng mua"
+  ],
+  "evidence": [
+   {
+    "page": 38,
+    "label": "Hình B1.1",
+    "locator": "nhãn số 6 (Trung Quốc), đường nét đứt 'Trung Quốc sang Mỹ', nhãn số 7 (Mỹ)",
+    "values": "6: Các nhà sản xuất sản phẩm cuối cùng tích hợp chip vào sản phẩm tiêu dùng; 7: Khách hàng mua sản phẩm cuối cùng"
+   }
+  ],
+  "rationale": "Nối nhãn bước với chặng trên bản đồ."
+ },
+ {
+  "id": "at10",
+  "split": "test",
+  "group": "image",
+  "answerable": true,
+  "question": "Theo Hình B1.1, chặng vận chuyển 'Mỹ sang Malaysia' dẫn tới bước số mấy và bước đó là gì?",
+  "expected_answer": "Bước 4 (ở Malaysia): khuôn bán dẫn được lắp ráp, đóng gói và kiểm thử.",
+  "key_facts": [
+   "bước 4|bước số 4|bước thứ tư|bước thứ 4",
+   "lắp ráp, đóng gói và kiểm thử"
+  ],
+  "evidence": [
+   {
+    "page": 38,
+    "label": "Hình B1.1",
+    "locator": "đường nét đứt 'Mỹ sang Malaysia' từ nhãn 2 (Mỹ) tới nhãn 4 (Malaysia)",
+    "values": "4: Khuôn bán dẫn được lắp ráp, đóng gói và kiểm thử"
+   }
+  ],
+  "rationale": "Theo đường đi trên bản đồ tới đúng nhãn bước."
+ },
+ {
+  "id": "at11",
+  "split": "test",
+  "group": "image",
+  "answerable": true,
+  "question": "Trong sơ đồ minh họa lộ trình nâng cao vị thế tham gia chuỗi giá trị toàn cầu (trang 56), mũi tên nào đưa Việt Nam vào vùng 'Đạt thu nhập cao vào năm 2045', và các mũi tên cải cách riêng lẻ còn lại gồm những gì?",
+  "expected_answer": "Chỉ mũi tên 'Gói cải cách cơ cấu toàn diện' vượt sang vùng đạt thu nhập cao; các mũi tên riêng lẻ là Kỹ năng, Liên kết trong nước, Hội nhập thương mại, Đầu tư về năng lượng và xuất khẩu (đều còn ở vùng không đạt).",
+  "key_facts": [
+   "Gói cải cách cơ cấu toàn diện",
+   "Kỹ năng",
+   "Liên kết trong nước",
+   "Hội nhập thương mại|Hội nhập thương",
+   "Đầu tư về năng lượng và xuất khẩu"
+  ],
+  "evidence": [
+   {
+    "page": 56,
+    "label": "Hình 21 (in trùng số; mục lục gọi là Hình 22)",
+    "locator": "các mũi tên đỏ xuất phát từ điểm 'Việt Nam' (khoảng 32% đầu tư/GDP, 0,9% tăng trưởng năng suất)",
+    "values": "Gói cải cách cơ cấu toàn diện; Kỹ năng; Liên kết trong nước; Hội nhập thương...; Đầu tư về năng lượng và xuất khẩu"
+   }
+  ],
+  "rationale": "Sơ đồ minh họa vẽ trên nền biểu đồ; cần xác định vùng và hướng mũi tên."
+ },
+ {
+  "id": "at12",
+  "split": "test",
+  "group": "chart",
+  "answerable": true,
+  "question": "Theo biểu đồ tròn trong Hình B1.2, Ma-lay-xi-a chiếm bao nhiêu phần trăm xuất khẩu vi mạch bán dẫn và mạch tích hợp toàn cầu năm 2021, với giá trị bao nhiêu?",
+  "expected_answer": "8%, tương đương 80,4 tỷ USD.",
+  "key_facts": [
+   "8%",
+   "80,4 tỷ|80.4B|80,4B"
+  ],
+  "evidence": [
+   {
+    "page": 39,
+    "label": "Hình B1.2",
+    "locator": "biểu đồ tròn bên trái, nhãn 'Ma-lay-xia $80.4B (8%)'",
+    "values": "$80.4B (8%)"
+   }
+  ],
+  "rationale": "Đọc nhãn lát cắt biểu đồ tròn."
+ },
+ {
+  "id": "at13",
+  "split": "test",
+  "group": "chart",
+  "answerable": true,
+  "question": "Theo Hình B3.1 (tác động kinh tế vĩ mô năm 2035), kịch bản nào làm thu nhập thực giảm nhẹ so với kịch bản như hiện hành, và kịch bản nào có tác động lớn nhất đến tổng nhập khẩu?",
+  "expected_answer": "RCEP làm thu nhập thực giảm nhẹ (cột âm nhỏ); kịch bản giảm các biện pháp phi thuế quan có tác động lớn nhất đến tổng nhập khẩu (khoảng 2,3-2,4%).",
+  "key_facts": [
+   "RCEP",
+   "giảm các biện pháp phi thuế quan|phi thuế quan|NTM"
+  ],
+  "evidence": [
+   {
+    "page": 62,
+    "label": "Hình B3.1",
+    "locator": "nhóm cột 'Thu nhập thực' (cột xám RCEP dưới 0) và nhóm 'Tổng nhập khẩu' (cột xanh nhạt cao nhất)",
+    "values": "không in số; đọc chú giải màu và trục"
+   }
+  ],
+  "rationale": "So sánh cột theo chú giải màu; không có nhãn số."
+ },
+ {
+  "id": "at14",
+  "split": "test",
+  "group": "chart",
+  "answerable": true,
+  "question": "Theo Hình 20 (biểu đồ A), tổng tăng trưởng giai đoạn 2015-19 là bao nhiêu và đầu tư vốn đóng góp bao nhiêu trong đó?",
+  "expected_answer": "Tổng 6,8; đầu tư vốn đóng góp 4,3 (điểm phần trăm).",
+  "key_facts": [
+   "6,8",
+   "4,3"
+  ],
+  "evidence": [
+   {
+    "page": 53,
+    "label": "Hình 20",
+    "locator": "biểu đồ A, cột 2015-19: nhãn tổng trên đỉnh và đoạn 'Đầu tư vốn' (đáy cột)",
+    "values": "6.8 ; 4.3"
+   }
+  ],
+  "rationale": "Phân biệt nhãn tổng với giá trị từng thành phần."
+ },
+ {
+  "id": "at15",
+  "split": "test",
+  "group": "chart",
+  "answerable": true,
+  "question": "Theo Hình 35 (biểu đồ A), giá điện bình quân của Việt Nam là bao nhiêu và nước nào có giá cao nhất trong biểu đồ, ở mức bao nhiêu?",
+  "expected_answer": "Việt Nam 8,1 US cent/kWh; cao nhất là Singapore 19,5 US cent/kWh.",
+  "key_facts": [
+   "8,1",
+   "Singapore",
+   "19,5"
+  ],
+  "evidence": [
+   {
+    "page": 82,
+    "label": "Hình 35",
+    "locator": "biểu đồ A, thanh Việt Nam (màu đỏ) và thanh Singapore",
+    "values": "Việt Nam 8,1; Singapore 19,5"
+   }
+  ],
+  "rationale": "Đọc nhãn và xác định giá trị lớn nhất."
+ },
+ {
+  "id": "at16",
+  "split": "test",
+  "group": "chart",
+  "answerable": true,
+  "question": "Theo Hình 1, việc làm trong xuất khẩu chiếm bao nhiêu phần trăm tổng việc làm của Việt Nam, và khí thải CO2 liên quan đến xuất khẩu chiếm bao nhiêu phần trăm tổng lượng khí thải?",
+  "expected_answer": "Việc làm trong xuất khẩu 54% tổng việc làm; khí thải CO2 liên quan đến xuất khẩu 36% tổng lượng khí thải.",
+  "key_facts": [
+   "54%",
+   "36%"
+  ],
+  "evidence": [
+   {
+    "page": 23,
+    "label": "Hình 1",
+    "locator": "điểm đỏ (Việt Nam) ở cột 'Việc làm trong xuất khẩu' và cột 'Khí thải CO2 liên quan đến xuất khẩu'",
+    "values": "54% ; 36%"
+   }
+  ],
+  "rationale": "Biểu đồ nhiều cột chỉ tiêu, phải chọn đúng cột và chuỗi Việt Nam."
+ },
+ {
+  "id": "at17",
+  "split": "test",
+  "group": "multihop",
+  "answerable": true,
+  "question": "Ghi chú của Hình 20 nêu ngưỡng GNI đầu người của quốc gia thu nhập cao là bao nhiêu, và với tỷ lệ GNI/GDP trong Bảng A2.1, ngưỡng này tương ứng khoảng bao nhiêu USD GDP đầu người?",
+  "expected_answer": "Ngưỡng GNI đầu người 13.485 USD (năm 2022); GNI/GDP = 0,93 nên tương ứng khoảng 13.485 / 0,93 ≈ 14.500 USD GDP đầu người.",
+  "key_facts": [
+   "13.485",
+   "0,93",
+   "14.500|14.49|14.50|14500"
+  ],
+  "evidence": [
+   {
+    "page": 53,
+    "quote": "Ngưỡng thu nhập cao dựa trên ngưỡng GNI đầu người bằng 13.485 USD của Ngân hàng Thế giới"
+   },
+   {
+    "page": 105,
+    "label": "Bảng A2.1",
+    "locator": "hàng 'GNI/GDP'",
+    "values": "0,93 | WDI 2022 (Việt Nam bình quân 2012-2019)"
+   }
+  ],
+  "calculation": "13.485 / 0,93 = 14.500 (làm tròn)",
+  "rationale": "Hai trang và một phép tính. Lưu ý trang 54 và 56 ghi 13.845 USD (không nhất quán trong tài liệu); câu hỏi chỉ định ghi chú Hình 20."
+ },
+ {
+  "id": "at18",
+  "split": "test",
+  "group": "multihop",
+  "answerable": true,
+  "question": "Theo Hình B1.2 (biểu đồ bên phải), nước nào xuất khẩu vi mạch bán dẫn sang Hoa Kỳ nhiều nhất vào tháng 2/2023, và theo sơ đồ Hình 23, nước đó cùng Việt Nam nằm trong những khung hiệp định/khối nào?",
+  "expected_answer": "Malaysia; theo Hình 23, Malaysia cùng Việt Nam nằm trong ASEAN, RCEP và CPTPP.",
+  "key_facts": [
+   "Malaysia|Ma-lay-xi-a|Ma-lay-xia",
+   "ASEAN",
+   "RCEP",
+   "CPTPP"
+  ],
+  "evidence": [
+   {
+    "page": 39,
+    "label": "Hình B1.2",
+    "locator": "biểu đồ thanh bên phải, thanh Malaysia (Tháng 2/2023) dài nhất",
+    "values": "Malaysia ~1.300 triệu USD"
+   },
+   {
+    "page": 59,
+    "label": "Hình 23",
+    "locator": "cờ Malaysia nằm trong khung ASEAN, viền RCEP và viền CPTPP",
+    "values": "Malaysia: ASEAN, RCEP, CPTPP"
+   }
+  ],
+  "rationale": "Kết hợp hai hình ở hai trang. Khung xanh lá VCFTA cũng bao quanh Malaysia trên sơ đồ; câu trả lời có thêm VCFTA vẫn chấm đạt nếu đủ ba khung chính."
+ },
+ {
+  "id": "at19",
+  "split": "test",
+  "group": "multihop",
+  "answerable": true,
+  "question": "Năm 2022 Việt Nam có khoảng bao nhiêu rô-bốt công nghiệp trên một nghìn lao động chế tạo chế biến, và trong ngành nhựa và cao su số rô-bốt tăng bao nhiêu mỗi năm giai đoạn 2011-2015, xếp thứ mấy?",
+  "expected_answer": "Khoảng 7 rô-bốt trên một nghìn lao động chế tạo chế biến (tương đương Ma-lay-xia, Thái Lan); ngành nhựa và cao su tăng 28% mỗi năm giai đoạn 2011-2015, cao thứ tư trong 22 quốc gia có dữ liệu.",
+  "key_facts": [
+   "7 con|7 rô-bốt|khoảng 7",
+   "28%",
+   "thứ tư|thứ 4",
+   "22 quốc gia|22 nước"
+  ],
+  "evidence": [
+   {
+    "page": 50,
+    "quote": "Trong năm 2022, số lượng rô-bốt công nghiệp rơi vào khoảng 7 con trên một ngàn lao động chế tạo chế biến ở Việt Nam"
+   },
+   {
+    "page": 51,
+    "quote": "số lượng rô-bốt công nghiệp trong ngành nhựa và cao su tăng 28% mỗi năm từ năm 2011 đến năm 2015, cao thứ tư trong số 22 quốc gia có dữ liệu"
+   }
+  ],
+  "rationale": "Chú thích cuối trang 50 và đoạn văn trang 51."
+ },
+ {
+  "id": "at20",
+  "split": "test",
+  "group": "multihop",
+  "answerable": true,
+  "question": "Theo Hình 23, những nước châu Mỹ nào cùng Việt Nam nằm trong khung CPTPP, và theo Bảng B3.1 (bảng con trên cùng: xuất khẩu năm 2035), kịch bản CPTPP làm xuất khẩu chế tạo chế biến năm 2035 thay đổi bao nhiêu?",
+  "expected_answer": "Chile, Mexico, Peru và Canada; kịch bản CPTPP làm xuất khẩu chế tạo chế biến tăng 2,3% (8.953 triệu USD).",
+  "key_facts": [
+   "Chile",
+   "Mexico",
+   "Peru",
+   "Canada",
+   "2,3%",
+   "8.953"
+  ],
+  "evidence": [
+   {
+    "page": 59,
+    "label": "Hình 23",
+    "locator": "góc phải khung đỏ CPTPP: Chile, Mexico, Peru, Canada",
+    "values": "Chile, Mexico, Peru, Canada"
+   },
+   {
+    "page": 63,
+    "label": "Bảng B3.1",
+    "locator": "phần trên, hàng 'Chế tạo chế biến', cột CPTPP (%) và CPTPP (triệu USD)",
+    "values": "2,3% | 8953"
+   }
+  ],
+  "rationale": "Kết hợp sơ đồ raster và bảng ở hai trang."
+ },
+ {
+  "id": "at21",
+  "split": "test",
+  "group": "text",
+  "answerable": true,
+  "question": "Theo báo cáo, hiện có khoảng bao nhiêu kỹ sư làm thiết kế bán dẫn tại Việt Nam, khoảng bao nhiêu doanh nghiệp FDI hoạt động trong lĩnh vực bán dẫn, và bao nhiêu phần trăm số kỹ sư đó làm tại TP. Hồ Chí Minh?",
+  "expected_answer": "Khoảng 5.000 kỹ sư; khoảng 40 doanh nghiệp FDI; 76% làm tại TP. Hồ Chí Minh.",
+  "key_facts": [
+   "5.000",
+   "40 doanh nghiệp",
+   "76%"
+  ],
+  "evidence": [
+   {
+    "page": 40,
+    "quote": "ước tính có khoảng 5.000 kỹ sư làm về thiết kế bán dẫn tại Việt Nam"
+   }
+  ],
+  "rationale": "Ba số liệu trong cùng đoạn văn, có điều kiện (kỹ sư thiết kế, doanh nghiệp FDI)."
+ },
+ {
+  "id": "at22",
+  "split": "test",
+  "group": "text",
+  "answerable": true,
+  "question": "Sau khi tăng vọt, hàng hóa môi trường chiếm bao nhiêu phần trăm tổng kim ngạch xuất khẩu của Việt Nam, và Việt Nam xếp ở đâu trong ASEAN theo chỉ tiêu này?",
+  "expected_answer": "Chỉ chiếm 2% tổng kim ngạch xuất khẩu, đứng thứ hai từ dưới lên trong các quốc gia ASEAN, sau In-đô-nê-xia.",
+  "key_facts": [
+   "2%",
+   "thứ hai từ dưới lên|thứ hai từ dưới|thứ 2 từ dưới",
+   "In-đô-nê-xia|Indonesia"
+  ],
+  "evidence": [
+   {
+    "page": 82,
+    "quote": "hàng hóa môi trường mới chỉ chiếm 2% tổng kim ngạch xuất khẩu của Việt Nam, đứng thứ hai từ dưới lên trong số các quốc gia ASEAN"
+   }
+  ],
+  "rationale": "Phân biệt với tỷ trọng nhập khẩu (3%) trong cùng trang."
+ },
+ {
+  "id": "at23",
+  "split": "test",
+  "group": "text",
+  "answerable": true,
+  "question": "Theo nghiên cứu được báo cáo dẫn, bao nhiêu phần trăm tổng xuất khẩu của Việt Nam sang các quốc gia OECD là hàng hóa có thể được sản xuất bằng rô-bốt?",
+  "expected_answer": "17-30%.",
+  "key_facts": [
+   "17-30%|17–30%|17 đến 30%|17% đến 30%|17%-30%"
+  ],
+  "evidence": [
+   {
+    "page": 49,
+    "quote": "Nghiên cứu cho thấy 17-30% tổng xuất khẩu của Việt Nam sang các quốc gia OECD là hàng hóa có thể được sản xuất bằng rô-bốt"
+   }
+  ],
+  "rationale": "Một khoảng giá trị có điều kiện (sang OECD)."
+ },
+ {
+  "id": "at24",
+  "split": "test",
+  "group": "text",
+  "answerable": true,
+  "question": "Hiện có bao nhiêu công ty của Việt Nam tham gia thiết kế vi mạch, các công ty này có tham gia chế tạo không, và bao nhiêu phần trăm đầu tư trực tiếp về bán dẫn là của doanh nghiệp FDI tham gia lắp ráp, kiểm thử, đóng gói?",
+  "expected_answer": "Chỉ có bốn công ty Việt Nam thiết kế vi mạch và toàn bộ không tham gia chế tạo chế biến; 95% đầu tư trực tiếp về bán dẫn là của doanh nghiệp FDI tham gia lắp ráp, kiểm thử và đóng gói.",
+  "key_facts": [
+   "bốn công ty|4 công ty",
+   "không tham gia chế tạo|không tham gia sản xuất chế tạo|không tham gia vào chế tạo",
+   "95%"
+  ],
+  "evidence": [
+   {
+    "page": 39,
+    "quote": "Hơn nữa, 95% đầu tư trực tiếp về bán dẫn là của các doanh nghiệp FDI"
+   }
+  ],
+  "rationale": "Ba ý trong đoạn văn đầu trang 39."
+ },
+ {
+  "id": "at25",
+  "split": "test",
+  "group": "unanswerable",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "question": "Theo Bảng 3, hệ số trọng lực EU của nhóm 'Khai mỏ khác' là bao nhiêu?",
+  "absence_reason": "Hàng 'Khai mỏ khác' trong Bảng 3 (trang 112) để trống mọi cột.",
+  "absence_check": "Đọc Bảng 3 trang 112: hàng 'Khai mỏ khác' và 'Sản phẩm xăng dầu, than' không có giá trị."
+ },
+ {
+  "id": "at26",
+  "split": "test",
+  "group": "unanswerable",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "question": "Trong các tham số kịch bản cơ sở của mô hình tăng trưởng dài hạn (Bảng A2.1), tỷ lệ khấu hao vốn được giả định là bao nhiêu?",
+  "absence_reason": "Bảng A2.1 chỉ có tỷ lệ chiết khấu, tỷ lệ lao động, vốn nhân lực, tăng trưởng TFP, LFP nam/nữ, tăng trưởng dân số, hệ số K/Y, GDP đầu người ban đầu, GNI/GDP; không có tỷ lệ khấu hao.",
+  "absence_check": "Đọc Bảng A2.1 trang 105; tìm 'khấu hao' trên toàn văn: không có kết quả."
+ },
+ {
+  "id": "at27",
+  "split": "test",
+  "group": "unanswerable",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "question": "Theo Hình 35 (biểu đồ B), giá bán điện bình quân của Việt Nam năm 2023 là bao nhiêu US cent/kWh?",
+  "absence_reason": "Biểu đồ B chỉ có các năm 2010-2022; không có năm 2023.",
+  "absence_check": "Đọc Hình 35B trang 82, trục hoành 2010-2022."
+ },
+ {
+  "id": "at28",
+  "split": "test",
+  "group": "unanswerable",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "question": "Cơ chế điều chỉnh biên giới các-bon (CBAM) của EU áp mức giá bao nhiêu euro cho mỗi tấn CO2 đối với hàng xuất khẩu của Việt Nam?",
+  "absence_reason": "Trang 80 chỉ nêu CBAM có thể ảnh hưởng và liệt kê mặt hàng bị bao phủ (xi-măng, sắt thép, nhôm, phân bón, điện, hy-đrô); không có mức giá.",
+  "absence_check": "Tìm 'CBAM' và 'euro' trên toàn văn: CBAM ở trang 9 (viết tắt) và 80; 'euro' chỉ trong một URL ở trang 111."
+ },
+ {
+  "id": "at29",
+  "split": "test",
+  "group": "unanswerable",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "question": "Năm 2022, In-đô-nê-xia có bao nhiêu rô-bốt công nghiệp trên một nghìn lao động chế tạo chế biến?",
+  "absence_reason": "Chú thích trang 50 chỉ nói Việt Nam (khoảng 7) cao hơn In-đô-nê-xia, không nêu số của In-đô-nê-xia.",
+  "absence_check": "Đọc chú thích 24 trang 50 và Hình 17 trang 50 (không có nhãn số theo nước năm 2022)."
+ },
+ {
+  "id": "at30",
+  "split": "test",
+  "group": "unanswerable",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "question": "Mức lương tối thiểu vùng I của Việt Nam hiện nay là bao nhiêu?",
+  "absence_reason": "Báo cáo bàn về lương tăng làm xói mòn lợi thế chi phí (Hình 9) nhưng không nêu lương tối thiểu vùng.",
+  "absence_check": "Tìm 'lương tối thiểu' trên toàn văn: không có kết quả; đọc Hình 9 trang 35."
+ }
+]

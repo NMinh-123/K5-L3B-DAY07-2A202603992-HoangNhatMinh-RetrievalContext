@@ -1,0 +1,3 @@
+{"name": "adv-inspect", "description": "Như adv-base, thêm tool inspect_figure (gpt-4.1 đọc lại ảnh trang + nhãn lớp text theo câu hỏi), tối đa 2 lần.",
+ "retriever": "hybrid", "top_k": 4, "max_searches": 4, "max_inspects": 2, "max_turns": 10, "budget_chars": 9000,
+ "model": "gpt-4.1-mini", "inspect_model": "gpt-4.1", "temperature": 0.0}
